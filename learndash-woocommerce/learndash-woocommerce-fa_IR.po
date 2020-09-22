@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: LearnDash LMS - WooCommerce Integration\n"
+"POT-Creation-Date: 2020-06-22 16:55+0800\n"
+"PO-Revision-Date: 2020-09-21 08:19+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: learndash_woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-cron.php:29
+msgid "Once per Minute"
+msgstr "یک بار در هر 1 دقیقه"
+
+#: includes/class-tools.php:40
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/class-tools.php:41
+msgid "Complete"
+msgstr "تکمیل"
+
+#: includes/class-tools.php:42
+#, fuzzy
+msgid "Please keep this page open until the process is complete."
+msgstr "لطفاً این صفحه را تا پایان روند کامل باز نگه دارید."
+
+#: includes/class-tools.php:43 includes/class-tools.php:208
+msgid "Check LearnDash course access"
+msgstr "دوره افزودنی شبکه"
+
+#: includes/class-tools.php:207
+msgid "LearnDash retroactive course access"
+msgstr "دوره افزودنی شبکه"
+
+#: includes/class-tools.php:209
+#, fuzzy
+msgid ""
+"Check LearnDash course access of WooCommerce integration. Enroll and "
+"unenroll users according to WooCommerce purchase/subscription data."
+msgstr ""
+"دسترسی دوره LearnDash را برای ادغام ووکامرس بررسی کنید. ثبت نام و ثبت نام "
+"کاربران با توجه به داده های خرید / اشتراک WooCommerce."
+
+#: includes/class-tools.php:231
+#, fuzzy
+msgid ""
+"The process is being done in the background. Please wait a while for the "
+"process to be finished."
+msgstr ""
+"روند کار در پس زمینه انجام می شود. لطفاً کمی منتظر بمانید تا روند به پایان "
+"برسد."
+
+#: includes/class-tools.php:384
+#, fuzzy
+msgid ""
+"The LearnDash WooCommerce retroactive course access process has been "
+"successfully done."
+msgstr ""
+"روند دستیابی دوره بازگشت به عقب LearnDash WooCommerce با موفقیت انجام شده "
+"است."
+
+#: includes/class-translations-ld-woocommerce.php:16
+#, fuzzy
+msgid "LearnDash WooCommerce"
+msgstr "LearnDash WooCommerce"
+
+#: learndash_woocommerce.php:106
+#, fuzzy
+msgid ""
+"LearnDash WooCommerce addon requires WooCommerce 3.0 or above. Please "
+"activate and upgrade your WooCommerce. Reactivate this addon again after you "
+"activate or upgrade WooCommerce."
+msgstr ""
+"افزونه LearnDash WooCommerce به WooCommerce 3.0 یا بالاتر نیاز دارد. لطفا "
+"WooCommerce خود را فعال و ارتقا دهید. بعد از فعال کردن یا ارتقا W "
+"WooCommerce ، این افزونه را دوباره فعال کنید."
+
+#: learndash_woocommerce.php:139
+msgid "Course"
+msgstr "دوره"
+
+#: learndash_woocommerce.php:203 learndash_woocommerce.php:273
+#, fuzzy
+msgid "LearnDash Courses"
+msgstr "دوره های LearnDash"
+
+#: learndash_woocommerce.php:206 learndash_woocommerce.php:276
+msgid ""
+"You can select multiple courses to sell together holding the SHIFT key when "
+"clicking."
+msgstr ""
+"شما می توانید چندیدن دوره را همزمان برای فروش  با  نگه داشتن کلید شیفت "
+"انتخاب کنید."
+
+#: learndash_woocommerce.php:213 learndash_woocommerce.php:283
+msgid "LearnDash Groups"
+msgstr "گروه‌های LearnDash"
+
+#: learndash_woocommerce.php:216 learndash_woocommerce.php:286
+#, fuzzy
+msgid ""
+"You can select multiple groups to sell together holding the SHIFT key when "
+"clicking."
+msgstr ""
+"می توانید هنگام کلیک روی کلید SHIFT چندین گروه را برای فروش با هم انتخاب "
+"کنید."
+
+#: learndash_woocommerce.php:1087
+msgid "Add to cart"
+msgstr "افزودن به سبد خرید"
+
+#: learndash_woocommerce.php:1087
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "LearnDash LMS - WooCommerce Integration"
+msgstr "LearnDash LMS - ادغام ووکامرس"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://www.learndash.com/work/woocommerce/"
+msgstr "http://www.learndash.com/work/woocommerce/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "LearnDash LMS addon plugin to integrate LearnDash LMS with WooCommerce."
+msgstr "افزونه افزودنی LearnDash LMS برای ادغام LM LearnDash با ووکامرس."
+
+#. Author of the plugin/theme
+msgid "LearnDash"
+msgstr "لرن دش"
+
+#. Author URI of the plugin/theme
+msgid "http://www.learndash.com"
+msgstr "http://www.learndash.com"

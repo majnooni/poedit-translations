@@ -1,0 +1,2358 @@
+# Copyright (C) 2020 Uncanny Owl
+# This file is distributed under the same license as the Uncanny Automator Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncanny Automator Pro 2.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uncanny-automator-"
+"pro\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-18T16:22:12+00:00\n"
+"PO-Revision-Date: 2020-09-21 08:21+0200\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: uncanny-automator-pro\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa_IR\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+msgid "Uncanny Automator Pro"
+msgstr "Uncanny Automator Pro"
+
+#. Plugin URI of the plugin
+#, fuzzy
+msgid "https://automatorplugin.com/"
+msgstr "https://automatorplugin.com/"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Adds anonymous recipes, advanced log filtering, automatic log pruning and "
+"many more triggers and actions to Uncanny Automator!"
+msgstr ""
+"دستور العمل های ناشناس ، فیلتر پیشرفته ورود به سیستم ، هرس خودکار ورود به "
+"سیستم و بسیاری از عوامل و اقدامات دیگر را به Uncanny Automator اضافه می کند!"
+
+#. Author of the plugin
+msgid "Uncanny Owl"
+msgstr "Uncanny Owl"
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "https://www.uncannyowl.com/"
+msgstr "https://www.uncannyowl.com/"
+
+#. translators: 1. Trademarked term. 2. Trademarked term
+#: src/boot.php:175
+#, fuzzy
+msgid ""
+"%1$s needs to be updated before it can be used with the new updates and "
+"enhancements of %2$s."
+msgstr ""
+"٪ 1 $ s قبل از استفاده با به روزرسانی ها و پیشرفت های جدید٪ 2 $ s ، باید به "
+"روز شود."
+
+#. translators: 1. Trademarked term. 2. Trademarked term
+#: src/boot.php:179
+#, fuzzy
+msgid "Please activate %1$s before activating %2$s."
+msgstr "لطفاً قبل از فعال کردن٪ 2 $ s ،٪ 1 $ s را فعال کنید."
+
+#. translators: 1. Trademarked term. 2. Trademarked term
+#: src/boot.php:197
+#, fuzzy
+msgid ""
+"The version of %1$s you have installed is not compatible with this version "
+"of %2$s."
+msgstr "نسخه٪ 1 $ s که نصب کرده اید با این نسخه٪ 2 $ s سازگار نیست."
+
+#: src/boot.php:198
+#, fuzzy
+msgid "Please update %1$s to version %2$s or later."
+msgstr "لطفاً٪ 1 $ s را به نسخه٪ 2 $ s یا بالاتر به روز کنید."
+
+#. translators: 1. Trademarked term
+#: src/boot.php:227
+#, fuzzy
+msgid "%1$s license activation"
+msgstr "٪ 1 $ s فعال سازی مجوز"
+
+#: src/boot.php:228
+#, fuzzy
+msgid "License activation"
+msgstr "فعال سازی مجوز"
+
+#. translators: Anonymous triggers can be triggered by logged-in or anonymous users. Anonymous recipes can create new users or modify existing users.
+#: src/core/classes/automator-pro-handle-anonymous.php:32
+#: src/core/classes/automator-pro-handle-anonymous.php:45
+#, fuzzy
+msgid "Anonymous trigger"
+msgstr "ماشه ناشناس"
+
+#: src/core/classes/automator-pro-handle-anonymous.php:47
+msgctxt "Recipe type"
+msgid "Anonymous"
+msgstr "ناشناس"
+
+#: src/core/classes/automator-pro-handle-anonymous.php:49
+#, fuzzy
+msgid ""
+"Triggered by logged-in or anonymous users; supports single trigger; creates "
+"new user/modifies existing user"
+msgstr ""
+"توسط کاربران وارد شده یا ناشناس راه اندازی شده است. از یک ماشه پشتیبانی می "
+"کند کاربر جدید ایجاد می کند / کاربر موجود را اصلاح می کند"
+
+#: src/core/classes/automator-pro-handle-anonymous.php:51
+#, fuzzy
+msgid "Anonymous recipes only support a single trigger per recipe."
+msgstr "دستورالعمل های ناشناس فقط از یک ماشه در هر دستور پشتیبانی می کنند."
+
+#: src/core/classes/automator-pro-handle-anonymous.php:76
+#, fuzzy
+msgid "Anonymous recipe user action set to do nothing."
+msgstr "اقدام کاربر دستور ناشناس تنظیم شده است که هیچ کاری انجام ندهد."
+
+#. translators: Button. Default label of the magic button. Non-personal infinitive verb
+#. translators: Link. Default label of the magic link. Non-personal infinitive verb
+#. translators: Logged-in trigger - WordPress Core. 1. Shortcode
+#: src/core/classes/magic-button.php:37 src/core/classes/magic-button.php:100
+#: src/integrations/uncanny-automator/triggers/uoa-magic-button.php:42
+#: src/integrations/uncanny-automator/triggers/uoa-magic-link.php:42
+msgid "Click here"
+msgstr "اینجا کلیک کنید"
+
+#: src/core/extensions/activity-log-settings.php:41
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/core/extensions/activity-log-settings.php:42
+#, fuzzy
+msgid "Auto-prune activity logs"
+msgstr "گزارش های فعالیت هرس خودکار را بزنید"
+
+#: src/core/extensions/activity-log-settings.php:43
+#, fuzzy
+msgid ""
+"Enter a number of days below to have trigger and action log entries older "
+"than the specified number of days automatically deleted from your site "
+"daily. Trigger and action log entries will only be deleted for recipes with "
+"\"Completed\" status."
+msgstr ""
+"چند روز در زیر وارد کنید تا ورودی های ماشه و اقدام قدیمی تر از تعداد روز "
+"مشخص شده به طور خودکار روزانه از سایت شما پاک شود. ورودی های ورود به سیستم و "
+"اقدام فقط برای دستور العمل هایی با وضعیت \"تکمیل شده\" حذف می شوند."
+
+#: src/core/extensions/activity-log-settings.php:50
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/core/extensions/activity-log-settings.php:53
+#, fuzzy
+msgid "Enter value in days"
+msgstr "مقدار را در روز وارد کنید"
+
+#: src/core/includes/automator-pro-recipe-process-complete.php:58
+#: src/core/includes/automator-pro-recipe-process-complete.php:272
+#, fuzzy
+msgid "There was an error completing recipe"
+msgstr "در تکمیل دستورالعمل خطایی روی داد"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:461
+#, fuzzy
+msgid "New user created (%1$s)"
+msgstr "کاربر جدید ایجاد شد (٪ 1 $ s)"
+
+#. translators: 1. The user email, 2. The error
+#: src/core/includes/automator-pro-recipe-process-complete.php:482
+#: src/core/includes/automator-pro-recipe-process-complete.php:595
+#, fuzzy
+msgid "Create new user failed (%1$s). %2$s"
+msgstr "ایجاد کاربر جدید ناموفق بود (٪ 1 $ s). ٪ 2 $ s"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:500
+#, fuzzy
+msgid "Existing user found matching (%1$s), do nothing"
+msgstr "کاربر موجود مطابقت پیدا کرد (٪ 1 $ s) ، کاری انجام ندهید"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:517
+#, fuzzy
+msgid "Existing user found matching (%1$s), selected existing user"
+msgstr "کاربر موجود مطابقت (٪ 1 $ s) را پیدا کرد ، کاربر موجود را انتخاب کرد"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:524
+#: src/core/includes/automator-pro-recipe-process-complete.php:623
+#, fuzzy
+msgid "Existing user found matching (%1$s), cannot select administrators"
+msgstr ""
+"کاربر موجود مطابقت پیدا کرده است (٪ 1 $ s) ، نمی تواند سرپرستان را انتخاب کند"
+
+#. translators: 1. The user ID, email or username
+#: src/core/includes/automator-pro-recipe-process-complete.php:557
+#, fuzzy
+msgid "User not found matching (%1$s), do nothing"
+msgstr "کاربر مطابقت پیدا نکرد (٪ 1 $ s) ، کاری انجام ندهید"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:574
+#, fuzzy
+msgid "User not found matching (%1$s), new user created"
+msgstr "کاربر مطابقت پیدا نکرد (٪ 1 $ s) ، کاربر جدید ایجاد شد"
+
+#. translators: 1. The user email
+#: src/core/includes/automator-pro-recipe-process-complete.php:615
+#, fuzzy
+msgid "User found matching (%1$s), selecting user"
+msgstr "کاربر مطابقت (٪ 1 $ s) را پیدا کرد ، کاربر را انتخاب می کند"
+
+#. translators: 1. Trademarked term
+#: src/core/includes/EDD_SL_Plugin_Updater.php:189
+#: src/core/includes/EDD_SL_Plugin_Updater.php:203
+#, fuzzy
+msgid "There is a new version of %1$s available."
+msgstr "نسخه جدیدی از٪ 1 $ s در دسترس است."
+
+#. translators: 1. Version number. Verb conjugated in present-tense second-person singular
+#: src/core/includes/EDD_SL_Plugin_Updater.php:195
+#: src/core/includes/EDD_SL_Plugin_Updater.php:213
+#, fuzzy
+msgid "View version %1$s details"
+msgstr "جزئیات نسخه٪ 1 $ s را مشاهده کنید"
+
+#. translators: 1. Link., 2. Link
+#: src/core/includes/EDD_SL_Plugin_Updater.php:205
+msgid "%1$s or %2$s"
+msgstr "%1$s یا %2$s"
+
+#. translators: Verb conjugated in present-tense second-person singular
+#: src/core/includes/EDD_SL_Plugin_Updater.php:221
+msgid "update now"
+msgstr "اکنون به‌روزرسانی کن"
+
+#: src/core/includes/EDD_SL_Plugin_Updater.php:359
+msgid "You do not have permission to install plugin updates"
+msgstr "شما اجازه نصب به روزرسانی های افزونه را ندارید"
+
+#: src/core/includes/EDD_SL_Plugin_Updater.php:359
+msgid "Error"
+msgstr "خطا"
+
+#. translators: License status
+#: src/core/views/admin-licensing-settings-page.php:81
+msgid "Your license is active!"
+msgstr "لایسنس شما فعال است!"
+
+#. translators: License status
+#: src/core/views/admin-licensing-settings-page.php:84
+msgid "Your license is not active!"
+msgstr "مجوز شما فعال نیست!"
+
+#. translators: License error. 1. Button
+#: src/core/views/admin-licensing-settings-page.php:100
+#, fuzzy
+msgid "Please enter a valid license code and click \"%1$s\"."
+msgstr "لطفاً یک کد مجوز معتبر وارد کنید و \"٪ 1 $ s\" را کلیک کنید."
+
+#. translators: Button. Non-personal infinitive verb
+#: src/core/views/admin-licensing-settings-page.php:102
+#: src/core/views/admin-licensing-settings-page.php:174
+#: src/core/views/admin-licensing-settings-page.php:243
+msgid "Activate now"
+msgstr "هم اکنون فعال کن"
+
+#. translators: License error. 1. Link
+#: src/core/views/admin-licensing-settings-page.php:107
+#, fuzzy
+msgid ""
+"Your license has expired. Please %1$s to get instant access to updates and "
+"support."
+msgstr ""
+"پروانه شما منقضی شده است. لطفاً٪ 1 $ s را برای دسترسی سریع به به روزرسانی ها "
+"و پشتیبانی دریافت کنید."
+
+#. translators: Verb conjugated in present-tense second-person singular
+#: src/core/views/admin-licensing-settings-page.php:109
+#: src/core/views/admin-licensing-settings-page.php:117
+msgid "renew your license"
+msgstr ""
+"شماره سریال شما به پایان رسیده است لطفا٪ 1 $ s مجوز مجوز٪ 2 $ s را امتحان "
+"کنید."
+
+#. translators: License error. 1. Link
+#: src/core/views/admin-licensing-settings-page.php:115
+#, fuzzy
+msgid ""
+"Your license is disabled. Please %1$s to get instant access to updates and "
+"support."
+msgstr ""
+"مجوز شما غیرفعال است لطفاً٪ 1 $ s را برای دسترسی سریع به به روزرسانی ها و "
+"پشتیبانی دریافت کنید."
+
+#. translators: License error.
+#: src/core/views/admin-licensing-settings-page.php:124
+msgid "The license code you entered is invalid."
+msgstr "کد امنیتی نامعتبر است."
+
+#. translators: 1. Trademarked term
+#: src/core/views/admin-licensing-settings-page.php:140
+#: src/core/views/admin-licensing-settings-page.php:149
+#, fuzzy
+msgid "Enter your %1$s license key"
+msgstr "کلید مجوز٪ 1 $ s خود را وارد کنید"
+
+#. translators: Button. Non-personal infinitive verb
+#: src/core/views/admin-licensing-settings-page.php:164
+#: src/core/views/admin-licensing-settings-page.php:233
+msgid "Deactivate license"
+msgstr "غیرفعال کردن مجوز"
+
+#. translators: Button. Non-personal infinitive verb
+#: src/core/views/admin-licensing-settings-page.php:182
+#: src/core/views/admin-licensing-settings-page.php:251
+msgid "Buy license"
+msgstr "خرید لایسنس"
+
+#: src/core/views/admin-licensing-settings-page.php:192
+msgid "Need help?"
+msgstr "کمک خواستن؟"
+
+#. translators: FAQ item
+#: src/core/views/admin-licensing-settings-page.php:201
+msgid "Where to get my license key"
+msgstr "کلید مجوز خود را دریافت کنید"
+
+#. translators: FAQ item
+#: src/core/views/admin-licensing-settings-page.php:209
+msgid "Buy a new license"
+msgstr "خرید لاینسس جدید"
+
+#. translators: FAQ item
+#: src/core/views/admin-licensing-settings-page.php:217
+msgid "Knowledge Base"
+msgstr "دانش محور"
+
+#: src/core/views/pro-filters-view.php:28
+#, fuzzy
+msgid "All recipes"
+msgstr "همه دستورها"
+
+#: src/core/views/pro-filters-view.php:70
+#, fuzzy
+msgid "All triggers"
+msgstr "همه عوامل محرک"
+
+#: src/core/views/pro-filters-view.php:117
+msgid "All actions"
+msgstr "همه اقدامات"
+
+#: src/core/views/pro-filters-view.php:163
+msgid "All users"
+msgstr "همه کاربران"
+
+#: src/core/views/pro-filters-view.php:173
+#: src/core/views/pro-filters-view.php:181
+#, fuzzy
+msgid "No display name: %1$s"
+msgstr "نام نمایشی ندارد:٪ 1 $ s"
+
+#: src/core/views/pro-filters-view.php:204
+#, fuzzy
+msgid "Recipe completion date"
+msgstr "تاریخ تکمیل دستور غذا"
+
+#: src/core/views/pro-filters-view.php:221
+#, fuzzy
+msgid "Trigger completion date"
+msgstr "تاریخ اتمام ماشه"
+
+#: src/core/views/pro-filters-view.php:243
+#, fuzzy
+msgid "Action completion date"
+msgstr "تاریخ اتمام اقدام"
+
+#: src/core/views/pro-filters-view.php:254
+msgid "Filter"
+msgstr "فیلتر"
+
+#. Translators: Non-personal infinitive verb
+#: src/core/views/pro-filters-view.php:262
+msgid "Search"
+msgstr "جستجو"
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revoke-all-points-a.php:41
+#: src/integrations/gamipress/actions/gp-revoke-all-points-a.php:41
+#: src/integrations/mycred/actions/mycred-all-revokepoints-a.php:40
+#, fuzzy
+msgid "Revoke all {{of a certain type of:%1$s}} points from the user"
+msgstr "همه {{از نوع خاصی از:٪ 1 $ s}} امتیاز را از کاربر لغو کنید"
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revoke-all-points-a.php:43
+#: src/integrations/gamipress/actions/gp-revoke-all-points-a.php:43
+#: src/integrations/mycred/actions/mycred-all-revokepoints-a.php:42
+#, fuzzy
+msgid "Revoke all {{of a certain type of}} points from the user"
+msgstr "همه {{از نوع خاصی}} امتیاز را از کاربر لغو کنید"
+
+#: src/integrations/badgeos/actions/bo-revoke-all-points-a.php:50
+#: src/integrations/badgeos/actions/bo-revokepoints-a.php:52
+#: src/integrations/gamipress/actions/gp-revoke-all-points-a.php:50
+#: src/integrations/mycred/actions/mycred-all-revokepoints-a.php:49
+#: src/integrations/mycred/actions/mycred-revokepoints-a.php:50
+msgid "Point type"
+msgstr "نوع امتیاز"
+
+#: src/integrations/badgeos/actions/bo-revoke-all-points-a.php:96
+#: src/integrations/gamipress/actions/gp-revokeachievement-a.php:89
+#, fuzzy
+msgid "The user didn't have the specified achievement."
+msgstr "کاربر دستاورد مشخص شده را نداشت."
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revokepoints-a.php:43
+#: src/integrations/gamipress/actions/gp-revokepoints-a.php:43
+#: src/integrations/mycred/actions/mycred-revokepoints-a.php:41
+#, fuzzy
+msgid ""
+"Revoke {{a number:%1$s}} {{of a specific type of:%2$s}} points from the user"
+msgstr "لغو {{تعداد:٪ 1 $ s}} {{از نوع خاصی از:٪ 2 $ s}} امتیاز از کاربر"
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revokepoints-a.php:45
+#: src/integrations/gamipress/actions/gp-revokepoints-a.php:45
+#: src/integrations/mycred/actions/mycred-revokepoints-a.php:43
+#, fuzzy
+msgid "Revoke {{points}} from the user"
+msgstr "{{امتیاز}} را از کاربر لغو کنید"
+
+#: src/integrations/badgeos/actions/bo-revokepoints-a.php:58
+#: src/integrations/mycred/actions/mycred-revokepoints-a.php:61
+msgid "Points"
+msgstr "امتیازات"
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revokerank-a.php:42
+#: src/integrations/gamipress/actions/gp-revokerank-a.php:42
+#: src/integrations/mycred/actions/mycred-revokerank-a.php:42
+#, fuzzy
+msgid "Revoke {{a rank:%1$s}} from the user"
+msgstr "{{یک رتبه:٪ 1 $ s}} را از کاربر لغو کنید"
+
+#. translators: Actions - BadgeOS
+#. translators: Actions - GamiPress
+#. translators: Action - myCred
+#: src/integrations/badgeos/actions/bo-revokerank-a.php:44
+#: src/integrations/gamipress/actions/gp-revokerank-a.php:44
+#: src/integrations/mycred/actions/mycred-revokerank-a.php:44
+#, fuzzy
+msgid "Revoke {{a rank}} from the user"
+msgstr "{{یک رتبه}} را از کاربر لغو کنید"
+
+#: src/integrations/badgeos/actions/bo-revokerank-a.php:51
+#, fuzzy
+msgid "Rank type"
+msgstr "نوع رتبه بندی"
+
+#: src/integrations/badgeos/actions/bo-revokerank-a.php:60
+msgid "Rank"
+msgstr "رتبه"
+
+#: src/integrations/badgeos/actions/bo-revokerank-a.php:85
+#: src/integrations/gamipress/actions/gp-revokerank-a.php:99
+#, fuzzy
+msgid "The user didn't have the specified rank."
+msgstr "کاربر رتبه مشخصی نداشته است."
+
+#. translators: Logged-in trigger - BadgeOS
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/badgeos/triggers/bo-earnsachievement.php:42
+#: src/integrations/gamipress/triggers/gp-earnsachievement.php:44
+#, fuzzy
+msgid "A user earns {{an achievement:%1$s}}"
+msgstr "یک کاربر {{دستاورد:٪ 1 $ s}} بدست می آورد"
+
+#. translators: Logged-in trigger - BadgeOS
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/badgeos/triggers/bo-earnsachievement.php:44
+#: src/integrations/gamipress/triggers/gp-earnsachievement.php:46
+#, fuzzy
+msgid "A user earns {{an achievement}}"
+msgstr "یک کاربر {{یک دستاورد}} کسب می کند"
+
+#: src/integrations/badgeos/triggers/bo-earnsachievement.php:53
+#: src/integrations/gamipress/triggers/gp-earnsachievement.php:55
+#, fuzzy
+msgid "Achievement type"
+msgstr "نوع دستاورد"
+
+#: src/integrations/badgeos/triggers/bo-earnsachievement.php:62
+msgid "Award"
+msgstr "جوایز"
+
+#. translators: Logged-in trigger - bbPress
+#. translators: Logged-in trigger - wpForo
+#: src/integrations/bbpress/triggers/bb-postareply.php:64
+#: src/integrations/wpforo/triggers/wpf-userrepliestotopic.php:62
+#, fuzzy
+msgid "A user replies to {{a topic:%1$s}}"
+msgstr "کاربر به {{یک موضوع:٪ 1 $ s}} پاسخ می دهد"
+
+#. translators: Logged-in trigger - bbPress
+#. translators: Logged-in trigger - wpForo
+#: src/integrations/bbpress/triggers/bb-postareply.php:66
+#: src/integrations/wpforo/triggers/wpf-userrepliestotopic.php:64
+#, fuzzy
+msgid "A user replies to {{a topic}}"
+msgstr "کاربر به {{یک موضوع}} پاسخ می دهد"
+
+#. translators: Action - BuddyPress
+#: src/integrations/buddypress/actions/bp-removefromgroup.php:49
+#, fuzzy
+msgid "Remove user from {{a group:%1$s}}"
+msgstr "حذف کاربر از {{یک گروه:٪ 1 $ s}}"
+
+#. translators: Action - BuddyPress
+#: src/integrations/buddypress/actions/bp-removefromgroup.php:51
+#, fuzzy
+msgid "Remove user from {{a group}}"
+msgstr "حذف کاربر از {{یک گروه}}"
+
+#. translators: Logged-in trigger - BuddyPress
+#: src/integrations/buddypress/triggers/bp-accactivate.php:43
+#: src/integrations/buddypress/triggers/bp-accactivate.php:45
+#, fuzzy
+msgid "User's account is activated"
+msgstr "حساب کاربری فعال می شود"
+
+#: src/integrations/buddypress/triggers/bp-joingroup.php:39
+#, fuzzy
+msgid "Any public group"
+msgstr "هر گروه عمومی"
+
+#. translators: Logged-in trigger - BuddyPress
+#: src/integrations/buddypress/triggers/bp-joingroup.php:49
+#, fuzzy
+msgid "A user joins {{a public group:%1$s}}"
+msgstr "کاربری به {{یک گروه عمومی:٪ 1 $ s}} می پیوندد"
+
+#. translators: Logged-in trigger - BuddyPress
+#: src/integrations/buddypress/triggers/bp-joingroup.php:51
+#, fuzzy
+msgid "A user joins {{a public group}}"
+msgstr "کاربری به {{یک گروه عمومی}} می پیوندد"
+
+#: src/integrations/buddypress/triggers/bp-joingroup.php:58
+#, fuzzy
+msgid "Public group"
+msgstr "گروه عمومی"
+
+#. translators: Logged-in trigger - BuddyPress
+#: src/integrations/buddypress/triggers/bp-leavegroup.php:49
+#, fuzzy
+msgid "A user leaves {{a group:%1$s}}"
+msgstr "کاربری از {{یک گروه:٪ 1 $ s}} خارج می شود"
+
+#. translators: Logged-in trigger - BuddyPress
+#: src/integrations/buddypress/triggers/bp-leavegroup.php:51
+#, fuzzy
+msgid "A user leaves {{a group}}"
+msgstr "یک کاربر از {{یک گروه}} خارج می شود"
+
+#. translators: Anonymous trigger - Caldera Forms
+#. translators: Anonymous trigger - Contact Form 7
+#. translators: Anonymous trigger - Formidable
+#. translators: Anonymous trigger - Gravity Forms
+#. translators: Anonymous triggers - Ninja Forms
+#. translators: Anonymous trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/anon-cf-subfield.php:45
+#: src/integrations/contact-form7/triggers/anon-cf7-subfield.php:44
+#: src/integrations/formidable/triggers/anon-fi-submitfield.php:45
+#: src/integrations/gravity-forms/triggers/anon-gf-subfield.php:46
+#: src/integrations/ninja-forms/triggers/anon-nf-subfield.php:45
+#: src/integrations/wpforms/triggers/anon-wpf-submitfield.php:45
+#, fuzzy
+msgid ""
+"{{A form:%1$s}} is submitted with {{a specific value:%2$s}} in {{a specific "
+"field:%3$s}}"
+msgstr ""
+"{{یک فرم:٪ 1 $ s}} با {{یک مقدار خاص:٪ 2 $ s}} در {{یک زمینه خاص:٪ 3 $ s}} "
+"ارسال می شود"
+
+#. translators: Anonymous trigger - Caldera Forms
+#. translators: Anonymous trigger - Contact Form 7
+#. translators: Anonymous trigger - Formidable
+#. translators: Anonymous trigger - Gravity Forms
+#. translators: Anonymous triggers - Ninja Forms
+#. translators: Anonymous trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/anon-cf-subfield.php:51
+#: src/integrations/contact-form7/triggers/anon-cf7-subfield.php:50
+#: src/integrations/formidable/triggers/anon-fi-submitfield.php:51
+#: src/integrations/gravity-forms/triggers/anon-gf-subfield.php:52
+#: src/integrations/ninja-forms/triggers/anon-nf-subfield.php:51
+#: src/integrations/wpforms/triggers/anon-wpf-submitfield.php:51
+#, fuzzy
+msgid ""
+"{{A form}} is submitted with {{a specific value}} in {{a specific field}}"
+msgstr "{{یک فرم}} با {{یک مقدار خاص}} در {{یک زمینه خاص}} ارسال می شود"
+
+#: src/integrations/caldera-forms/triggers/anon-cf-subfield.php:65
+#: src/integrations/caldera-forms/triggers/cf-subfield.php:63
+#: src/integrations/contact-form7/triggers/anon-cf7-subfield.php:64
+#: src/integrations/contact-form7/triggers/cf7-subfield.php:61
+#: src/integrations/formidable/triggers/anon-fi-submitfield.php:66
+#: src/integrations/formidable/triggers/fi-submitfield.php:65
+#: src/integrations/forminator/triggers/fr-submitfield.php:63
+#: src/integrations/gravity-forms/triggers/anon-gf-subfield.php:67
+#: src/integrations/gravity-forms/triggers/gf-subfield.php:66
+#: src/integrations/ninja-forms/triggers/anon-nf-subfield.php:70
+#: src/integrations/ninja-forms/triggers/nf-subfield.php:69
+#: src/integrations/ultimate-member/triggers/um-userregistersubfield.php:66
+#: src/integrations/wpforms/triggers/anon-wpf-submitfield.php:66
+#: src/integrations/wpforms/triggers/wpf-submitfield.php:64
+msgid "Field"
+msgstr "فیلد"
+
+#. translators: Anonymous trigger - Caldera Forms
+#. translators: Anonymous trigger - Contact Form 7
+#. translators: Anonymous trigger - Formidable
+#. translators: Anonymous trigger - Gravity Forms
+#. translators: Anonymous triggers - Ninja Forms
+#. translators: Anonymous trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/anon-cf-subform.php:45
+#: src/integrations/contact-form7/triggers/anon-cf7-subform.php:45
+#: src/integrations/formidable/triggers/anon-fi-submitform.php:48
+#: src/integrations/gravity-forms/triggers/anon-gf-subform.php:42
+#: src/integrations/ninja-forms/triggers/anon-nf-subform.php:42
+#: src/integrations/wpforms/triggers/anon-wpf-subform.php:43
+#, fuzzy
+msgid "{{A form:%1$s}} is submitted"
+msgstr "{{فرم:٪ 1 $ s}} ارسال شد"
+
+#. translators: Anonymous trigger - Caldera Forms
+#. translators: Anonymous trigger - Contact Form 7
+#. translators: Anonymous trigger - Formidable
+#. translators: Anonymous trigger - Gravity Forms
+#. translators: Anonymous triggers - Ninja Forms
+#. translators: Anonymous trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/anon-cf-subform.php:47
+#: src/integrations/contact-form7/triggers/anon-cf7-subform.php:47
+#: src/integrations/formidable/triggers/anon-fi-submitform.php:50
+#: src/integrations/gravity-forms/triggers/anon-gf-subform.php:44
+#: src/integrations/ninja-forms/triggers/anon-nf-subform.php:44
+#: src/integrations/wpforms/triggers/anon-wpf-subform.php:45
+#, fuzzy
+msgid "{{A form}} is submitted"
+msgstr "{{فرم}} ارسال شد"
+
+#. translators: Logged-in trigger - Caldera Forms
+#. translators: Logged-in trigger - Contact Form 7
+#. translators: Logged-in trigger - Formidable
+#. translators: Logged-in trigger - Forminator
+#. translators: Logged-in trigger - Gravity Forms
+#. translators: Logged-in trigger - Ninja Forms
+#. translators: Logged-in trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/cf-subfield.php:43
+#: src/integrations/contact-form7/triggers/cf7-subfield.php:42
+#: src/integrations/formidable/triggers/fi-submitfield.php:45
+#: src/integrations/forminator/triggers/fr-submitfield.php:43
+#: src/integrations/gravity-forms/triggers/gf-subfield.php:46
+#: src/integrations/ninja-forms/triggers/nf-subfield.php:45
+#: src/integrations/wpforms/triggers/wpf-submitfield.php:44
+#, fuzzy
+msgid ""
+"A user submits {{a form:%1$s}} with {{a specific value:%2$s}} in {{a "
+"specific field:%3$s}}"
+msgstr ""
+"کاربر {{یک فرم:٪ 1 $ s}} با {{یک مقدار خاص:٪ 2 $ s}} را در {{یک زمینه خاص:٪ "
+"3 $ s}} ارسال می کند"
+
+#. translators: Logged-in trigger - Caldera Forms
+#. translators: Logged-in trigger - Contact Form 7
+#. translators: Logged-in trigger - Formidable
+#. translators: Logged-in trigger - Forminator
+#. translators: Logged-in trigger - Gravity Forms
+#. translators: Logged-in trigger - Ninja Forms
+#. translators: Logged-in trigger - WP Forms
+#: src/integrations/caldera-forms/triggers/cf-subfield.php:49
+#: src/integrations/contact-form7/triggers/cf7-subfield.php:48
+#: src/integrations/formidable/triggers/fi-submitfield.php:51
+#: src/integrations/forminator/triggers/fr-submitfield.php:49
+#: src/integrations/gravity-forms/triggers/gf-subfield.php:52
+#: src/integrations/ninja-forms/triggers/nf-subfield.php:51
+#: src/integrations/wpforms/triggers/wpf-submitfield.php:50
+#, fuzzy
+msgid ""
+"A user submits {{a form}} with {{a specific value}} in {{a specific field}}"
+msgstr "کاربر {{یک فرم}} با {{یک مقدار خاص}} در {{یک زمینه خاص}} ارسال می کند"
+
+#. translators: Action - The Events Calendar
+#: src/integrations/event-tickets/actions/ec-rsvpevent.php:45
+#, fuzzy
+msgid "RSVP on behalf of the user for {{an event:%1$s}}"
+msgstr "RSVP از طرف کاربر برای {{یک رویداد:٪ 1 $ s}}"
+
+#. translators: Action - The Events Calendar
+#: src/integrations/event-tickets/actions/ec-rsvpevent.php:47
+#, fuzzy
+msgid "RSVP on behalf of the user for {{an event}}"
+msgstr "RSVP از طرف کاربر برای {{یک رویداد}}"
+
+#. translators: Logged-in trigger - The Events Calendar
+#: src/integrations/event-tickets/triggers/ec-userattendevent.php:44
+#, fuzzy
+msgid "A user attends {{an event:%1$s}}"
+msgstr "یک کاربر در {{یک رویداد:٪ 1 $ s}} شرکت می کند"
+
+#. translators: Logged-in trigger - The Events Calendar
+#: src/integrations/event-tickets/triggers/ec-userattendevent.php:46
+#, fuzzy
+msgid "A user attends {{an event}}"
+msgstr "یک کاربر در {{یک رویداد}} شرکت می کند"
+
+#. translators: Logged-in trigger - Formidable
+#. translators: Logged-in trigger - Gravity Forms
+#: src/integrations/formidable/triggers/fi-submitform-payment.php:44
+#: src/integrations/gravity-forms/triggers/gf-subform-payment.php:42
+#, fuzzy
+msgid "A user submits {{a form:%1$s}} with payment"
+msgstr "کاربر با پرداخت {{یک فرم:٪ 1 $ s}} را ارسال می کند"
+
+#. translators: Logged-in trigger - Formidable
+#. translators: Logged-in trigger - Gravity Forms
+#: src/integrations/formidable/triggers/fi-submitform-payment.php:46
+#: src/integrations/gravity-forms/triggers/gf-subform-payment.php:44
+#, fuzzy
+msgid "A user submits {{a form}} with payment"
+msgstr "یک کاربر {{یک فرم}} را با پرداخت ارسال می کند"
+
+#. translators: Logged-in trigger - Forminator
+#: src/integrations/forminator/triggers/anon-fr-submitform.php:42
+#, fuzzy
+msgid "{{a form:%1$s}} is submitted"
+msgstr "{{یک فرم:٪ 1 $ s}} ارسال شد"
+
+#. translators: Logged-in trigger - Forminator
+#: src/integrations/forminator/triggers/anon-fr-submitform.php:44
+#, fuzzy
+msgid "{{a form}} is submitted"
+msgstr "{{فرم}} ارسال شد"
+
+#: src/integrations/forminator/triggers/fr-submitfield.php:64
+#: src/integrations/wp/actions/wp-setpostmeta.php:108
+#: src/integrations/wp/actions/wp-updateuser.php:81
+msgid "Value"
+msgstr "مقدار"
+
+#. translators: Actions - GamiPress
+#: src/integrations/gamipress/actions/gp-revokeachievement-a.php:42
+#, fuzzy
+msgid "Revoke {{an achievement:%1$s}} from the user"
+msgstr "{{یک دستاورد:٪ 1 $ s}} را از کاربر لغو کنید"
+
+#. translators: Actions - GamiPress
+#: src/integrations/gamipress/actions/gp-revokeachievement-a.php:44
+#, fuzzy
+msgid "Revoke {{an achievement}} from the user"
+msgstr "{{یک دستاورد}} را از کاربر لغو کنید"
+
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/gamipress/triggers/gp-earnspoints.php:43
+#, fuzzy
+msgid "A user earns {{a number:%1$s}} {{of a specific type of:%2$s}} points"
+msgstr ""
+"یک کاربر {{تعداد:٪ 1 $ s}} {{از نوع خاصی از:٪ 2 $ s}} امتیاز کسب می کند"
+
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/gamipress/triggers/gp-earnspoints.php:45
+#, fuzzy
+msgid "A user earns {{a number}} {{of a specific type of}} points"
+msgstr "یک کاربر {{تعداد}} {{از یک نوع خاص}} امتیاز کسب می کند"
+
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/gamipress/triggers/gp-earnsrank.php:44
+#, fuzzy
+msgid "A user attains {{a rank:%1$s}}"
+msgstr "یک کاربر به {{یک رتبه:٪ 1 $ s}} دست می یابد"
+
+#. translators: Logged-in trigger - GamiPress
+#: src/integrations/gamipress/triggers/gp-earnsrank.php:46
+#, fuzzy
+msgid "A user attains {{a rank}}"
+msgstr "یک کاربر به {{یک رتبه}} می رسد"
+
+#: src/integrations/gototraining/actions/gtt-registeruser.php:42
+#, fuzzy
+msgid "Add the user to {{a training session:%1$s}}"
+msgstr "کاربر را به {{یک جلسه آموزش:٪ 1 $ s}} اضافه کنید"
+
+#: src/integrations/gototraining/actions/gtt-registeruser.php:43
+#, fuzzy
+msgid "Add the user to {{a training session}}"
+msgstr "کاربر را به {{یک جلسه آموزش}} اضافه کنید"
+
+#: src/integrations/gototraining/actions/gtt-registeruser.php:67
+#: src/integrations/gototraining/actions/gtt-unregisteruser.php:67
+#: src/integrations/gotowebinar/actions/gtw-registeruser.php:67
+#: src/integrations/gotowebinar/actions/gtw-unregisteruser.php:67
+#: src/integrations/zoom-webinar/actions/zoom-webinar-registeruser.php:67
+#: src/integrations/zoom-webinar/actions/zoom-webinar-unregisteruser.php:67
+#: src/integrations/zoom/actions/zoom-registeruser.php:67
+#: src/integrations/zoom/actions/zoom-unregisteruser.php:67
+msgid "User not found."
+msgstr "کاربر یافت نشد."
+
+#: src/integrations/gototraining/actions/gtt-registeruser.php:76
+#: src/integrations/gototraining/actions/gtt-unregisteruser.php:76
+#, fuzzy
+msgid "Training not found."
+msgstr "آموزش یافت نشد"
+
+#: src/integrations/gototraining/actions/gtt-unregisteruser.php:42
+#, fuzzy
+msgid "Remove the user from {{a training session:%1$s}}"
+msgstr "حذف کاربر از {{یک جلسه آموزشی:٪ 1 $ s}}"
+
+#: src/integrations/gototraining/actions/gtt-unregisteruser.php:43
+#, fuzzy
+msgid "Remove the user from {{a training session}}"
+msgstr "کاربر را از {{یک جلسه آموزش}} حذف کنید"
+
+#: src/integrations/gototraining/actions/gtt-unregisteruser.php:91
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:238
+#, fuzzy
+msgid "User was not registered for training session."
+msgstr "کاربر برای جلسه آموزش ثبت نشده است."
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:81
+msgid "Training"
+msgstr "آموزش"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:87
+#, fuzzy
+msgid "Any Training"
+msgstr "هر آموزشی"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:170
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:229
+#, fuzzy
+msgid "GoToTraining credentails has expired."
+msgstr "اعتبارنامه GoToTraining منقضی شده است."
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:199
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:261
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:204
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:265
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:193
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:265
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:191
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:263
+#, fuzzy
+msgid "Successfully registered"
+msgstr "ثبت نام با موفقیت انجام شد"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:209
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:270
+#, fuzzy
+msgid "The GoToTraining API returned an error."
+msgstr "GoToTraining API خطایی را بازگرداند."
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:284
+#, fuzzy
+msgid "GoToTraining"
+msgstr "GoToTraining"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:285
+#, fuzzy
+msgid "GoToTraining API settings"
+msgstr "تنظیمات API GoToTraining"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:286
+#, fuzzy
+msgid ""
+"<p>Connecting to GoToTraining requires setting up an application and getting "
+"2 values from inside your account. It's really easy, we promise! Visit <a "
+"href=\"https://automatorplugin.com/knowledge-base/gototraining/\" target="
+"\"_blank\">https://automatorplugin.com/knowledge-base/gototraining/</a> for "
+"simple instructions.</p> <p>When you are asked to enter a \"Redirect URL\", "
+"use this: "
+msgstr ""
+"<p style=\";text-align:right;direction:rtl\"> اتصال به GoToTraining نیاز به "
+"راه اندازی برنامه و دریافت 2 مقدار از داخل حساب شما دارد. واقعاً آسان است ، "
+"ما قول می دهیم! برای دستورالعمل های ساده به <a href=\"https://"
+"automatorplugin.com/knowledge-base/gototraining/\" target=\"_blank\">https://"
+"automatorplugin.com/ Knowledge-base/gototraining/</a> مراجعه <a href="
+"\"https://automatorplugin.com/knowledge-base/gototraining/\" target=\"_blank"
+"\">کنید</a> . </p><p style=\";text-align:right;direction:rtl\"> وقتی از شما "
+"خواسته شد \"URL هدایت\" را وارد کنید ، از این استفاده کنید:"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:292
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:297
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:148
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:293
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:291
+#, fuzzy
+msgid "Save API details"
+msgstr "جزئیات API را ذخیره کنید"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:295
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:300
+msgid "Consumer key:"
+msgstr "کلید مصرف کننده:"
+
+#: src/integrations/gototraining/helpers/gototraining-pro-helpers.php:304
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:309
+msgid "Consumer secret:"
+msgstr "راز مصرف کننده:"
+
+#: src/integrations/gotowebinar/actions/gtw-registeruser.php:42
+#: src/integrations/zoom-webinar/actions/zoom-webinar-registeruser.php:42
+#, fuzzy
+msgid "Add the user to {{a webinar:%1$s}}"
+msgstr "کاربر را به {{یک وبینار:٪ 1 $ s}} اضافه کنید"
+
+#: src/integrations/gotowebinar/actions/gtw-registeruser.php:43
+#: src/integrations/zoom-webinar/actions/zoom-webinar-registeruser.php:43
+#, fuzzy
+msgid "Add the user to {{a webinar}}"
+msgstr "کاربر را به {{یک وبینار}} اضافه کنید"
+
+#: src/integrations/gotowebinar/actions/gtw-registeruser.php:76
+#: src/integrations/gotowebinar/actions/gtw-unregisteruser.php:76
+#: src/integrations/zoom-webinar/actions/zoom-webinar-registeruser.php:76
+#: src/integrations/zoom-webinar/actions/zoom-webinar-unregisteruser.php:76
+#, fuzzy
+msgid "Webinar not found."
+msgstr "وبینار یافت نشد"
+
+#: src/integrations/gotowebinar/actions/gtw-unregisteruser.php:42
+#: src/integrations/zoom-webinar/actions/zoom-webinar-unregisteruser.php:42
+#, fuzzy
+msgid "Remove the user from {{a webinar:%1$s}}"
+msgstr "حذف کاربر از {{یک وبینار:٪ 1 $ s}}"
+
+#: src/integrations/gotowebinar/actions/gtw-unregisteruser.php:43
+#: src/integrations/zoom-webinar/actions/zoom-webinar-unregisteruser.php:43
+#, fuzzy
+msgid "Remove the user from {{a webinar}}"
+msgstr "حذف کاربر از {{یک وبینار}}"
+
+#: src/integrations/gotowebinar/actions/gtw-unregisteruser.php:91
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:243
+#: src/integrations/zoom-webinar/actions/zoom-webinar-unregisteruser.php:91
+#, fuzzy
+msgid "User was not registered for webinar."
+msgstr "کاربر برای وبینار ثبت نشده است."
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:82
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:82
+msgid "Webinar"
+msgstr "وبینار"
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:88
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:88
+#, fuzzy
+msgid "Any Webinar"
+msgstr "هر وبینار"
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:156
+#, fuzzy
+msgid "GoToWebinar user not found."
+msgstr "کاربر GoToWebinar یافت نشد."
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:174
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:234
+#, fuzzy
+msgid "GoToWebinar credentails has expired."
+msgstr "اعتبارنامه GoToWebinar منقضی شده است."
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:214
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:274
+#, fuzzy
+msgid "The GoToWebinar API returned an error."
+msgstr "GoToWebinar API خطایی را بازگرداند."
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:288
+#, fuzzy
+msgid "GoToWebinar"
+msgstr "GoToWebinar"
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:289
+#, fuzzy
+msgid "GoToWebinar API settings"
+msgstr "تنظیمات API GoToWebinar"
+
+#: src/integrations/gotowebinar/helpers/gotowebinar-pro-helpers.php:290
+#, fuzzy
+msgid ""
+"<p>Connecting to GoToWebinar requires setting up an application and getting "
+"2 values from inside your account. It's really easy, we promise! Visit <a "
+"href=\"https://automatorplugin.com/knowledge-base/gotowebinar/\" target="
+"\"_blank\">https://automatorplugin.com/knowledge-base/gotowebinar/</a> for "
+"simple instructions.</p> <p>When you are asked to enter a \"Redirect URL\", "
+"use this: "
+msgstr ""
+"<p style=\";text-align:right;direction:rtl\"> اتصال به GoToWebinar مستلزم "
+"راه اندازی یک برنامه کاربردی و دریافت 2 مقدار از داخل حساب شما است. واقعاً "
+"آسان است ، ما قول می دهیم! برای راهنمایی های ساده به <a href=\"https://"
+"automatorplugin.com/knowledge-base/gotowebinar/\" target=\"_blank\">https://"
+"automatorplugin.com/ Knowledge-base/gotowebinar/</a> مراجعه <a href="
+"\"https://automatorplugin.com/knowledge-base/gotowebinar/\" target=\"_blank"
+"\">کنید</a> . </p><p style=\";text-align:right;direction:rtl\"> وقتی از شما "
+"خواسته شد \"URL هدایت\" را وارد کنید ، از این استفاده کنید:"
+
+#: src/integrations/gravity-forms/triggers/anon-gf-subform-payment.php:41
+#, fuzzy
+msgid "{{A form:%1$s}} is submitted with payment"
+msgstr "{{فرم:٪ 1 $ s}} با پرداخت ارسال می شود"
+
+#: src/integrations/gravity-forms/triggers/anon-gf-subform-payment.php:42
+#, fuzzy
+msgid "{{A form}} is submitted with payment"
+msgstr "{{فرم}} با پرداخت ارسال می شود"
+
+#. translators: Logged-in trigger - Groundhogg
+#. translators: Logged-in trigger - WP Fusion
+#: src/integrations/groundhogg/triggers/gh-tagapplied.php:60
+#: src/integrations/wp-fusion/triggers/wf-tagsapplied.php:43
+#, fuzzy
+msgid "{{A tag:%1$s}} is added to a user"
+msgstr "{{یک برچسب:٪ 1 $ s}} به کاربر اضافه می شود"
+
+#. translators: Logged-in trigger - Groundhogg
+#. translators: Logged-in trigger - WP Fusion
+#: src/integrations/groundhogg/triggers/gh-tagapplied.php:62
+#: src/integrations/wp-fusion/triggers/wf-tagsapplied.php:45
+#, fuzzy
+msgid "{{A tag}} is added to a user"
+msgstr "{{برچسب}} به کاربر اضافه می شود"
+
+#. translators: Logged-in trigger - Groundhogg
+#. translators: Logged-in trigger - WP Fusion
+#: src/integrations/groundhogg/triggers/gh-tagremoved.php:60
+#: src/integrations/wp-fusion/triggers/wf-tagremoved.php:43
+#, fuzzy
+msgid "{{A tag:%1$s}} is removed from a user"
+msgstr "{{یک برچسب:٪ 1 $ s}} از کاربر حذف می شود"
+
+#. translators: Logged-in trigger - Groundhogg
+#. translators: Logged-in trigger - WP Fusion
+#: src/integrations/groundhogg/triggers/gh-tagremoved.php:62
+#: src/integrations/wp-fusion/triggers/wf-tagremoved.php:45
+#, fuzzy
+msgid "{{A tag}} is removed from a user"
+msgstr "{{برچسب}} از کاربر حذف می شود"
+
+#: src/integrations/h5p/helpers/h5p-pro-helpers.php:53
+msgid "Content"
+msgstr "محتوا"
+
+#: src/integrations/h5p/helpers/h5p-pro-helpers.php:66
+#, fuzzy
+msgid "Any content"
+msgstr "هر محتوایی که این زیر اضافه شود در برگه اصلی %s نمایش داده می‌شود"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-contentcompleted.php:43
+#, fuzzy
+msgid "A user completes {{H5P content:%1$s}} {{a number of:%2$s}} times"
+msgstr "کاربر {{محتوای H5P:٪ 1 $ s}} {{تعداد:٪ 2 $ s}} بار را تکمیل می کند"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-contentcompleted.php:45
+#, fuzzy
+msgid "A user completes {{H5P content}}"
+msgstr "یک کاربر {{محتوای H5P}} را کامل می کند"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-contenttypecompleted.php:43
+#, fuzzy
+msgid ""
+"A user completes any {{of a specific type of:%1$s}} H5P content {{a number "
+"of:%2$s}} times"
+msgstr ""
+"کاربر هر {{از نوع خاصی از:٪ 1 $ s}} محتوای H5P {{تعداد:٪ 2 $ s}} بار را "
+"تکمیل می کند"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-contenttypecompleted.php:45
+#, fuzzy
+msgid "A user completes any {{of a specific type of}} H5P content"
+msgstr "کاربر هر {{از نوع خاصی}} محتوای H5P را تکمیل می کند"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-scoreachieved.php:43
+#, fuzzy
+msgid ""
+"A user achieves a score {{greater than, less than or equal to:%1$s}} {{a "
+"value:%2$s}} on {{H5P content:%3$s}}"
+msgstr ""
+"یک کاربر نمره {{بزرگتر ، کمتر یا مساوی با:٪ 1 $ s}} {{یک مقدار:٪ 2 $ s}} در "
+"{{محتوای H5P:٪ 3 $ s}} کسب می کند"
+
+#. translators: Logged-in trigger - H5P
+#: src/integrations/h5p/triggers/h5p-scoreachieved.php:45
+#, fuzzy
+msgid ""
+"A user achieves a score {{greater than, less than or equal to}} {{a value}} "
+"on {{H5P content}}"
+msgstr ""
+"یک کاربر نمره {{بزرگتر ، کمتر از یا برابر}} {{یک مقدار}} در {{محتوای H5P}} "
+"کسب می کند"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-emailgroupsleaders-a.php:42
+#, fuzzy
+msgid "Send an {{email:%1$s}} to the user's group leader(s)"
+msgstr "ارسال {{ایمیل:٪ 1 $ s}} به رهبر گروه کاربر"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-emailgroupsleaders-a.php:44
+#, fuzzy
+msgid "Send an {{email}} to the user's group leader(s)"
+msgstr "ارسال {{ایمیل}} به رهبر (های) گروه کاربر"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-enrlgroup-a.php:40
+#, fuzzy
+msgid "Add the user to {{a group:%1$s}}"
+msgstr "کاربر را به {{یک گروه:٪ 1 $ s}} اضافه کنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-enrlgroup-a.php:42
+#, fuzzy
+msgid "Add the user to {{a group}}"
+msgstr "کاربر را به {{a group}} اضافه کنید"
+
+#. Translators: 1:Courses
+#: src/integrations/learndash/actions/ld-markcoursedone.php:43
+#, fuzzy
+msgid "Mark {{a course:%1$s}} complete"
+msgstr "{{یک دوره:٪ 1 $ s}} را علامت گذاری کنید"
+
+#: src/integrations/learndash/actions/ld-markcoursedone.php:44
+#, fuzzy
+msgid "Mark {{a course}} complete"
+msgstr "{{یک دوره}} را علامت گذاری کنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-marklessonnotcomplete.php:53
+#, fuzzy
+msgid "Mark {{a lesson:%1$s}} not complete for the user"
+msgstr "{{یک درس:٪ 1 $ s}} را برای کاربر علامت گذاری کنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-marklessonnotcomplete.php:55
+#, fuzzy
+msgid "Mark {{a lesson}} not complete for the user"
+msgstr "{{یک درس}} را برای کاربر علامت گذاری نکنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-marktopicnotcomplete.php:65
+#, fuzzy
+msgid "Mark {{a topic:%1$s}} not complete for the user"
+msgstr "{0 یک موضوع:٪ 1 $ s}} را برای کاربر علامت گذاری نکنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-marktopicnotcomplete.php:67
+#, fuzzy
+msgid "Mark {{a topic}} not complete for the user"
+msgstr "{{یک موضوع}} را برای کاربر کامل علامت گذاری کنید"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-removegroup-a.php:43
+#, fuzzy
+msgid "Remove the user from {{a group:%1$s}}"
+msgstr "حذف کاربر از {{یک گروه:٪ 1 $ s}}"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-removegroup-a.php:45
+#, fuzzy
+msgid "Remove the user from {{a group}}"
+msgstr "حذف کاربر از {{یک گروه}}"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-resetprogress.php:46
+#, fuzzy
+msgid "Reset the user's progress in {{a course:%1$s}}"
+msgstr "بازنشانی پیشرفت کاربر در {{یک دوره:٪ 1 $ s}}"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-resetprogress.php:48
+#, fuzzy
+msgid "Reset the user's progress in {{a course}}"
+msgstr "بازنشانی پیشرفت کاربر در {{یک دوره}}"
+
+#. translators: Action - LearnDash
+#. translators: Action - LifterLMS
+#: src/integrations/learndash/actions/ld-resetquiz.php:44
+#: src/integrations/lifterlms/actions/lf-resetquizattempts-a.php:46
+#, fuzzy
+msgid "Reset the user's attempts for {{a quiz:%1$s}}"
+msgstr "بازنشانی تلاشهای کاربر برای {{مسابقه:٪ 1 $ s}}"
+
+#. translators: Action - LearnDash
+#. translators: Action - LifterLMS
+#: src/integrations/learndash/actions/ld-resetquiz.php:46
+#: src/integrations/lifterlms/actions/lf-resetquizattempts-a.php:48
+#, fuzzy
+msgid "Reset the user's attempts for {{a quiz}}"
+msgstr "بازنشانی تلاشهای کاربر برای {{یک مسابقه}}"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-unenrlcourse.php:45
+#, fuzzy
+msgid "Unenroll the user from {{a course:%1$s}}"
+msgstr "ثبت نام کاربر از {{یک دوره:٪ 1 $ s}}"
+
+#. translators: Action - LearnDash
+#: src/integrations/learndash/actions/ld-unenrlcourse.php:47
+#, fuzzy
+msgid "Unenroll the user from {{a course}}"
+msgstr "ثبت نام کاربر از {{یک دوره}}"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-submitassignment.php:64
+#, fuzzy
+msgid "A user submits an assignment for {{a lesson or topic:%1$s}}"
+msgstr "یک کاربر تکلیف خود را برای {{یک درس یا موضوع:٪ 1 $ s}} ارسال می کند"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-submitassignment.php:66
+#, fuzzy
+msgid "A user submits an assignment for {{a lesson or topic}}"
+msgstr "کاربر یک تکلیف برای {{یک درس یا موضوع}} ارسال می کند"
+
+#: src/integrations/learndash/triggers/ld-submitassignment.php:92
+#, fuzzy
+msgid "Select a Lesson/Topic"
+msgstr "یک درس / موضوع را انتخاب کنید"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-userenrolledcourse.php:42
+#, fuzzy
+msgid "A user is enrolled in {{a course:%1$s}}"
+msgstr "یک کاربر در {{یک دوره:٪ 1 $ s}} ثبت نام کرده است"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-userenrolledgroup.php:42
+#, fuzzy
+msgid "A user is added to {{a group:%1$s}}"
+msgstr "کاربری به {{یک گروه:٪ 1 $ s}} اضافه می شود"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-userenrolledgroup.php:44
+#, fuzzy
+msgid "A user is added to {{a group}}"
+msgstr "کاربری به {{یک گروه}} اضافه می شود"
+
+#. translators: Logged-in trigger - LearnDash
+#: src/integrations/learndash/triggers/ld-userunenrolledcourse.php:42
+#, fuzzy
+msgid "A user is unenrolled from {{a course:%1$s}}"
+msgstr "ثبت نام کاربر از {{یک دوره:٪ 1 $ s}} انجام نمی شود"
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - TutorLMS
+#. translators: Action - WP Courseware
+#: src/integrations/learnpress/actions/lp-enrlcourse-a.php:44
+#: src/integrations/lifterlms/actions/lf-enrlcourse-a.php:42
+#: src/integrations/tutorlms/actions/tutorlms-courseenroll.php:70
+#: src/integrations/wp-courseware/actions/wpcw-enrlcourse-a.php:42
+#, fuzzy
+msgid "Enroll the user in {{a course:%1$s}}"
+msgstr "ثبت نام کاربر در {{یک دوره:٪ 1 $ s}}"
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - TutorLMS
+#. translators: Action - WP Courseware
+#: src/integrations/learnpress/actions/lp-enrlcourse-a.php:46
+#: src/integrations/lifterlms/actions/lf-enrlcourse-a.php:44
+#: src/integrations/tutorlms/actions/tutorlms-courseenroll.php:72
+#: src/integrations/wp-courseware/actions/wpcw-enrlcourse-a.php:44
+#, fuzzy
+msgid "Enroll the user in {{a course}}"
+msgstr "ثبت نام کاربر در {{یک دوره}}"
+
+#: src/integrations/learnpress/actions/lp-enrlcourse-a.php:70
+#, fuzzy
+msgid "The function learn_press_get_user does not exist"
+msgstr "عملکرد learn_press_get_user وجود ندارد"
+
+#: src/integrations/learnpress/actions/lp-enrlcourse-a.php:86
+#, fuzzy
+msgid "Order created by Uncanny Automator"
+msgstr "سفارش ایجاد شده توسط Uncanny Automator"
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - TutorLMS
+#: src/integrations/learnpress/actions/lp-markcoursedone.php:55
+#: src/integrations/lifterlms/actions/lf-markcoursedone.php:45
+#: src/integrations/tutorlms/actions/tutorlms-coursecomplete.php:69
+#, fuzzy
+msgid "Mark {{a course:%1$s}} complete for the user"
+msgstr "{{یک دوره:٪ 1 $ s}} را برای کاربر کامل علامت گذاری کنید"
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - TutorLMS
+#: src/integrations/learnpress/actions/lp-markcoursedone.php:57
+#: src/integrations/lifterlms/actions/lf-markcoursedone.php:47
+#: src/integrations/tutorlms/actions/tutorlms-coursecomplete.php:71
+#, fuzzy
+msgid "Mark {{a course}} complete for the user"
+msgstr "{{یک دوره}} را برای کاربر کامل علامت گذاری کنید"
+
+#: src/integrations/learnpress/actions/lp-removecourse.php:44
+#, fuzzy
+msgid "Any course"
+msgstr "شما هنوز هیچ دوره ای در لیست علاقه مندی ها ندارید."
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - WP Courseware
+#: src/integrations/learnpress/actions/lp-removecourse.php:52
+#: src/integrations/lifterlms/actions/lf-unenrlcourse-a.php:42
+#: src/integrations/wp-courseware/actions/wpcw-unenrlcourse-a.php:42
+#, fuzzy
+msgid "Remove the user from {{a course:%1$s}}"
+msgstr "حذف کاربر از {{یک دوره:٪ 1 $ s}}"
+
+#. translators: Action - LearnPress
+#. translators: Action - LifterLMS
+#. translators: Action - WP Courseware
+#: src/integrations/learnpress/actions/lp-removecourse.php:54
+#: src/integrations/lifterlms/actions/lf-unenrlcourse-a.php:44
+#: src/integrations/wp-courseware/actions/wpcw-unenrlcourse-a.php:44
+#, fuzzy
+msgid "Remove the user from {{a course}}"
+msgstr "حذف کاربر از {{یک دوره}}"
+
+#. translators: Action - LifterLMS
+#: src/integrations/lifterlms/actions/lf-enrlmembership-a.php:42
+#, fuzzy
+msgid "Enroll the user in {{a membership:%1$s}}"
+msgstr "ثبت نام کاربر در {{یک عضویت:٪ 1 $ s}}"
+
+#. translators: Action - LifterLMS
+#: src/integrations/lifterlms/actions/lf-enrlmembership-a.php:44
+#, fuzzy
+msgid "Enroll the user in {{a membership}}"
+msgstr "ثبت نام کاربر در {{یک عضویت}}"
+
+#: src/integrations/lifterlms/actions/lf-markcoursedone.php:52
+#: src/integrations/tutorlms/actions/tutorlms-coursecomplete.php:76
+msgid "Course"
+msgstr "دوره"
+
+#. translators: Action - LifterLMS
+#. translators: Action - MemberPress
+#: src/integrations/lifterlms/actions/lf-removemembership-a.php:44
+#: src/integrations/memberpress/actions/mp-removeusermembership.php:46
+#, fuzzy
+msgid "Remove the user from {{a membership:%1$s}}"
+msgstr "حذف کاربر از {{یک عضویت:٪ 1 $ s}}"
+
+#. translators: Action - LifterLMS
+#. translators: Action - MemberPress
+#: src/integrations/lifterlms/actions/lf-removemembership-a.php:46
+#: src/integrations/memberpress/actions/mp-removeusermembership.php:48
+#, fuzzy
+msgid "Remove the user from {{a membership}}"
+msgstr "حذف کاربر از {{یک عضویت}}"
+
+#. translators: MemberPress membership status
+#: src/integrations/memberpress/actions/mp-addusermembership.php:45
+msgid "Complete"
+msgstr "تکمیل"
+
+#. translators: MemberPress membership status
+#: src/integrations/memberpress/actions/mp-addusermembership.php:47
+msgid "Pending"
+msgstr "در انتظار"
+
+#. translators: MemberPress membership status
+#: src/integrations/memberpress/actions/mp-addusermembership.php:49
+msgid "Failed"
+msgstr "ناموفق"
+
+#. translators: MemberPress membership status
+#: src/integrations/memberpress/actions/mp-addusermembership.php:51
+msgid "Refunded"
+msgstr "بازپرداخت"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:56
+msgid "Manual"
+msgstr "دستی"
+
+#. translators: Action - MemberPress
+#: src/integrations/memberpress/actions/mp-addusermembership.php:70
+#, fuzzy
+msgid "Add the user to {{a membership:%1$s}}"
+msgstr "کاربر را به {{یک عضویت:٪ 1 $ s}} اضافه کنید"
+
+#. translators: Action - MemberPress
+#: src/integrations/memberpress/actions/mp-addusermembership.php:72
+#, fuzzy
+msgid "Add the user to {{a membership}}"
+msgstr "کاربر را به {{یک عضویت}} اضافه کنید"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:78
+msgid "Membership"
+msgstr "عضویت"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:79
+msgid "Subtotal"
+msgstr "جمع جزء"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:80
+msgid "Tax amount"
+msgstr "مبلغ مالیات"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:81
+msgid "Tax rate"
+msgstr "نرخ مالیات"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:82
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:83
+msgid "Gateway"
+msgstr "دروازه"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:84
+msgid "Expiration date"
+msgstr "تاریخ انقضا"
+
+#: src/integrations/memberpress/actions/mp-addusermembership.php:84
+#, fuzzy
+msgid ""
+"Leave empty for \"lifetime\", type date in following format \"YYYY-MM-DD\" "
+"for custom expiry"
+msgstr ""
+"برای \"مادام العمر\" خالی بگذارید ، تاریخ را در قالب زیر \"YYYY-MM-DD\" تایپ "
+"کنید برای انقضا custom سفارشی"
+
+#. translators: Action - myCred
+#: src/integrations/mycred/actions/mycred-revokebadges-a.php:42
+#, fuzzy
+msgid "Revoke {{a badge:%1$s}} from the user"
+msgstr "{{نشان:٪ 1 $ s}} را از کاربر لغو کنید"
+
+#. translators: Action - myCred
+#: src/integrations/mycred/actions/mycred-revokebadges-a.php:44
+#, fuzzy
+msgid "Revoke {{a badge}} from the user"
+msgstr "{{نشان}} را از کاربر لغو کنید"
+
+#. translators: Action - TutorLMS
+#: src/integrations/tutorlms/actions/tutorlms-lessoncomplete.php:72
+#, fuzzy
+msgid "Mark {{a lesson:%1$s}} complete for the user"
+msgstr "{{یک درس:٪ 1 $ s}} را برای کاربر کامل علامت گذاری کنید"
+
+#. translators: Action - TutorLMS
+#: src/integrations/tutorlms/actions/tutorlms-lessoncomplete.php:74
+#, fuzzy
+msgid "Mark {{a lesson}} complete for the user"
+msgstr "{{یک درس}} را برای کاربر کامل علامت گذاری کنید"
+
+#. translators: Logged-in trigger - TutorLMS
+#: src/integrations/tutorlms/triggers/tutorlms-courseenrolled.php:57
+#, fuzzy
+msgid "A user is enrolled in {{a course:%1$s}} {{a number of:%2$s}} times"
+msgstr "کاربر در {{یک دوره:٪ 1 $ s}} {{تعداد:٪ 2 $ s}} بار ثبت نام کرده است"
+
+#. translators: Logged-in trigger - TutorLMS
+#: src/integrations/tutorlms/triggers/tutorlms-courseenrolled.php:59
+#, fuzzy
+msgid "A user is enrolled in {{a course}}"
+msgstr "یک کاربر در {{یک دوره}} ثبت نام کرده است"
+
+#. translators: Logged-in trigger - TutorLMS
+#: src/integrations/tutorlms/triggers/tutorlms-quizpercent.php:58
+#, fuzzy
+msgid ""
+"A user achieves a percentage {{greater than, less than or equal}} to {{a "
+"value}} on {{a quiz}}"
+msgstr ""
+"یک کاربر با درصدی {{بزرگتر ، کمتر یا مساوی}} با {{یک مقدار}} در {{یک "
+"مسابقه}} به دست می آورد"
+
+#: src/integrations/twilio/actions/twilio-sendsms.php:46
+#, fuzzy
+msgid "Send an SMS message to {{a number:%1$s}}"
+msgstr "ارسال پیام کوتاه به {{a number:٪ 1 $ s}}"
+
+#: src/integrations/twilio/actions/twilio-sendsms.php:47
+#, fuzzy
+msgid "Send an SMS message to {{a number}}"
+msgstr "ارسال پیام کوتاه به {{a number}}"
+
+#: src/integrations/twilio/actions/twilio-sendsms.php:53
+#, fuzzy
+msgid "Separate multiple phone numbers with a comma"
+msgstr "چند شماره تلفن را با کاما جدا کنید"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:80
+#, fuzzy
+msgid "Twilio credentails has expired."
+msgstr "اعتبارنامه Twilio منقضی شده است."
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:85
+#, fuzzy
+msgid "Twilio number is missing."
+msgstr "شماره Twilio موجود نیست."
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:90
+#, fuzzy
+msgid "To number is not valid."
+msgstr "به شماره معتبر نیست."
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:140
+msgid "Twilio"
+msgstr "Twilio"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:141
+#, fuzzy
+msgid "Twilio API settings"
+msgstr "تنظیمات API Twilio"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:142
+#, fuzzy
+msgid ""
+"<p>To view API credentials visit <a href=\"https://www.twilio.com/user/"
+"account/voice-sms-mms\" target=\"_blank\">https://www.twilio.com/user/"
+"account/voice-sms-mms</a>. It's really easy, we promise! Visit <a href="
+"\"https://automatorplugin.com/knowledge-base/twilio/\" target=\"_blank"
+"\">https://automatorplugin.com/knowledge-base/twilio/</a> for simple "
+"instructions.</p>"
+msgstr ""
+"<p style=\";text-align:right;direction:rtl\"> برای مشاهده اطلاعات کاربری API "
+"به <a href=\"https://www.twilio.com/user/account/voice-sms-mms\" target="
+"\"_blank\">https://www.twilio.com/user/account/voice-sms-mms</a> مراجعه <a "
+"href=\"https://www.twilio.com/user/account/voice-sms-mms\" target=\"_blank"
+"\">کنید</a> . واقعاً آسان است ، ما قول می دهیم! برای دستورالعمل های ساده به "
+"<a href=\"https://automatorplugin.com/knowledge-base/twilio/\" target="
+"\"_blank\">https://automatorplugin.com/ Knowledge-base/twilio/</a> مراجعه <a "
+"href=\"https://automatorplugin.com/knowledge-base/twilio/\" target=\"_blank"
+"\">کنید</a> . </p>"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:151
+msgid "Account SID:"
+msgstr "SID حساب کاربری:"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:160
+msgid "Auth Token:"
+msgstr "Auth Token:"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:169
+#, fuzzy
+msgid "Twilio Number:"
+msgstr "شماره Twilio:"
+
+#: src/integrations/twilio/helpers/twilio-pro-helpers.php:331
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:51
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:50
+msgid "Text"
+msgstr "متن"
+
+#. translators: Action - Ultimate Member
+#: src/integrations/ultimate-member/actions/um-userrolechange.php:54
+#, fuzzy
+msgid "Set the user's role to {{a specific role:%1$s}}"
+msgstr "نقش کاربر را روی {{یک نقش خاص:٪ 1 $ s}} تنظیم کنید"
+
+#. translators: Action - Ultimate Member
+#: src/integrations/ultimate-member/actions/um-userrolechange.php:56
+#, fuzzy
+msgid "Set the user's role to {{a specific role}}"
+msgstr "نقش کاربر را روی {{یک نقش خاص}} تنظیم کنید"
+
+#: src/integrations/ultimate-member/actions/um-userrolechange.php:87
+#, fuzzy
+msgid ""
+"For security, the change role action cannot be applied to administrators."
+msgstr "برای امنیت ، عمل تغییر نقش نمی تواند برای مدیران اعمال شود."
+
+#. translators: Logged-in trigger - Ultimate Member
+#: src/integrations/ultimate-member/triggers/um-userregistersubfield.php:46
+#, fuzzy
+msgid ""
+"A user registers with {{a form:%1$s}} with {{a specific value:%2$s}} in {{a "
+"specific field:%3$s}}"
+msgstr ""
+"یک کاربر با {{یک فرم:٪ 1 $ s}} با {{یک مقدار خاص:٪ 2 $ s}} در {{یک زمینه خاص:"
+"٪ 3 $ s}} ثبت نام می کند"
+
+#. translators: Logged-in trigger - Ultimate Member
+#: src/integrations/ultimate-member/triggers/um-userregistersubfield.php:51
+#, fuzzy
+msgid ""
+"A user registers with {{a form}} with {{a specific value}} in {{a specific "
+"field}}"
+msgstr ""
+"کاربر با {{یک فرم}} با {{یک مقدار خاص}} در {{یک زمینه خاص}} ثبت نام می کند"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:55
+#: src/integrations/wp/actions/wp-updateuser.php:59
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:54
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:59
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:58
+msgid "URL"
+msgstr "آدرس"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:63
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:62
+msgid "Integer"
+msgstr "عدد صحیح"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:67
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:66
+msgid "Float"
+msgstr "شناور"
+
+#. translators: Anonymous trigger - WordPress Core
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:77
+#, fuzzy
+msgid "Receive data from {{a webhook:%1$s}}"
+msgstr "دریافت اطلاعات از {{a webhook:٪ 1 $ s}}"
+
+#. translators: Anonymous trigger - WordPress Core
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:79
+#, fuzzy
+msgid "Receive data from {{a webhook}}"
+msgstr "دریافت اطلاعات از {{a webhook}}"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:92
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:90
+msgid "Webhook URL"
+msgstr "آدرس وب هوک"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:93
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:91
+#, fuzzy
+msgid "Send your webhook to this URL. Supports PUT, GET and POST methods."
+msgstr ""
+"وب بوک خود را به این URL ارسال کنید. پشتیبانی از روش های PUT ، GET و POST."
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:104
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:102
+msgid "Fields"
+msgstr "فیلدها"
+
+#. translators: 1. Button
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:106
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:103
+#, fuzzy
+msgid ""
+"Manually specify the data that will be received or click the \"%1$s\" button "
+"to listen for a sample webhook."
+msgstr ""
+"داده های دریافتی را به صورت دستی مشخص کنید یا روی دکمه \"٪ 1 $ s\" کلیک کنید "
+"تا یک نمونه وب وب را گوش دهید."
+
+#. translators: 1. Button
+#. translators: Button. Non-personal infinitive verb
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:106
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:127
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:103
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:124
+#, fuzzy
+msgid "Get samples"
+msgstr "نمونه بگیرید"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:109
+#: src/integrations/wp/actions/wp-setpostmeta.php:99
+#: src/integrations/wp/actions/wp-updateuser.php:74
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:106
+msgid "Key"
+msgstr "کلید"
+
+#. translators: 1. Button
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:112
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:180
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:109
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:177
+#, fuzzy
+msgid "Value type"
+msgstr "نوع مقدار"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:118
+#: src/integrations/wp/actions/wp-createpost.php:150
+#: src/integrations/wp/actions/wp-setpostmeta.php:115
+#: src/integrations/wp/actions/wp-setusermeta.php:80
+#: src/integrations/wp/actions/wp-updateuser.php:86
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:115
+#, fuzzy
+msgid "Add pair"
+msgstr "جفت اضافه کنید"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:119
+#: src/integrations/wp/actions/wp-createpost.php:151
+#: src/integrations/wp/actions/wp-setpostmeta.php:116
+#: src/integrations/wp/actions/wp-setusermeta.php:81
+#: src/integrations/wp/actions/wp-updateuser.php:87
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:116
+#, fuzzy
+msgid "Remove pair"
+msgstr "جفت را بردارید"
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:175
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:172
+#, fuzzy
+msgid "We're checking for a new hook. We'll keep trying for %s seconds."
+msgstr "ما در حال بررسی یک قلاب جدید هستیم. تلاش٪ s ثانیه را ادامه خواهیم داد."
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:176
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:173
+#, fuzzy
+msgid "We had trouble finding a sample."
+msgstr "ما در یافتن نمونه مشکل داشتیم."
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:177
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:174
+#, fuzzy
+msgid "See more details or get help"
+msgstr "جزئیات بیشتر را مشاهده کنید یا راهنمایی بگیرید"
+
+#. translators: 1. Button
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:179
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:176
+#, fuzzy
+msgid ""
+"Clicking on \\\"%1$s\\\" will remove your current fields and will use the "
+"ones on the table above instead."
+msgstr ""
+"با کلیک بر روی \\ \"٪ 1 $ s \\\" زمینه های فعلی شما حذف می شود و در عوض از "
+"موارد موجود در جدول بالا استفاده می شود."
+
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:181
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:178
+#, fuzzy
+msgid "Received data"
+msgstr "داده های دریافت شده"
+
+#. translators: Non-personal infinitive verb
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:182
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:179
+#, fuzzy
+msgid "Use these fields"
+msgstr "از این زمینه ها استفاده کنید"
+
+#. translators: Non-personal infinitive verb
+#: src/integrations/uncanny-automator/triggers/uoa-anon-webhooks.php:183
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:180
+msgid "Do nothing"
+msgstr "هیچ کاری انجام نده"
+
+#. translators: Logged-in trigger - WordPress Core. 1. Shortcode
+#: src/integrations/uncanny-automator/triggers/uoa-magic-button.php:42
+#, fuzzy
+msgid "A user clicks %1$s"
+msgstr "یک کاربر روی٪ 1 $ s کلیک می کند"
+
+#. translators: Logged-in trigger - WordPress Core
+#: src/integrations/uncanny-automator/triggers/uoa-magic-button.php:44
+#, fuzzy
+msgid "A user clicks a {{magic button}}"
+msgstr "کاربر یک {{دکمه جادویی}} را کلیک می کند"
+
+#: src/integrations/upsell-plugin/helpers/upsell-plugin-pro-helpers.php:30
+#: src/integrations/upsell-plugin/triggers/upsell-plugin-purchsubscription.php:50
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: src/integrations/upsell-plugin/helpers/upsell-plugin-pro-helpers.php:47
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:81
+#, fuzzy
+msgid "Any Subscription"
+msgstr "هر اشتراک"
+
+#: src/integrations/upsell-plugin/helpers/upsell-plugin-pro-helpers.php:53
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:87
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:150
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:207
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:262
+#, fuzzy
+msgid "ID: %s (no title)"
+msgstr "شناسه:٪ s (بدون عنوان)"
+
+#. translators: Logged-in trigger - Upsell
+#: src/integrations/upsell-plugin/triggers/upsell-plugin-purchsubscription.php:42
+#, fuzzy
+msgid "A user subscribes to {{a product:%1$s}}"
+msgstr "یک کاربر در {{یک محصول:٪ 1 $ s}} مشترک می شود"
+
+#. translators: Logged-in trigger - Upsell
+#: src/integrations/upsell-plugin/triggers/upsell-plugin-purchsubscription.php:44
+#, fuzzy
+msgid "A user subscribes to {{a product}}"
+msgstr "یک کاربر در {{یک محصول}} مشترک می شود"
+
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:60
+#, fuzzy
+msgid "Select a Subscription"
+msgstr "اشتراک را انتخاب کنید"
+
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:190
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:243
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:257
+#, fuzzy
+msgid "Any Tag"
+msgstr "هر برچسب"
+
+#: src/integrations/woocommerce/helpers/woocommerce-pro-helpers.php:316
+msgid "Any Variation"
+msgstr "هر گونه تنوع"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/anon-wc-purchprod.php:49
+#, fuzzy
+msgid "{{A product:%1$s}} is purchased via guest checkout"
+msgstr "{{یک محصول:٪ 1 $ s}} از طریق پرداخت مهمان خریداری می شود"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/anon-wc-purchprod.php:51
+#, fuzzy
+msgid "{{A product}} is purchased via guest checkout"
+msgstr "{{یک محصول}} از طریق پرداخت مهمان خریداری می شود"
+
+#. translators: Logged-in trigger - WooCommerce. 2. Currency symbol
+#: src/integrations/woocommerce/triggers/wc-ordercomplete.php:47
+#, fuzzy
+msgid ""
+"A user completes an order with a total {{greater than, less than or equal to:"
+"%1$s}} %2$s{{a specific amount:%3$s}} {{a number of:%4$s}} times"
+msgstr ""
+"کاربر سفارشی را با مجموع {{بزرگتر ، کمتر یا مساوی با:٪ 1 $ s}}٪ 2 $ s "
+"{{مقدار مشخصی:٪ 3 $ s}} {{تعداد:٪ 4 $ s}} بار"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-orderstatuschange.php:43
+#, fuzzy
+msgid "A user's order status changes to {{a specific status:%1$s}}"
+msgstr "وضعیت سفارش کاربر به {{وضعیت خاصی:٪ 1 $ s}} تغییر می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-orderstatuschange.php:45
+#, fuzzy
+msgid "A user's order status changes to {{a specific status}}"
+msgstr "وضعیت سفارش کاربر به {{وضعیت خاصی}} تغییر می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchprod-category.php:44
+#, fuzzy
+msgid "A user purchases a product in {{a category:%1$s}}"
+msgstr "کاربر محصولی را در {{رده:٪ 1 $ s}} خریداری می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchprod-category.php:46
+#, fuzzy
+msgid "A user purchases a product in {{a category}}"
+msgstr "کاربر محصولی را در {{یک دسته}} خریداری می کند"
+
+#: src/integrations/woocommerce/triggers/wc-purchprod-category.php:57
+msgid "Product Category"
+msgstr "دسته بندی محصول"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchprod-tag.php:44
+#, fuzzy
+msgid "A user purchases a product with {{a tag:%1$s}}"
+msgstr "کاربر محصولی را با {{یک برچسب:٪ 1 $ s}} خریداری می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchprod-tag.php:46
+#, fuzzy
+msgid "A user purchases a product with {{a tag}}"
+msgstr "یک کاربر محصولی را با {{a tag}} خریداری می کند"
+
+#: src/integrations/woocommerce/triggers/wc-purchprod-tag.php:57
+msgid "Product Tag"
+msgstr "برچسب محصول"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchvariableprod.php:43
+#, fuzzy
+msgid ""
+"A user purchases {{A variable product:%1$s}} with {{a variation:%2$s}} "
+"selected"
+msgstr ""
+"یک کاربر با انتخاب {{یک تغییر:٪ 2 $ s}} {{یک محصول متغیر:٪ 1 $ s}} را "
+"خریداری می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-purchvariableprod.php:46
+#, fuzzy
+msgid "A user purchases {{a variable product}} with {{a variation}} selected"
+msgstr "کاربر با انتخاب {{یک تنوع}} ، {{یک محصول متغیر}} را خریداری می کند"
+
+#: src/integrations/woocommerce/triggers/wc-purchvariableprod.php:58
+msgid "Product"
+msgstr "محصول"
+
+#: src/integrations/woocommerce/triggers/wc-purchvariableprod.php:69
+msgid "Variation"
+msgstr "تغییر"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptioncancelled.php:47
+#, fuzzy
+msgid ""
+"A user cancels a subscription to {{a product:%1$s}} {{a number of:%2$s}} "
+"times"
+msgstr ""
+"کاربر اشتراک در {{یک محصول:٪ 1 $ s}} {{تعداد:٪ 2 $ s}} بار را لغو می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptioncancelled.php:49
+#, fuzzy
+msgid "A user cancels a subscription to {{a product}}"
+msgstr "یک کاربر اشتراک در {{یک محصول}} را لغو می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptionexpired.php:47
+#, fuzzy
+msgid ""
+"A user's subscription to {{a product:%1$s}} expires {{a number of:%2$s}} "
+"times"
+msgstr ""
+"اشتراک کاربر در {{یک محصول:٪ 1 $ s}} منقضی می شود {{تعداد:٪ 2 $ s}} بار"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptionexpired.php:49
+#, fuzzy
+msgid "A user's subscription to {{a product}} expires"
+msgstr "اشتراک کاربر در {{یک محصول}} منقضی می شود"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptionrenewed.php:47
+#, fuzzy
+msgid ""
+"A user renews a subscription to {{a product:%1$s}} {{a number of:%2$s}} times"
+msgstr ""
+"کاربر اشتراک در {{یک محصول:٪ 1 $ s}} {{تعداد:٪ 2 $ s}} بار را تمدید می کند"
+
+#. translators: Logged-in trigger - WooCommerce
+#: src/integrations/woocommerce/triggers/wc-subscriptionrenewed.php:49
+#, fuzzy
+msgid "A user renews a subscription to {{a product}}"
+msgstr "یک کاربر اشتراک در {{یک محصول}} را تمدید می کند"
+
+#. translators: Action - WP Fusion
+#: src/integrations/wp-fusion/actions/wf-removeusertag.php:42
+#, fuzzy
+msgid "Remove {{a tag:%1$s}} from the user"
+msgstr "{{یک برچسب:٪ 1 $ s}} را از کاربر حذف کنید"
+
+#. translators: Action - WP Fusion
+#: src/integrations/wp-fusion/actions/wf-removeusertag.php:44
+#, fuzzy
+msgid "Remove {{a tag}} from the user"
+msgstr "{{یک برچسب}} را از کاربر حذف کنید"
+
+#: src/integrations/wp/actions/wp-createpost.php:44
+msgid "Type"
+msgstr "نوع"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-createpost.php:115
+#, fuzzy
+msgid "Create {{post:%1$s}}"
+msgstr "ایجاد {{پست:٪ 1 $ s}}"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-createpost.php:117
+#, fuzzy
+msgid "Create {{post}}"
+msgstr "ایجاد {{پست}}"
+
+#: src/integrations/wp/actions/wp-createpost.php:132
+#: src/integrations/wp/actions/wp-setpostmeta.php:91
+#: src/integrations/wp/actions/wp-setusermeta.php:56
+#: src/integrations/wp/actions/wp-updateuser.php:68
+msgid "Meta"
+msgstr "متا"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-removerole.php:50
+#, fuzzy
+msgid "Remove {{a role:%1$s}} from the user's roles"
+msgstr "{{یک نقش:٪ 1 $ s}} را از نقش های کاربر حذف کنید"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-removerole.php:52
+#, fuzzy
+msgid "Remove {{a role}} from the user"
+msgstr "{{یک نقش}} را از کاربر حذف کنید"
+
+#: src/integrations/wp/actions/wp-removerole.php:80
+#, fuzzy
+msgid "User did not have the specified (%1$s) role. No action taken."
+msgstr "کاربر نقش مشخص شده (٪ 1 $ s) را نداشت. اقدامی انجام نشده است"
+
+#: src/integrations/wp/actions/wp-removerole.php:87
+#, fuzzy
+msgid ""
+"Specified (%1$s) role could not be removed because it was the only role "
+"assigned to the user."
+msgstr ""
+"نقش مشخص شده (٪ 1 $ s) قابل حذف نیست زیرا این تنها نقشی بود که به کاربر "
+"اختصاص داده شده بود."
+
+#: src/integrations/wp/actions/wp-removerole.php:99
+#, fuzzy
+msgid ""
+"For security, the remove role action cannot be applied to Administrators."
+msgstr "برای امنیت ، عمل حذف نقش نمی تواند برای سرپرستان اعمال شود."
+
+#: src/integrations/wp/actions/wp-setpostmeta.php:44
+#: src/integrations/wp/triggers/wp-postupdated.php:65
+msgid "Post type"
+msgstr "نوع پست"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-setpostmeta.php:74
+#, fuzzy
+msgid "Set {{post meta:%1$s}}"
+msgstr "تنظیم {{پست متا:٪ 1 $ s}}"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-setpostmeta.php:76
+#, fuzzy
+msgid "Set {{post meta}}"
+msgstr "{{post meta}} را تنظیم کنید"
+
+#: src/integrations/wp/actions/wp-setpostmeta.php:84
+#: src/integrations/wp/triggers/wp-postupdated.php:76
+msgid "Post"
+msgstr "پست"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-setusermeta.php:43
+#, fuzzy
+msgid "Set {{user meta:%1$s}}"
+msgstr "تنظیم {{کاربر متا:٪ 1 $ s}}"
+
+#. translators: Action - WordPress Core
+#: src/integrations/wp/actions/wp-setusermeta.php:45
+#, fuzzy
+msgid "Set {{user meta}}"
+msgstr "تنظیم {{کاربر متا}}"
+
+#: src/integrations/wp/actions/wp-updateuser.php:41
+msgid "No change"
+msgstr "بدون تغییر"
+
+#. translators: Action - WordPress
+#: src/integrations/wp/actions/wp-updateuser.php:49
+#, fuzzy
+msgid "Update a user {{username:%1$s}}"
+msgstr "کاربر را به روز کنید {{نام کاربری:٪ 1 $ s}}"
+
+#. translators: Action - WordPress
+#: src/integrations/wp/actions/wp-updateuser.php:51
+#, fuzzy
+msgid "Update a {{user}}"
+msgstr "یک {{user}} را به روز کنید"
+
+#: src/integrations/wp/actions/wp-updateuser.php:58
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/integrations/wp/actions/wp-updateuser.php:60
+msgid "First name"
+msgstr "نام"
+
+#: src/integrations/wp/actions/wp-updateuser.php:61
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: src/integrations/wp/actions/wp-updateuser.php:62
+msgid "Website"
+msgstr "وب سایت"
+
+#: src/integrations/wp/actions/wp-updateuser.php:63
+msgid "Password"
+msgstr "رمز عبور"
+
+#. translators: Update a {{user}} - Error while updating a user
+#: src/integrations/wp/actions/wp-updateuser.php:118
+#, fuzzy
+msgid "Invalid username: %1$s"
+msgstr "نام کاربری نامعتبر:٪ 1 $ s"
+
+#. translators: Update a {{user}} - Error while updating a user
+#: src/integrations/wp/actions/wp-updateuser.php:123
+#, fuzzy
+msgid "Username already exists: %1$s"
+msgstr "نام کاربری از قبل وجود دارد:٪ 1 $ s"
+
+#. translators: Update a {{user}} - Error while updating a user
+#: src/integrations/wp/actions/wp-updateuser.php:135
+#, fuzzy
+msgid "Invalid email: %1$s"
+msgstr "ایمیل نامعتبر:٪ 1 $ s"
+
+#. translators: Update a {{user}} - Error while updating a user
+#: src/integrations/wp/actions/wp-updateuser.php:140
+#, fuzzy
+msgid "Email address already exists: %1$s"
+msgstr "آدرس ایمیل از قبل وجود دارد:٪ 1 $ s"
+
+#. translators: Update a {{user}} - Error while updating a user
+#: src/integrations/wp/actions/wp-updateuser.php:172
+#, fuzzy
+msgid "Failed to update a user"
+msgstr "کاربر به روزرسانی نشد"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:57
+msgid "Post types"
+msgstr "نوع پست"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:66
+#, fuzzy
+msgid "Any post type"
+msgstr "هر نوع پستی"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:115
+msgid "Post title"
+msgstr "عنوان پست"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:116
+msgid "Post ID"
+msgstr "شناسه پست"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:117
+msgid "Post URL"
+msgstr "آدرس نوشته"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:144
+#, fuzzy
+msgid "Any Post"
+msgstr "هر پستی"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:149
+msgctxt "WordPress post type"
+msgid "Any %s"
+msgstr "هر %s"
+
+#: src/integrations/wp/helpers/wp-pro-helpers.php:153
+#, fuzzy
+msgid "ID: %1$s (no title)"
+msgstr "شناسه:٪ 1 $ s (بدون عنوان)"
+
+#. translators: Token name
+#: src/integrations/wp/tokens/wp-auto-login-link.php:50
+#, fuzzy
+msgctxt "Token"
+msgid "Automatic login link"
+msgstr "پیوند ورود خودکار"
+
+#: src/integrations/wp/tokens/wp-auto-login-link.php:166
+#, fuzzy
+msgid "The auto login link is incorrect."
+msgstr "پیوند ورود خودکار نادرست است."
+
+#: src/integrations/wp/tokens/wp-auto-login-link.php:175
+#, fuzzy
+msgid "The auto login link has expired."
+msgstr "پیوند ورود خودکار منقضی شده است."
+
+#: src/integrations/wp/tokens/wp-auto-login-link.php:187
+#, fuzzy
+msgid "The user you tried to login as does not exist."
+msgstr "کاربری که سعی کرده اید به سیستم وارد شوید زیرا وجود ندارد."
+
+#. translators: Logged-in trigger - WordPress Core
+#: src/integrations/wp/triggers/wp-postupdated.php:54
+#, fuzzy
+msgid "{{a post:%2$s}} is updated"
+msgstr "{{یک پست:٪ 2 $ s}} به روز شده است"
+
+#. translators: Logged-in trigger - WordPress Core
+#: src/integrations/wp/triggers/wp-postupdated.php:57
+#, fuzzy
+msgid "{{A post}} is updated"
+msgstr "{{یک پست}} به روز می شود"
+
+#. translators: Logged-in trigger - WordPress Core
+#: src/integrations/wp/triggers/wp-resetpassword.php:42
+#: src/integrations/wp/triggers/wp-resetpassword.php:44
+#, fuzzy
+msgid "A user resets their password"
+msgstr "کاربر رمزعبور خود را بازنشانی می کند"
+
+#. translators: Logged-in trigger - WordPress Core
+#: src/integrations/wp/triggers/wp-usercreated.php:43
+#: src/integrations/wp/triggers/wp-usercreated.php:45
+#, fuzzy
+msgid "A user is created"
+msgstr "یک کاربر ایجاد می شود"
+
+#. translators: Anonymous trigger - WP Zapier
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:76
+#, fuzzy
+msgid "Receive data from Zapier {{webhook:%1$s}}"
+msgstr "دریافت اطلاعات از Zapier {{webhook:٪ 1 $ s}}"
+
+#. translators: Anonymous trigger - WP Zapier
+#: src/integrations/zapier/triggers/anon-zapierwebhooks.php:78
+#, fuzzy
+msgid "Receive data from Zapier {{webhook}}"
+msgstr "دریافت اطلاعات از Zapier {{webhook}}"
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:150
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:217
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:149
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:215
+#, fuzzy
+msgid "Zoom user not found."
+msgstr "کاربر بزرگنمایی نشد."
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:165
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:225
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:163
+#, fuzzy
+msgid "Zoom credentials has expired."
+msgstr "اعتبار زوم منقضی شده است."
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:202
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:273
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:200
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:271
+#, fuzzy
+msgid "The Zoom API returned an error."
+msgstr "Zoom API خطایی را بازگرداند."
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:233
+#, fuzzy
+msgid "User was not registered for Zoom Webinar."
+msgstr "کاربر در Zoom Webinar ثبت نشده است."
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:285
+#, fuzzy
+msgid "Zoom Webinar"
+msgstr "بزرگنمایی وبینار"
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:286
+#, fuzzy
+msgid "Zoom Webinar API settings"
+msgstr "بزرگنمایی تنظیمات API Webinar"
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:287
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:285
+#, fuzzy
+msgid ""
+"<p>Connecting to Zoom requires setting up an application and getting 2 "
+"values from inside your account. It's really easy, we promise! Visit <a href="
+"\"https://automatorplugin.com/knowledge-base/zoom/\" target=\"_blank"
+"\">https://automatorplugin.com/knowledge-base/zoom/</a> for simple "
+"instructions.</p> <p>When you are asked to enter a \"Redirect URL for OAuth"
+"\", use this: "
+msgstr ""
+"<p style=\";text-align:right;direction:rtl\"> اتصال به بزرگنمایی نیاز به راه "
+"اندازی برنامه و دریافت 2 مقدار از داخل حساب شما دارد. واقعاً آسان است ، ما "
+"قول می دهیم! برای دستورالعمل های ساده به <a href=\"https://automatorplugin."
+"com/knowledge-base/zoom/\" target=\"_blank\">https://automatorplugin.com/ "
+"Knowledge-base/zoom/</a> مراجعه <a href=\"https://automatorplugin.com/"
+"knowledge-base/zoom/\" target=\"_blank\">کنید</a> . </p><p style=\";text-"
+"align:right;direction:rtl\"> هنگامی که از شما خواسته می شود \"Redirect URL "
+"for OAuth\" را وارد کنید ، از این استفاده کنید:"
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:296
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:294
+msgid "Client ID:"
+msgstr "شناسه مشتری:"
+
+#: src/integrations/zoom-webinar/helpers/zoom-webinar-pro-helpers.php:305
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:303
+msgid "Client secret:"
+msgstr "کلید مشتری :"
+
+#: src/integrations/zoom/actions/zoom-registeruser.php:42
+#, fuzzy
+msgid "Add the user to {{a meeting:%1$s}}"
+msgstr "کاربر را به {{جلسه:٪ 1 $ s}} اضافه کنید"
+
+#: src/integrations/zoom/actions/zoom-registeruser.php:43
+#, fuzzy
+msgid "Add the user to {{a meeting}}"
+msgstr "کاربر را به {{یک جلسه}} اضافه کنید"
+
+#: src/integrations/zoom/actions/zoom-registeruser.php:76
+#: src/integrations/zoom/actions/zoom-unregisteruser.php:76
+#, fuzzy
+msgid "Meeting not found."
+msgstr "جلسه یافت نشد"
+
+#: src/integrations/zoom/actions/zoom-unregisteruser.php:42
+#, fuzzy
+msgid "Remove the user from {{a meeting:%1$s}}"
+msgstr "حذف کاربر از {{جلسه:٪ 1 $ s}}"
+
+#: src/integrations/zoom/actions/zoom-unregisteruser.php:43
+#, fuzzy
+msgid "Remove the user from {{a meeting}}"
+msgstr "حذف کاربر از {{یک جلسه}}"
+
+#: src/integrations/zoom/actions/zoom-unregisteruser.php:91
+#, fuzzy
+msgid "User was not registered for meeting."
+msgstr "کاربر برای جلسه ثبت نام نکرده است."
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:81
+msgid "Meeting"
+msgstr "ملاقات"
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:87
+#, fuzzy
+msgid "Any Meeting"
+msgstr "هر جلسه ای"
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:223
+#, fuzzy
+msgid "Zoom credentails has expired."
+msgstr "اعتبار نامه اعتبار زوم منقضی شده است."
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:231
+#, fuzzy
+msgid "User was not registered for Zoom Meeting."
+msgstr "کاربر در جلسه بزرگنمایی ثبت نشده است."
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:283
+msgid "Zoom Meeting"
+msgstr "جلسه زوم"
+
+#: src/integrations/zoom/helpers/zoom-pro-helpers.php:284
+#, fuzzy
+msgid "Zoom Meeting API settings"
+msgstr "تنظیمات API Zoom Meeting"

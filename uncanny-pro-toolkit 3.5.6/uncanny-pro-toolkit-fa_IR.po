@@ -1,0 +1,3225 @@
+# Copyright (C) 2020 Uncanny Owl
+# This file is distributed under the same license as the Uncanny Toolkit Pro for LearnDash plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncanny Toolkit Pro for LearnDash 3.5.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uncanny-toolkit-"
+"pro\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-09-21 08:25+0200\n"
+"PO-Revision-Date: 2020-09-21 08:26+0200\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: uncanny-pro-toolkit\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa_IR\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+msgid "Uncanny Toolkit Pro for LearnDash"
+msgstr "Uncanny Toolkit Pro برای LearnDash"
+
+#. Plugin URI of the plugin
+#, fuzzy
+msgid "https://www.uncannyowl.com/downloads/uncanny-learndash-toolkit-pro/"
+msgstr "https://www.uncannyowl.com/downloads/uncanny-learndash-toolkit-pro/"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"This plugin adds the Pro suite of modules to the Uncanny Toolkit for "
+"LearnDash."
+msgstr ""
+"این افزونه مجموعه ماژول های Pro را به جعبه ابزار Uncanny برای LearnDash "
+"اضافه می کند."
+
+#. Author of the plugin
+#: src/templates/admin-import-user/admin-import-users.php:59
+#: src/blocks/src/toolkit-course-expiry/block.js:29
+#: src/blocks/src/toolkit-course-grid/block.js:30
+#: src/blocks/src/toolkit-learndash-transcript/block.js:31
+#: src/blocks/src/toolkit-lesson-grid/block.js:31
+#: src/blocks/src/toolkit-my-courses/block.js:30
+#: src/blocks/src/toolkit-reset-button/block.js:30
+#: src/blocks/src/toolkit-uo-time-completed/block.js:31
+#: src/blocks/src/toolkit-uo-time/block.js:31
+msgid "Uncanny Owl"
+msgstr "Uncanny Owl"
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "https://www.uncannyowl.com/"
+msgstr "https://www.uncannyowl.com/"
+
+#: src/blocks/blocks.php:169
+#, fuzzy
+msgid "Uncanny Toolkit for LearnDash"
+msgstr "جعبه ابزار Uncanny برای LearnDash"
+
+#: src/blocks/src/toolkit-course-expiry/block.php:12
+#: src/blocks/src/toolkit-course-expiry/block.js:39
+msgid "Course Access Expires in"
+msgstr "تاریخ انقضای دسترسی"
+
+#: src/blocks/src/toolkit-course-grid/block.php:111
+#: src/classes/lesson-topic-grid.php:294 src/classes/show-all-courses.php:264
+msgid "View more"
+msgstr "مشاهده بیشتر"
+
+#: src/blocks/src/toolkit-course-grid/block.php:115
+#: src/classes/lesson-topic-grid.php:296 src/classes/show-all-courses.php:266
+msgid "View less"
+msgstr "نمایش کمتر"
+
+#: src/boot.php:23
+#, fuzzy
+msgid ""
+"Please contact your hosting company to update to php version 5.3+ and enable "
+"spl extensions."
+msgstr ""
+"لطفاً برای به روزرسانی در نسخه php نسخه 5.3+ و فعال کردن برنامه های افزودنی "
+"spl با شرکت میزبان خود تماس بگیرید."
+
+#: src/boot.php:196 src/templates/admin-import-user/admin-import-users.php:56
+msgid "by"
+msgstr "توسط"
+
+#: src/boot.php:208
+msgid "Modules"
+msgstr "ماژول ها"
+
+#: src/boot.php:210
+msgid "Help"
+msgstr "کمک"
+
+#: src/boot.php:212
+msgid "LearnDash Plugins"
+msgstr "لرن دش"
+
+#: src/boot.php:214
+msgid "License Activation"
+msgstr "فعال سازی مجوز"
+
+#: src/boot.php:259
+msgid "Your License is Active!"
+msgstr "لایسنس شما با موفقیت فعال شد."
+
+#: src/boot.php:261
+msgid "Your License is Not Active!"
+msgstr "مجوز شما فعال نیست!"
+
+#: src/boot.php:276
+#, fuzzy
+msgid "Please enter a valid license code and click \"Activate now\"."
+msgstr "لطفاً یک کد مجوز معتبر وارد کنید و \"اکنون فعال شود\" را کلیک کنید."
+
+#: src/boot.php:281
+#, fuzzy
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid ""
+"Your license has expired. Please %s to get instant access to updates and "
+"support."
+msgstr ""
+"پروانه شما منقضی شده است. لطفاً٪ s را برای دسترسی سریع به به روزرسانی ها و "
+"پشتیبانی دریافت کنید."
+
+#: src/boot.php:289 src/boot.php:305
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid "renew your license"
+msgstr ""
+"شماره سریال شما به پایان رسیده است لطفا٪ 1 $ s مجوز مجوز٪ 2 $ s را امتحان "
+"کنید."
+
+#: src/boot.php:299
+#, fuzzy
+msgctxt ""
+"Your license has disabled. Please renew your license to get instant access "
+"to updates and support."
+msgid ""
+"Your license is disabled. Please %s to get instant access to updates and "
+"support."
+msgstr ""
+"مجوز شما غیرفعال است لطفاً٪ s را برای دسترسی سریع به به روزرسانی ها و "
+"پشتیبانی دریافت کنید."
+
+#: src/boot.php:314
+msgid "The license code you entered is invalid."
+msgstr "کد امنیتی نامعتبر است."
+
+#: src/boot.php:328 src/boot.php:335
+#, fuzzy
+msgid "Enter your Uncanny Toolkit Pro for LearnDash license key"
+msgstr "کلید مجوز Uncanny Toolkit Pro خود را برای LearnDash وارد کنید"
+
+#: src/boot.php:348 src/boot.php:400
+msgid "Deactivate License"
+msgstr "غیرفعال کردن مجوز"
+
+#: src/boot.php:355 src/boot.php:407
+msgid "Activate now"
+msgstr "هم اکنون فعال کن"
+
+#: src/boot.php:360 src/boot.php:412
+msgid "Buy license"
+msgstr "خرید لایسنس"
+
+#: src/boot.php:370
+msgid "Need help?"
+msgstr "کمک خواستن؟"
+
+#: src/boot.php:377
+msgid "Where to get my license key"
+msgstr "کلید مجوز خود را دریافت کنید"
+
+#: src/boot.php:382
+msgid "Buy a new license"
+msgstr "خرید لاینسس جدید"
+
+#: src/boot.php:387
+msgid "Knowledge Base"
+msgstr "دانش محور"
+
+#: src/boot.php:450 src/includes/learndash-bbpress.php:126
+msgid "All"
+msgstr "همه"
+
+#: src/boot.php:495
+msgid "Hide forever"
+msgstr "مخفی برای همیشه"
+
+#: src/classes/bbpress-learndash-groups-access.php:68
+#, fuzzy
+msgid "Group Forums with bbPress"
+msgstr "انجمن های گروهی با bbPress"
+
+#: src/classes/bbpress-learndash-groups-access.php:75
+#, fuzzy
+msgid ""
+"Create group-specific discussion forums with bbPress.  Only group members "
+"will have access to group-specific forums.  Includes a handy widget."
+msgstr ""
+"با bbPress انجمن های گفتگوی خاص گروه ایجاد کنید. فقط اعضای گروه به انجمن های "
+"خاص گروه دسترسی خواهند داشت. شامل یک ابزارک مفید است."
+
+#: src/classes/certificate-preview.php:66
+#: src/classes/certificate-preview.php:99
+#: src/classes/certificate-preview.php:117
+#: src/classes/certificate-preview.php:151
+#: src/includes/tcpdf-certificate-code.php:1273
+msgid "Certificate Preview"
+msgstr "پیش‌نمایش"
+
+#: src/classes/certificate-preview.php:72
+#, fuzzy
+msgid ""
+"Get a preview of your quiz or course certificate without leaving the editor."
+msgstr "بدون ترک ویرایشگر ، پیش نمایش آزمون یا گواهی دوره خود را دریافت کنید."
+
+#: src/classes/certificate-preview.php:113
+#, fuzzy
+msgid "Save or Update Certificate before previewing."
+msgstr "قبل از پیش نمایش ، گواهی را ذخیره یا به روز کنید."
+
+#: src/classes/certificate-preview.php:119
+#, fuzzy
+msgid ""
+"Note: Learndash shortcodes will be replaced with static preview values. Non-"
+"LearnDash shortcodes are not supported."
+msgstr ""
+"توجه: کد کوتاه Learndash با مقادیر پیش نمایش استاتیک جایگزین خواهد شد. کد "
+"کوتاه Non-LearnDash پشتیبانی نمی شود."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:96
+msgid "Duplicate Pages & Posts"
+msgstr ""
+"هنگام تکرار محتوا، ابتدا صفحات پدر و مادر را برای حفظ سلسله مراتب سایت "
+"تکراری کنید."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:101
+#, fuzzy
+msgid ""
+"Easily clone pages, posts, LearnDash courses, lessons, topics, quizzes and "
+"more. This plugin handles quiz duplication properly."
+msgstr ""
+"صفحات ، پست ها ، دوره های LearnDash ، درس ها ، موضوعات ، آزمونها و موارد "
+"دیگر را به راحتی کلون کنید. این افزونه به درستی تکثیر مسابقه را مدیریت می "
+"کند."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:149
+#, fuzzy
+msgid "Enable duplication on:"
+msgstr "فعال کردن تکثیر در:"
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:166
+#, fuzzy
+msgid "Note: Duplication may not work correctly with some post types."
+msgstr "توجه: ممکن است تکثیر با بعضی از انواع پست به درستی کار نکند."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:248
+#: src/classes/clone-posts-pages-learn-dash-contents.php:249
+msgid "Clone this %s"
+msgstr "کپی این %s"
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:262
+#: src/classes/clone-posts-pages-learn-dash-contents.php:472
+msgid "No quiz to duplicate has been supplied!"
+msgstr "هیچ نشانی برای کپی عرضه نشده است."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:277
+#: src/classes/clone-posts-pages-learn-dash-contents.php:490
+msgid "Copy creation failed, could not find original:"
+msgstr "ایجاد کوپن ناموفق بود، شما نمی‌توانید محصول اصلی را پیدا کنید: %d"
+
+#: src/classes/course-access-expiry.php:58
+#: src/blocks/src/toolkit-course-expiry/block.js:20
+#: src/blocks/src/toolkit-course-expiry/block.js:51
+msgid "Days Until Course Expiry"
+msgstr "روزهای انقضای دانلود"
+
+#: src/classes/course-access-expiry.php:63
+#, fuzzy
+msgid ""
+"Use this shortcode to display the number of days until the learner's access "
+"expires for the current course. This is a useful shortcode to include on "
+"course pages."
+msgstr ""
+"از این کد کوتاه برای نمایش تعداد روزهای منقضی شدن دسترسی زبان آموز برای دوره "
+"فعلی استفاده کنید. این کد کوتاه مفیدی است که باید در صفحات دوره گنجانده شود."
+
+#: src/classes/course-access-expiry.php:103
+#, fuzzy
+msgid "Text displayed when one day remaining"
+msgstr "متن در صورت باقی مانده یک روز نمایش داده می شود"
+
+#: src/classes/course-access-expiry.php:104
+#: src/classes/course-access-expiry.php:135
+#, fuzzy
+msgid "Course Access Expires in 1 Day"
+msgstr "دسترسی به دوره در 1 روز منقضی می شود"
+
+#: src/classes/course-access-expiry.php:109
+#, fuzzy
+msgid "Text displayed when multiple days remaining"
+msgstr "متن در صورت باقی ماندن چند روز نمایش داده می شود"
+
+#: src/classes/course-access-expiry.php:110
+#: src/classes/course-access-expiry.php:136
+msgid "Course Access Expires in %s Days"
+msgstr "Course Access Expires in %s Days"
+
+#: src/classes/course-access-expiry.php:111
+#, fuzzy
+msgid "You can use the %s argument in your string to get the number of days"
+msgstr ""
+"برای بدست آوردن تعداد روز می توانید از آرگومان٪ s در رشته خود استفاده کنید"
+
+#: src/classes/course-access-expiry.php:156
+msgid "1 Day"
+msgstr "1 روز"
+
+#: src/classes/course-access-expiry.php:157
+msgid "Days"
+msgstr "روز"
+
+#: src/classes/course-completion-certificate.php:86
+msgid "Email Course Certificates"
+msgstr "گواهینامه ها"
+
+#: src/classes/course-completion-certificate.php:92
+#, fuzzy
+msgid ""
+"Sends a copy of certificate earned from course completion and saves "
+"certificates on the server."
+msgstr ""
+"یک نسخه از گواهی کسب شده از اتمام دوره را ارسال می کند و گواهی ها را در سرور "
+"ذخیره می کند."
+
+#: src/classes/course-completion-certificate.php:129
+#: src/classes/generate-p-d-f-email.php:466
+msgid "Use Cron to send certificate"
+msgstr "با استفاده از cron واقعی ارسال خبرنامه"
+
+#: src/classes/course-completion-certificate.php:134
+#: src/classes/generate-p-d-f-email.php:477
+msgid "Do not store certificates on server"
+msgstr "استفاده از گواهی‌نامه SSL"
+
+#: src/classes/course-completion-certificate.php:143
+#: src/classes/generate-p-d-f-email.php:486
+msgid "Send Certificate to Site Admin?"
+msgstr "ارسال اطلاعات به محیط مدیریت"
+
+#: src/classes/course-completion-certificate.php:148
+#: src/classes/generate-p-d-f-email.php:491
+msgid "Send Certificate to Group Leader(s)?"
+msgstr "رهبر گروه"
+
+#: src/classes/course-completion-certificate.php:154
+#: src/classes/generate-p-d-f-email.php:500
+msgid "From Name"
+msgstr "از نام"
+
+#: src/classes/course-completion-certificate.php:160
+#: src/classes/generate-p-d-f-email.php:505
+msgid "From Email"
+msgstr "از ایمیل"
+
+#: src/classes/course-completion-certificate.php:166
+#: src/classes/generate-p-d-f-email.php:511
+msgid "CC Certificate To (comma separated)"
+msgstr "شناسه پست را با کاما جدا کنید"
+
+#: src/classes/course-completion-certificate.php:172
+msgid "User Email Subject"
+msgstr "موضوع ایمیل کاربر"
+
+#: src/classes/course-completion-certificate.php:178
+#: src/classes/generate-p-d-f-email.php:517
+msgid "Admin/Group Leader Email Subject"
+msgstr "موضوع ایمیل مدیر را ببینید."
+
+#: src/classes/course-completion-certificate.php:184
+msgid "Email Body"
+msgstr "بدنه ایمیل"
+
+#: src/classes/course-completion-certificate.php:190
+#, fuzzy
+msgid "Email Body &mdash; Admin/Group Leader"
+msgstr "بدنه ایمیل - مدیر / سرپرست گروه"
+
+#: src/classes/course-timer.php:407
+msgid "Simple Course Timer"
+msgstr "ارسال خودکار تایمر"
+
+#: src/classes/course-timer.php:412
+#, fuzzy
+msgid ""
+"Tracks time spent in all LearnDash courses and detects when a user is idle. "
+"Course completion time and total course time are both added to LearnDash "
+"reports. Enables blocking access to quizzes until minimum time spent in "
+"course."
+msgstr ""
+"زمان صرف شده در همه دوره های LearnDash را دنبال می کند و بیکار بودن کاربر را "
+"تشخیص می دهد. زمان اتمام دوره و زمان کل دوره هر دو به گزارش های LearnDash "
+"اضافه می شوند. دسترسی به آزمونها را تا حداقل زمان صرف شده در دوره فعال می "
+"کند."
+
+#: src/classes/course-timer.php:461 src/classes/learn-dash-transcript.php:115
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:116
+#: src/classes/lesson-topic-auto-complete-on-quiz-graded.php:119
+#: src/classes/lesson-topic-auto-complete.php:223 src/classes/sample.php:129
+msgid "Select a Page"
+msgstr "یک صفحه را انتخاب کنید"
+
+#: src/classes/course-timer.php:466 src/classes/learn-dash-transcript.php:120
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:121
+#: src/classes/lesson-topic-auto-complete-on-quiz-graded.php:124
+#: src/classes/lesson-topic-auto-complete.php:228 src/classes/sample.php:134
+msgid "(no title)"
+msgstr "(بدون عنوان)"
+
+#: src/classes/course-timer.php:477
+#, fuzzy
+msgid "Idle Time (in seconds)"
+msgstr "زمان بیکار (در چند ثانیه)"
+
+#: src/classes/course-timer.php:482
+#, fuzzy
+msgid "Idle Message"
+msgstr "پیام بیکار"
+
+#: src/classes/course-timer.php:487
+#, fuzzy
+msgid "Active Button Label"
+msgstr "برچسب دکمه فعال"
+
+#: src/classes/course-timer.php:492
+#, fuzzy
+msgid "Inactive Button Label"
+msgstr "برچسب دکمه غیرفعال"
+
+#: src/classes/course-timer.php:497
+#, fuzzy
+msgid "Inactive Redirect"
+msgstr "تغییر مسیر غیر فعال"
+
+#: src/classes/course-timer.php:503
+#, fuzzy
+msgid "Enable Quizzes after X time"
+msgstr "آزمونها را بعد از X زمان فعال کنید"
+
+#: src/classes/course-timer.php:510
+#, fuzzy
+msgid ""
+"Enable minimum course time before learners can attempt quizzes. Minimum "
+"course time value is set in quizzes."
+msgstr ""
+"حداقل زمان دوره را فعال کنید تا فراگیران بتوانند آزمونها را امتحان کنند. "
+"حداقل زمان دوره در آزمونها تعیین می شود."
+
+#: src/classes/course-timer.php:515
+#, fuzzy
+msgid "Timer Polling Interval(in seconds)"
+msgstr "فاصله سنجی تایمر (در چند ثانیه)"
+
+#: src/classes/course-timer.php:522
+#, fuzzy
+msgid ""
+"Minimum polling interval is 5 seconds. Default polling interval is 15 "
+"seconds."
+msgstr "حداقل فاصله نظرسنجی 5 ثانیه است. فاصله پیش فرض نظرسنجی 15 ثانیه است."
+
+#: src/classes/course-timer.php:527
+#, fuzzy
+msgid "Disable Performance Mode"
+msgstr "حالت عملکرد را غیرفعال کنید"
+
+#: src/classes/course-timer.php:534
+#, fuzzy
+msgid ""
+"Performance Mode uses a simplified REST API call that reduces load on the "
+"server."
+msgstr ""
+"حالت عملکرد از یک تماس REST API ساده شده استفاده می کند که بار در سرور را "
+"کاهش می دهد."
+
+#: src/classes/course-timer.php:539
+msgid "Enable Debug Mode"
+msgstr "فعال کردن حالت اشکال زدایی"
+
+#: src/classes/course-timer.php:577
+#, fuzzy
+msgid "Idle time (seconds)"
+msgstr "زمان بیکار (ثانیه)"
+
+#: src/classes/course-timer.php:579 src/classes/course-timer.php:1385
+#, fuzzy
+msgid ""
+"Set the time in seconds until a user is flagged as inactive for time "
+"tracking purposes"
+msgstr ""
+"زمان را در چند ثانیه تنظیم کنید تا زمانی که کاربر برای اهداف ردیابی زمان "
+"غیرفعال نشان داده شود"
+
+#: src/classes/course-timer.php:611 src/classes/course-timer.php:1474
+msgid "Minimum Course Time (in minutes)"
+msgstr "دستور العمل - کل زمان"
+
+#: src/classes/course-timer.php:613 src/classes/course-timer.php:1476
+#, fuzzy
+msgid ""
+"Only allow access to the quiz when the user's time spent in the course "
+"EQUALS OR EXCEEDS this value in minutes."
+msgstr ""
+"فقط زمانی اجازه دسترسی به مسابقه را می دهید که زمان کاربر در این دوره صرف "
+"شده باشد یا این مقدار را در عرض چند دقیقه بیشتر کند."
+
+#: src/classes/course-timer.php:678
+#, fuzzy
+msgid ""
+"You must spend %1$s minutes in the course before you can attempt the quiz. "
+"You have currently spent %2$s minutes. Please go back and review course "
+"material before attempting the quiz."
+msgstr ""
+"قبل از اینکه امتحان را امتحان کنید باید٪ 1 $ s دقیقه را در این دوره صرف "
+"کنید. شما در حال حاضر٪ 2 $ s دقیقه صرف کرده اید. لطفاً قبل از شروع به "
+"مسابقه ، برگردید و مطالب دوره را مرور کنید."
+
+#: src/classes/course-timer.php:679
+msgid "Return to %s"
+msgstr "بازگشت به %s"
+
+#: src/classes/course-timer.php:763
+#, fuzzy
+msgid "Still here"
+msgstr "هنوز اینجا"
+
+#: src/classes/course-timer.php:770
+#, fuzzy
+msgid "I'm done"
+msgstr "من تمام شدم"
+
+#: src/classes/course-timer.php:777
+#, fuzzy
+msgid "Are you still working on this section?"
+msgstr "آیا هنوز روی این بخش کار می کنید؟"
+
+#: src/classes/course-timer.php:914 src/classes/course-timer.php:916
+#, fuzzy
+msgid "Avg Time To Complete"
+msgstr "زمان کامل برای تکمیل"
+
+#: src/classes/course-timer.php:915
+msgid "Avg Time Spent"
+msgstr "زمان صرف شده"
+
+#: src/classes/course-timer.php:917
+#, fuzzy
+msgid "Time To Complete"
+msgstr "زمان برای تکمیل"
+
+#: src/classes/course-timer.php:918
+msgid "Time Spent"
+msgstr "زمان صرف شده"
+
+#: src/classes/course-timer.php:977
+#, fuzzy
+msgid "You are not allowed to use this resource."
+msgstr "شما مجاز به استفاده از این منبع نیستید."
+
+#: src/classes/course-timer.php:1003
+#, fuzzy
+msgid "One or more the the fields did not validate as a absolute integer"
+msgstr "یک یا چند فیلد به عنوان یک عدد صحیح مطلق معتبر نیستند"
+
+#: src/classes/course-timer.php:1383
+msgid "Idle Time(seconds)"
+msgstr "تعیین زمان شروع (به چند ثانیه)"
+
+#: src/classes/enhanced-learndash-report.php:67
+#, fuzzy
+msgid "Enhanced LearnDash CSV Reports"
+msgstr "گزارش های پیشرفته LearnDash CSV"
+
+#: src/classes/enhanced-learndash-report.php:72
+#, fuzzy
+msgid ""
+"This module will add additional columns to the LearnDash csv reports (course "
+"and quiz)."
+msgstr ""
+"این ماژول ستون های اضافی را به گزارش های csv LearnDash (دوره و آزمون) اضافه "
+"می کند."
+
+#: src/classes/enhanced-learndash-report.php:108
+msgid "Select Columns"
+msgstr "انتخاب ستون ها"
+
+#: src/classes/enhanced-learndash-report.php:113
+#: src/templates/group-registration-form.php:30
+#: src/templates/group-registration-form.php:34
+#: src/templates/groups-login-form.php:14
+#: src/templates/groups-login-form.php:15
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/classes/enhanced-learndash-report.php:119
+#: src/templates/group-registration-form.php:6
+#: src/templates/group-registration-form.php:10
+msgid "First Name"
+msgstr "نام"
+
+#: src/classes/enhanced-learndash-report.php:125
+#: src/templates/group-registration-form.php:18
+#: src/templates/group-registration-form.php:22
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: src/classes/enhanced-learndash-report.php:131
+msgid "Nickname"
+msgstr "نام مستعار"
+
+#: src/classes/enhanced-learndash-report.php:137
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: src/classes/enhanced-learndash-report.php:143
+#, fuzzy
+msgid "Role(s) (comma separated list of readable role names)"
+msgstr "نقش (ها) (لیست نام های قابل خواندن با ویرگول از هم جدا شده)"
+
+#: src/classes/enhanced-learndash-report.php:149
+#, fuzzy
+msgid "Group(s) (comma separate list of readable group names)"
+msgstr "گروه (ها) (لیست جدا شده با ویرگول از نام گروه های قابل خواندن)"
+
+#: src/classes/enhanced-learndash-report.php:155
+msgid "Language"
+msgstr "زبان"
+
+#: src/classes/enhanced-learndash-report.php:161
+msgid "Website"
+msgstr "وب سایت"
+
+#: src/classes/enhanced-learndash-report.php:167
+msgid "Biographical info"
+msgstr "اطلاعات بیوگرافی"
+
+#: src/classes/generate-p-d-f-email.php:110
+msgid "Your certificate is attached with this email."
+msgstr "اولین گواهی خود را اضافه کنید"
+
+#: src/classes/generate-p-d-f-email.php:425
+msgid "Email Quiz Certificates"
+msgstr "گواهینامه ها"
+
+#: src/classes/generate-p-d-f-email.php:430
+#, fuzzy
+msgid ""
+"Sends a copy of certificates earned from quiz completion and saves "
+"certificates on the server."
+msgstr ""
+"یک نسخه از گواهی های به دست آمده از اتمام مسابقه را می فرستد و گواهی ها را "
+"در سرور ذخیره می کند."
+
+#: src/classes/generate-p-d-f-email.php:523
+msgid "Admin/Group Leader Email Body"
+msgstr "متن ایمیل برای مدیر"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:82
+#, fuzzy
+msgid "Autocomplete Lessons & Topics on Gravity Form Submission"
+msgstr "دروس و مباحث تکمیل خودکار ارسال فرم جاذبه"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:87
+#, fuzzy
+msgid ""
+"Automatically mark LearnDash lessons and topics as completed when the user "
+"submits Gravity Forms."
+msgstr ""
+"وقتی کاربر فرم های جاذبه را ارسال می کند ، به طور خودکار دروس و مباحث "
+"LearnDash را علامت گذاری کنید."
+
+#: src/classes/gf-lesson-topic-auto-complete.php:124
+#, fuzzy
+msgid "Hide the Mark Complete button if the user has a previous entry"
+msgstr "اگر کاربر ورودی قبلی را دارد ، دکمه Mark Complete را مخفی کنید"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:185
+msgid "Mark Lesson / Topic complete"
+msgstr "علامت گذاری دکمه کامل"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:185
+#, fuzzy
+msgid ""
+"When enabled, Autocomplete Pro Module will attempt to mark lesson or topic "
+"complete if this form is the last thing in it. It will also attempt to "
+"remove Mark Complete button."
+msgstr ""
+"در صورت فعال بودن ، Autocomplete Pro Module تلاش می کند اگر این فرم آخرین "
+"مورد موجود در آن باشد ، درس یا موضوع را کامل علامت گذاری کند. همچنین سعی می "
+"شود دکمه Mark Complete را بردارید."
+
+#: src/classes/group-leader-access.php:73
+msgid "Improved Group Leader Interface"
+msgstr "آی دی گروه برای ثبت نام سرپرست گروه ها در آن."
+
+#: src/classes/group-leader-access.php:78
+#, fuzzy
+msgid ""
+"Enhances the experience of LearnDash Group Leaders by providing direct "
+"access to reports and removing unnecessary distractions from the admin panel."
+msgstr ""
+"با دسترسی مستقیم به گزارش ها و از بین بردن عوامل حواس پرتی غیرمجاز از صفحه "
+"مدیریت ، تجربه رهبران گروه LearnDash را افزایش می دهد."
+
+#: src/classes/group-leader-access.php:119
+msgid "Courses"
+msgstr "دوره ها"
+
+#: src/classes/group-leader-access.php:129
+#, fuzzy
+msgid "Select \"View %s\" Page"
+msgstr "صفحه \"مشاهده٪ s\" را انتخاب کنید"
+
+#: src/classes/group-leader-access.php:135
+msgid "Redirect group leaders"
+msgstr "جستجو بین مدیر گروه ها ؛ تایپ کنید."
+
+#: src/classes/group-leader-access.php:141
+msgid "Redirect URL"
+msgstr "آدرس تغییر مسیر"
+
+#: src/classes/group-leader-access.php:147
+msgid "Redirect Priority"
+msgstr ""
+"تغییر مسیر فردی که در کد کوتاه تعریف شده است؛ <strong> پارامتر <em> "
+"redirect_priority = \"top\" </ em> </ strong> را می توان در هر کد کوتاه "
+"اضافه کرد، سپس این تغییر مسیر کوتاه تر نسبت به سایر هدایت های دیگر اولویت "
+"دارد."
+
+#: src/classes/group-leader-access.php:205
+msgid "View Reports"
+msgstr "مشاهده گزارش ها"
+
+#: src/classes/group-leader-access.php:222
+#: src/classes/group-leader-access.php:249
+#: src/classes/group-leader-access.php:250
+msgid "View %s"
+msgstr "نمایش %s"
+
+#: src/classes/group-login-redirect.php:169
+#: src/classes/group-login-redirect.php:224
+msgid "Group Login Redirect"
+msgstr "تغییر مسیر ورود"
+
+#: src/classes/group-login-redirect.php:174
+#, fuzzy
+msgid ""
+"Adds a group-specific login redirect setting to LearnDash groups. "
+"Automatically redirect group members to a specific page on login."
+msgstr ""
+"تنظیمات تغییر مسیر ورود به سیستم برای گروههای خاص را به گروه های LearnDash "
+"اضافه می کند. اعضای گروه را به صورت خودکار هنگام ورود به صفحه خاصی هدایت "
+"کنید."
+
+#: src/classes/group-login-redirect.php:254
+#: src/classes/group-login-redirect.php:272
+msgid "Click for Help!"
+msgstr "برای راهنمایی کلیک کنید!"
+
+#: src/classes/group-login-redirect.php:257
+msgid "Redirect members on login"
+msgstr "تغییر مسیر ورود"
+
+#: src/classes/group-login-redirect.php:263
+#, fuzzy
+msgid ""
+"Specify the URL (relative or absolute) that members will be redirected to "
+"upon log in."
+msgstr "URL (نسبی یا مطلق) را مشخص کنید که اعضا با ورود به آن هدایت می شوند."
+
+#: src/classes/group-login-redirect.php:275
+msgid "Redirect priority"
+msgstr ""
+"تغییر مسیر فردی که در کد کوتاه تعریف شده است؛ <strong> پارامتر <em> "
+"redirect_priority = \"top\" </ em> </ strong> را می توان در هر کد کوتاه "
+"اضافه کرد، سپس این تغییر مسیر کوتاه تر نسبت به سایر هدایت های دیگر اولویت "
+"دارد."
+
+#: src/classes/group-login-redirect.php:282
+#, fuzzy
+msgid "Specify a priority for this redirect. (optional) Default is 99."
+msgstr "یک اولویت برای این تغییر مسیر مشخص کنید. (اختیاری) پیش فرض 99 است."
+
+#: src/classes/group-logo-list.php:68
+msgid "Group Logo/List"
+msgstr "لیست گروه مورد"
+
+#: src/classes/group-logo-list.php:73
+#, fuzzy
+msgid ""
+"Add group-specific logos to any page, including registration pages. A "
+"shortcode to list a user’s LearnDash Groups is also available."
+msgstr ""
+"آرمهای خاص گروه را به هر صفحه ای ، از جمله صفحات ثبت نام ، اضافه کنید. کد "
+"کوتاه برای لیست کردن گروههای LearnDash کاربر نیز موجود است."
+
+#: src/classes/group-logo-list.php:113
+#, fuzzy
+msgid "Branding Logo"
+msgstr "آرم مارک تجاری"
+
+#: src/classes/group-logo-list.php:114
+msgid "Set Logo"
+msgstr "گذاشتن لوگو"
+
+#: src/classes/group-logo-list.php:115
+msgid "Remove Logo"
+msgstr "حذف لوگو"
+
+#: src/classes/group-logo-list.php:116
+msgid "Use Logo"
+msgstr "از لوگو استفاده کنید"
+
+#: src/classes/import-learndash-users-from-csv.php:97
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:162
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:168
+#: src/templates/admin-import-user/admin-import-users.php:53
+#: src/templates/admin-import-user/admin-import-users.php:75
+msgid "Import Users"
+msgstr "درون ریزی کاربران"
+
+#: src/classes/import-learndash-users-from-csv.php:151
+msgid "Something went wrong!"
+msgstr "اشتباهی رخ داده است!"
+
+#: src/classes/import-learndash-users-from-csv.php:152
+msgid "Select the file!"
+msgstr "قالب فایل را انتخاب کنید"
+
+#: src/classes/import-learndash-users-from-csv.php:153
+msgid "The file size is too big!"
+msgstr "فایل خیلی بزرگ است."
+
+#: src/classes/import-learndash-users-from-csv.php:154
+msgid "File type must be a csv!"
+msgstr "نوع فایل باید %s باشد."
+
+#: src/classes/import-learndash-users-from-csv.php:155
+msgid "Username and Email are required!"
+msgstr "نام کاربری یا ایمیل"
+
+#: src/classes/import-learndash-users-from-csv.php:157
+msgid "Test user ID is required!"
+msgstr "برای تست پیش نمایش یک شناسه کاربری وارد کنید"
+
+#: src/classes/import-learndash-users-from-csv.php:499
+msgid "Options are successfully saved."
+msgstr "با موفقیت ذخیره گزینه های."
+
+#: src/classes/import-learndash-users-from-csv.php:1123
+msgid "Email was successfully sent."
+msgstr ""
+"با تشکر از شما٪ s برای استفاده از فرم تماس ما! ایمیل شما با موفقیت ارسال شد!"
+
+#: src/classes/import-learndash-users-from-csv.php:1129
+msgid "Otherwise, check your WordPress and server settings."
+msgstr ""
+"این کادر را علامت بزنید و سپس تنظیمات را تغییر دهید تا وردپرس خود را تغییر "
+"دهید."
+
+#: src/classes/import-learndash-users-from-csv.php:1163
+msgid "Email template is successfully saved."
+msgstr "اسلایدر با موفقیت ذخیره شد"
+
+#: src/classes/import-learndash-users-from-csv.php:1180
+#, fuzzy
+msgid ""
+"Create or update users and assign them to courses and LearnDash Groups from "
+"a CSV file."
+msgstr ""
+"کاربران را ایجاد یا به روز کنید و آنها را از یک فایل CSV به دوره ها و گروه "
+"های LearnDash اختصاص دهید."
+
+#: src/classes/learn-dash-group-expiration.php:93
+msgid "Group Expiration"
+msgstr "تاریخ انقضا"
+
+#: src/classes/learn-dash-group-expiration.php:98
+#, fuzzy
+msgid ""
+"Set expiration dates for LearnDash groups so that course enrolment for the "
+"group is removed on the specified day. Reminder emails can be sent to users "
+"advising them of group expiration."
+msgstr ""
+"تاریخ انقضا برای گروه های LearnDash تعیین کنید تا ثبت نام دوره برای گروه در "
+"روز مشخص حذف شود. ایمیل های یادآوری را می توان برای کاربران ارسال کرد و آنها "
+"را از انقضا group گروه توصیه می کند."
+
+#: src/classes/learn-dash-group-expiration.php:133
+msgid "Send Expiry Email"
+msgstr "انقضای روز"
+
+#: src/classes/learn-dash-group-expiration.php:142
+#, fuzzy
+msgid "Send expiry email to Group Leader only"
+msgstr "ارسال نامه انقضا فقط به رهبر گروه"
+
+#: src/classes/learn-dash-group-expiration.php:169
+msgid "Archived"
+msgstr "بایگانی شده"
+
+#: src/classes/learn-dash-group-expiration.php:203
+msgid "Test message successfully sent to "
+msgstr "پیام شما با موفقیت ارسال شد!"
+
+#: src/classes/learn-dash-group-expiration.php:205
+msgid "Failed!!"
+msgstr "API پاسخ شکست خورده است."
+
+#: src/classes/learn-dash-group-expiration.php:216
+#: src/classes/learn-dash-group-expiration.php:312
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: src/classes/learn-dash-group-expiration.php:257
+msgid "Access Expired on %s"
+msgstr "دسترسی به %s منقضی شده است در:"
+
+#: src/classes/learn-dash-group-expiration.php:261
+msgid "Access Expires on %s"
+msgstr "تاریخ انقضای دسترسی %s"
+
+#: src/classes/learn-dash-group-expiration.php:267
+msgid "Email sent on %s"
+msgstr "ایمیل ارسال شد!%s"
+
+#: src/classes/learn-dash-group-expiration.php:271
+msgid "Email scheduled on %s"
+msgstr "%s زمان‌بندی ‌شده برای."
+
+#: src/classes/learn-dash-group-expiration.php:319
+msgid "Expiration Email"
+msgstr "ایمیل قبل از انقضاء - تنظیمات"
+
+#: src/classes/learn-dash-group-expiration.php:586
+msgid "%s Course Access Expiring"
+msgstr "لیست شغلی در حال انقضا:%s"
+
+#: src/classes/learn-dash-group-expiration.php:587
+#, fuzzy
+msgid ""
+"Hi %display name%,\n"
+"\n"
+"This is a courtesy email to let you know that your access to %s as part of "
+"the %LearnDash Group Name% group is expiring on %expiration date%. Your "
+"access to %s courses will be removed on that date."
+msgstr ""
+"سلام٪ نام نمایشی٪،\n"
+"\n"
+"این یک ایمیل حسن نیت ارائه می دهد تا به شما اطلاع دهد که دسترسی شما به٪ s به "
+"عنوان بخشی از گروه٪ LearnDash Name٪ گروه در تاریخ انقضا٪ منقضی می شود. "
+"دسترسی شما به٪ s دوره ها در آن تاریخ از بین می رود."
+
+#: src/classes/learn-dash-group-sign-up.php:107
+msgid "Group Registration"
+msgstr "این گروه در حال حاضر موجود است."
+
+#: src/classes/learn-dash-group-sign-up.php:112
+#, fuzzy
+msgid ""
+"Allow users to add themselves directly to LearnDash Groups on registration "
+"by assigning each group a unique registration URL. Users can also change or "
+"add groups themselves by visiting group URLs."
+msgstr ""
+"با اختصاص یک URL ثبت نام منحصر به فرد به کاربران اجازه می دهند تا هنگام ثبت "
+"نام خود را مستقیماً به گروه های LearnDash اضافه کنند. همچنین کاربران می "
+"توانند با مراجعه به URL های گروه ، خود گروه ها را تغییر داده یا اضافه کنند."
+
+#: src/classes/learn-dash-group-sign-up.php:334
+#: src/classes/learn-dash-group-sign-up.php:621
+#: src/classes/learn-dash-group-sign-up.php:979
+#, fuzzy
+msgid "Sorry, the group you are trying to join is full."
+msgstr "متأسفیم ، گروهی که می خواهید به آن بپیوندید پر است."
+
+#: src/classes/learn-dash-group-sign-up.php:358
+#, fuzzy
+msgid "Sorry, you are not allowed to switch groups."
+msgstr "با عرض پوزش ، شما مجاز به تغییر گروه نیستید."
+
+#: src/classes/learn-dash-group-sign-up.php:547
+#, fuzzy
+msgid "User registration is not enabled. Contact Site Administrator."
+msgstr "ثبت نام کاربر فعال نیست. با مدیر سایت تماس بگیرید."
+
+#: src/classes/learn-dash-group-sign-up.php:563
+#: src/includes/EDD_SL_Plugin_Updater.php:477
+msgid "Error"
+msgstr "خطا"
+
+#: src/classes/learn-dash-group-sign-up.php:583
+msgid "Username already taken"
+msgstr "این نام کاربری قبلا انتخاب شده است."
+
+#: src/classes/learn-dash-group-sign-up.php:587
+msgid "Invalid username"
+msgstr "نام کاربری نامعتبر است"
+
+#: src/classes/learn-dash-group-sign-up.php:591
+msgid "Please enter a username"
+msgstr "لطفا نام کاربری را وارد کنید"
+
+#: src/classes/learn-dash-group-sign-up.php:595
+msgid "Invalid email"
+msgstr "ایمیل نامعتبر"
+
+#: src/classes/learn-dash-group-sign-up.php:599
+msgid "Email already registered"
+msgstr "ایمیل قبلا ثبت شده است"
+
+#: src/classes/learn-dash-group-sign-up.php:603
+msgid "Please enter a password"
+msgstr "لطفاً یک رمز عبور وارد کنید"
+
+#: src/classes/learn-dash-group-sign-up.php:607
+msgid "Passwords do not match"
+msgstr "رمزهای ورود مطابقت ندارند"
+
+#: src/classes/learn-dash-group-sign-up.php:677
+#, fuzzy
+msgid "You're already signed in! We hope you're enjoying our courses."
+msgstr "شما قبلاً وارد سیستم شده اید! امیدواریم از دوره های ما لذت ببرید."
+
+#: src/classes/learn-dash-group-sign-up.php:742
+#: src/classes/learn-dash-group-sign-up.php:839
+msgid "Organization Details"
+msgstr "سازمان"
+
+#: src/classes/learn-dash-group-sign-up.php:743
+msgid "Name"
+msgstr "نام"
+
+#: src/classes/learn-dash-group-sign-up.php:744
+msgid "Contact"
+msgstr "تماس"
+
+#: src/classes/learn-dash-group-sign-up.php:745
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:231
+#: src/templates/group-registration-form.php:42
+#: src/templates/group-registration-form.php:46
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/classes/learn-dash-group-sign-up.php:746
+msgid "Phone"
+msgstr "تلفن"
+
+#: src/classes/learn-dash-group-sign-up.php:810
+#, fuzzy
+msgid ""
+"You are not currently a member of any group. If you believe this is an "
+"error, please request the registration URL from your organization contact."
+msgstr ""
+"شما در حال حاضر عضو هیچ گروهی نیستید. اگر فکر می کنید این یک خطا است ، لطفاً "
+"آدرس ثبت نام را از مخاطب سازمان خود درخواست کنید."
+
+#: src/classes/learn-dash-my-courses.php:98
+#: src/blocks/src/toolkit-my-courses/block.js:21
+#: src/blocks/src/toolkit-my-courses/block.js:76
+msgid "Course Dashboard"
+msgstr "داشبورد دوره"
+
+#: src/classes/learn-dash-my-courses.php:103
+#, fuzzy
+msgid ""
+"Use the [uo_dashboard] shortcode to display a list of courses for the "
+"current user.  Users can filter courses by category, or expand courses to "
+"view lessons and topics."
+msgstr ""
+"برای نمایش لیستی از دوره ها برای کاربر فعلی ، از کد کوتاه [uo_dashboard] "
+"استفاده کنید. کاربران می توانند دوره ها را بر اساس دسته بندی فیلتر کنند یا "
+"برای مشاهده دروس و سرفصل ها دوره ها را گسترش دهند."
+
+#: src/classes/learn-dash-my-courses.php:138
+msgid "Choose a Dashboard Theme"
+msgstr "داشبورد"
+
+#: src/classes/learn-dash-my-courses.php:143
+msgid "Legacy"
+msgstr "میراث"
+
+#: src/classes/learn-dash-my-courses.php:147
+msgid "3.0"
+msgstr "3.0"
+
+#: src/classes/learn-dash-my-courses.php:153
+msgid "Colors (3.0 theme only)"
+msgstr "تم LearnDash ۳/۰ گزینه ها"
+
+#: src/classes/learn-dash-my-courses.php:157
+msgid "Toggle button background (expanded)"
+msgstr "رنگ پس زمینه دکمه تعویض"
+
+#: src/classes/learn-dash-my-courses.php:160
+msgid "Color of the background of the toggle button when expanded."
+msgstr "کنترل دکمه رنگ پس زمینه "
+
+#: src/classes/learn-dash-my-courses.php:164
+msgid "Toggle button icon color (expanded)"
+msgstr "رنگ پس زمینه دکمه تعویض"
+
+#: src/classes/learn-dash-my-courses.php:167
+#, fuzzy
+msgid "Color of the icon of the toggle button when expanded."
+msgstr "رنگ نماد دکمه ضامن هنگام بزرگ شدن."
+
+#: src/classes/learn-dash-my-courses.php:171
+msgid "Toggle button background (disabled)"
+msgstr "رنگ پس زمینه دکمه تعویض"
+
+#: src/classes/learn-dash-my-courses.php:174
+msgid "Color of the background of the toggle button when not expandable."
+msgstr "کنترل دکمه رنگ پس زمینه "
+
+#: src/classes/learn-dash-my-courses.php:178
+msgid "Progress color"
+msgstr "رنگ نوار روند"
+
+#: src/classes/learn-dash-my-courses.php:181
+#, fuzzy
+msgid ""
+"Color used to represent progress. Used in the progress bar and the completed "
+"icon."
+msgstr ""
+"رنگی که نشان دهنده پیشرفت است. در نوار پیشرفت و نماد تکمیل شده استفاده می "
+"شود."
+
+#: src/classes/learn-dash-my-courses.php:185
+msgid "Third level background"
+msgstr "هشدار سوم قبل از پایان دوره"
+
+#: src/classes/learn-dash-my-courses.php:188
+msgid "Color of the background of quiz results and topics."
+msgstr "رنگ پس زمینه جعبه نتیجه"
+
+#: src/classes/learn-dash-my-courses.php:192
+msgid "Quiz score background (passed)"
+msgstr ""
+"فرم تنظیمات مانند اعلان یکپارچگی پرداخت نمره امتحان تایمر زمان سنج، تغییر "
+"مسیر و غیره را پیکربندی کنید."
+
+#: src/classes/learn-dash-my-courses.php:195
+#, fuzzy
+msgid "Color of the quiz score when the quiz was passed"
+msgstr "رنگ نمره مسابقه هنگام قبول شدن مسابقه"
+
+#: src/classes/learn-dash-my-courses.php:199
+msgid "Quiz score background (failed)"
+msgstr "موفق به وارد کردن امتحان نشد"
+
+#: src/classes/learn-dash-my-courses.php:202
+#, fuzzy
+msgid "Color of the quiz score when the quiz was failed."
+msgstr "رنگ نمره مسابقه وقتی مسابقه ناموفق بود."
+
+#: src/classes/learn-dash-my-courses.php:258
+#, fuzzy
+msgid "Course dashboard template in settings not defined."
+msgstr "الگوی داشبورد دوره در تنظیمات تعریف نشده است."
+
+#: src/classes/learn-dash-reset.php:62
+msgid "Reset Progress Button"
+msgstr "پیشرفت سبک دکمه"
+
+#: src/classes/learn-dash-reset.php:64
+#, fuzzy
+msgid "Inserts a button that allows learners to reset the course."
+msgstr ""
+"دکمه ای را درج می کند که به زبان آموزان اجازه می دهد دوره را دوباره تنظیم "
+"کنند."
+
+#: src/classes/learn-dash-reset.php:98
+msgid "Reset Button Text"
+msgstr "متن دکمه"
+
+#: src/classes/learn-dash-reset.php:103
+msgid "Show Name of Course"
+msgstr ""
+"نشان می دهد ٪ 1 $ s با موضوع ذکر شده دوره مثل حلزون حرکت کردن. به عنوان "
+"مثال: <b>[ld_course_list course_category_name = \"ریاضی\"]</b> نشان می دهد ٪ "
+"2 $ s با دسته بندی دوره های ریاضی مثل حلزون حرکت کردن."
+
+#: src/classes/learn-dash-table-color.php:77
+#, fuzzy
+msgid "Lesson/Topic/Quiz Table Colors (Legacy)"
+msgstr "درس / موضوع / رنگ جدول مسابقه (قدیمی)"
+
+#: src/classes/learn-dash-table-color.php:82
+#, fuzzy
+msgid ""
+"Change the background and header text color of LearnDash tables. This module "
+"modifies the course, lesson, topic, quiz, and Pro Dashboard tables. (Legacy "
+"LearnDash theme only)."
+msgstr ""
+"پس زمینه و رنگ متن هدر جدول های LearnDash را تغییر دهید. این ماژول جدول ، "
+"دوره ، درس ، موضوع ، مسابقه و Pro Dashboard را اصلاح می کند. (فقط تم LegD "
+"LearnDash)."
+
+#: src/classes/learn-dash-transcript.php:67
+#: src/blocks/src/toolkit-learndash-transcript/block.js:22
+#: src/blocks/src/toolkit-learndash-transcript/block.js:53
+#, fuzzy
+msgid "Learner Transcript"
+msgstr "متن یادگیرنده"
+
+#: src/classes/learn-dash-transcript.php:72
+#: src/blocks/src/toolkit-learndash-transcript/block.js:24
+#, fuzzy
+msgid ""
+"Add printable transcripts to the front end for your learners. This is a "
+"great way for learners to have a record of all course progress and overall "
+"standing."
+msgstr ""
+"متن های قابل چاپ را برای زبان آموزان خود به قسمت جلویی اضافه کنید. این یک "
+"روش عالی برای دانش آموزان است که می توانند از تمام پیشرفت دوره و وضعیت کلی "
+"ثبت کنند."
+
+#: src/classes/learn-dash-transcript.php:131
+msgid "General"
+msgstr "عمومی"
+
+#: src/classes/learn-dash-transcript.php:136
+msgid "Display completed courses only"
+msgstr "نمایش دسته بندی های دوره ها"
+
+#: src/classes/learn-dash-transcript.php:142
+msgid "Accent UI Color"
+msgstr "رنگ Accent"
+
+#: src/classes/learn-dash-transcript.php:149
+msgid "Header"
+msgstr "سربرگ"
+
+#: src/classes/learn-dash-transcript.php:154
+#: src/classes/learn-dash-transcript.php:252
+msgid "Logo Url"
+msgstr "آدرس لوگو"
+
+#: src/classes/learn-dash-transcript.php:160
+msgid "Heading"
+msgstr "عنوان"
+
+#: src/classes/learn-dash-transcript.php:166 src/templates/transcript.php:68
+msgid "Organization"
+msgstr "سازمان"
+
+#: src/classes/learn-dash-transcript.php:172
+msgid "Table"
+msgstr "جدول"
+
+#: src/classes/learn-dash-transcript.php:209
+msgid "Disable Status Column"
+msgstr "غیر فعال کردن عنوان ستون مگا منو"
+
+#: src/classes/learn-dash-transcript.php:215
+msgid "Disable Steps Column"
+msgstr "غیر فعال کردن عنوان ستون مگا منو"
+
+#: src/classes/learn-dash-transcript.php:221
+#, fuzzy
+msgid "Disable Avg Quiz Score Column"
+msgstr "ستون امتیاز میانگین مسابقه را غیرفعال کنید"
+
+#: src/classes/learn-dash-transcript.php:227
+#, fuzzy
+msgid "Disable Final Quiz Score Column"
+msgstr "ستون امتیاز نهایی مسابقه را غیرفعال کنید"
+
+#. Translators: CEUs plural designation
+#: src/classes/learn-dash-transcript.php:237
+msgid "Disable %s Column"
+msgstr "Disable %s Column"
+
+#: src/classes/learn-dash-transcript.php:247
+msgid "Footer"
+msgstr "فوتر"
+
+#: src/classes/learn-dash-transcript.php:258
+msgid "Disclaimer"
+msgstr "سلب مسئولیت"
+
+#: src/classes/learn-dash-transcript.php:281
+msgid "Login to view information"
+msgstr "لطفا برای مشاهده نشانک خود وارد شوید"
+
+#: src/classes/learn-dash-transcript.php:292
+msgid "Student Transcript"
+msgstr " دانش‌آموز"
+
+#. Translators: 1. Formatted completion date
+#: src/classes/learn-dash-transcript.php:425
+msgid "Completed on %1$s"
+msgstr "Completed on %1$s"
+
+#. Translators: 1. number of lessons completed 2. number of total lessons
+#: src/classes/learn-dash-transcript.php:441
+msgid "%1$s / %2$s"
+msgstr "%1$s, %2$s"
+
+#: src/classes/learn-dash-transcript.php:451
+#: src/classes/learn-dash-transcript.php:469 src/templates/transcript.php:144
+#: src/templates/transcript.php:155
+msgid "0%"
+msgstr "0%"
+
+#. Translators: 1. number percentage
+#: src/classes/learn-dash-transcript.php:455
+#: src/classes/learn-dash-transcript.php:473
+#: src/classes/learn-dash-transcript.php:515
+#: src/classes/learn-dash-transcript.php:527
+msgid "%1$s%%"
+msgstr "%1$s%%"
+
+#. Translators: 1. number of courses completed 2. number of courses enrolled
+#: src/classes/learn-dash-transcript.php:494
+msgid "%1$s / %2$s courses completed"
+msgstr "%1$s / %2$s courses completed"
+
+#: src/classes/learn-dash-transcript.php:533
+#: src/templates/frontend-dashboard/dashboard-template.php:85
+#: src/templates/transcript.php:79
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/classes/learn-dash-transcript.php:536
+msgid "Steps"
+msgstr "مراحل"
+
+#: src/classes/learn-dash-transcript.php:539
+msgid "Avg. Score"
+msgstr "امتیاز: %s"
+
+#: src/classes/learn-dash-transcript.php:542
+msgid "Final Score"
+msgstr "امتیاز نهایی"
+
+#: src/classes/learndash-course-navigation.php:59
+msgid "Lazy Loading Course Navigation"
+msgstr "فعال سازی بارگذار لیزی لیدینگ"
+
+#: src/classes/learndash-course-navigation.php:61
+#, fuzzy
+msgid ""
+"Shortcode that loads a course navigation tree via AJAX.  Useful on sites "
+"with many lessons and topics where the native LearnDash Course Navigation "
+"widget is extending page load time."
+msgstr ""
+"کد کوتاه که درخت ناوبری دوره را از طریق AJAX بارگیری می کند. مفید در "
+"سایتهایی با بسیاری از دروس و موضوعات که در آن ابزارک بومی LearnDash Course "
+"Navigation زمان بارگذاری صفحه را افزایش می دهد."
+
+#: src/classes/learndash-course-navigation.php:94
+msgid "Navigation Settings"
+msgstr "تنظیمات ناوبری"
+
+#: src/classes/learndash-course-navigation.php:98
+msgid "Widget Heading"
+msgstr "عنوان ویجت"
+
+#: src/classes/learndash-course-navigation.php:99
+msgid "Course Navigation."
+msgstr "ناوبری"
+
+#: src/classes/learndash-course-navigation.php:147
+msgid "Loading..."
+msgstr "بارگذاری..."
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:67
+#, fuzzy
+msgid "Autocomplete Lessons & Topics on Quiz Results Page"
+msgstr "دروس و مباحث تکمیل خودکار در صفحه نتایج مسابقه"
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:72
+#, fuzzy
+msgid ""
+"Automatically mark LearnDash lessons and topics as completed when the user "
+"reaches the quiz results page with a passing mark."
+msgstr ""
+"وقتی کاربر با علامت عبور به صفحه نتایج مسابقه می رسد ، به طور خودکار دروس و "
+"مباحث LearnDash را علامت گذاری کنید."
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:147
+#: src/classes/lesson-topic-auto-complete-on-quiz-graded.php:150
+#: src/classes/lesson-topic-auto-complete.php:254
+#, fuzzy
+msgid ""
+"<div>** This global setting can be overridden for individual lessons and "
+"topics in the Edit page of the associated lesson or topic.</div>"
+msgstr ""
+"<div style=\";text-align:right;direction:rtl\"> ** این تنظیم جهانی را می "
+"توان برای دروس و موضوعات جداگانه در صفحه ویرایش درس یا موضوع مرتبط لغو کرد. "
+"</div>"
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-graded.php:70
+#, fuzzy
+msgid "Autocomplete Lessons & Topics When Quiz Is Graded"
+msgstr "دروس و مباحث تکمیل خودکار وقتی مسابقه درجه بندی می شود"
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-graded.php:75
+#, fuzzy
+msgid ""
+"Automatically mark LearnDash lessons and topics as completed when the "
+"associated quiz is manually graded."
+msgstr ""
+"وقتی آزمون مسابقه به صورت دستی درجه بندی می شود ، به طور خودکار دروس و مباحث "
+"LearnDash را علامت گذاری کنید."
+
+#: src/classes/lesson-topic-auto-complete.php:151
+#: src/classes/lesson-topic-auto-complete.php:753
+msgid "Auto Complete"
+msgstr "تکمیل خودکار"
+
+#: src/classes/lesson-topic-auto-complete.php:153
+#: src/classes/lesson-topic-auto-complete.php:755
+#, fuzzy
+msgid "Automatically complete lesson or topic on page visit"
+msgstr "در بازدید از صفحه ، به طور خودکار درس یا موضوع را کامل کنید"
+
+#: src/classes/lesson-topic-auto-complete.php:175
+msgid "Autocomplete Lessons & Topics"
+msgstr "%d درس ها"
+
+#: src/classes/lesson-topic-auto-complete.php:180
+#, fuzzy
+msgid ""
+"Automatically mark all lessons and topics as completed on user visit and "
+"remove Mark Complete buttons. Global settings can be overridden for "
+"individual lessons and topics."
+msgstr ""
+"تمام دروس و مباحث را به طور خودکار در هنگام بازدید از کاربر علامت گذاری کرده "
+"و دکمه های مارک کامل را حذف کنید. تنظیمات جهانی را می توان برای دروس و مباحث "
+"جداگانه لغو کرد."
+
+#: src/classes/lesson-topic-auto-complete.php:538
+#: src/classes/lesson-topic-auto-complete.php:683
+msgid "Done"
+msgstr "انجام شد"
+
+#: src/classes/lesson-topic-grid.php:87
+msgid "Enhanced Lessons/Topics Grid"
+msgstr "%d درس ها"
+
+#: src/classes/lesson-topic-grid.php:92
+#, fuzzy
+msgid ""
+"Add a highly customizable grid of LearnDash lessons/topics to the front end, "
+"learner dashboard or anywhere you want. This is a great tool for sites with "
+"a large number of lessons/topics."
+msgstr ""
+"شبکه ای بسیار قابل تنظیم از دروس / مباحث LearnDash را به قسمت جلویی ، "
+"داشبورد یادگیرنده یا هرجایی که می خواهید اضافه کنید. این یک ابزار عالی برای "
+"سایت های دارای تعداد زیادی درس / موضوع است."
+
+#: src/classes/lesson-topic-grid.php:128
+#, fuzzy
+msgid "Replace Course's Lessons table with grid"
+msgstr "جدول درسهای Course را با grid جایگزین کنید"
+
+#: src/classes/lesson-topic-grid.php:134
+#, fuzzy
+msgid "Replace Lesson's Topics list with grid"
+msgstr "لیست موضوعات درس را با grid جایگزین کنید"
+
+#: src/classes/lesson-topic-grid.php:140
+msgid "Number of columns per row"
+msgstr "تعداد ستون در هر ردیف."
+
+#: src/classes/lesson-topic-grid.php:145
+msgid "Show Featured Image?"
+msgstr "تصویر ویژه نمایش داده شود؟"
+
+#: src/classes/lesson-topic-grid.php:640 src/classes/show-all-courses.php:569
+#: src/classes/show-all-courses.php:972
+msgid "Complete"
+msgstr "تکمیل"
+
+#: src/classes/lesson-topic-grid.php:642 src/classes/lesson-topic-grid.php:725
+#: src/classes/lesson-topic-grid.php:729
+msgid "Not Completed"
+msgstr "تکمیل نشده"
+
+#: src/classes/lesson-topic-grid.php:725
+msgid "Sample Lesson"
+msgstr "درس نمونه"
+
+#: src/classes/lesson-topic-grid.php:729
+msgid "Course not enrolled"
+msgstr "دانش‌آموزان ثبت‌نام کرده"
+
+#: src/classes/restrict-page-access.php:36
+#, fuzzy
+msgid "Access is restricted."
+msgstr "دسترسی محدود شده است."
+
+#: src/classes/restrict-page-access.php:396
+#: src/classes/restrict-page-access.php:816
+#, fuzzy
+msgid "Restrict Page Access"
+msgstr "دسترسی به صفحه را محدود کنید"
+
+#: src/classes/restrict-page-access.php:488
+#, fuzzy
+msgid "Users must be logged in to view this %s"
+msgstr "برای مشاهده این٪ s باید کاربران وارد سیستم شوند"
+
+#: src/classes/restrict-page-access.php:513
+#, fuzzy
+msgid "Required role (optional)"
+msgstr "نقش مورد نیاز (اختیاری)"
+
+#: src/classes/restrict-page-access.php:560
+#, fuzzy
+msgid "Required course (optional)"
+msgstr "دوره مورد نیاز (اختیاری)"
+
+#: src/classes/restrict-page-access.php:608
+#, fuzzy
+msgid "Required group (optional)"
+msgstr "گروه مورد نیاز (اختیاری)"
+
+#: src/classes/restrict-page-access.php:649
+#, fuzzy
+msgid "Redirect if access is denied"
+msgstr "در صورت عدم دسترسی دسترسی ، تغییر مسیر دهید"
+
+#: src/classes/restrict-page-access.php:677
+msgid "Redirect to"
+msgstr "تغییر مسیر به"
+
+#: src/classes/restrict-page-access.php:749
+msgid "Page"
+msgstr "صفحه"
+
+#: src/classes/restrict-page-access.php:790
+msgid "Custom URL"
+msgstr "URL سفارشی"
+
+#: src/classes/restrict-page-access.php:821
+#, fuzzy
+msgid ""
+"Restrict access to any page by logged in/out status, course enrollment, "
+"group membership, or role. Display a message or automatically redirect users "
+"that are denied access."
+msgstr ""
+"با ورود به سیستم / ورود به سیستم ، ثبت نام دوره ، عضویت در گروه یا نقش ، "
+"دسترسی به هر صفحه را محدود کنید. پیامی را نمایش دهید یا به طور خودکار "
+"کاربرانی را که از دسترسی محروم هستند هدایت کنید."
+
+#: src/classes/restrict-page-access.php:860
+#, fuzzy
+msgid "Access restriction message"
+msgstr "پیام محدودیت دسترسی"
+
+#: src/classes/sample-tag.php:63
+#, fuzzy
+msgid "Sample Lesson Label (Legacy)"
+msgstr "نمونه برچسب درس (میراث)"
+
+#: src/classes/sample-tag.php:71
+#, fuzzy
+msgid "Add visual label to sample lessons (Legacy LearnDash theme only)."
+msgstr "به نمونه درسها برچسب بصری اضافه کنید (فقط طرح زمینه Legacy LearnDash)."
+
+#: src/classes/sample.php:69
+msgid "Sample Title"
+msgstr "فرم نمونه"
+
+#: src/classes/sample.php:74
+msgid "Sample Description B"
+msgstr "توضیح"
+
+#: src/classes/sample.php:146
+msgid "<div>Some Extra Information for the user</div>"
+msgstr "<div>مقداری اطلاعات اضافی برای کاربر</div>"
+
+#: src/classes/show-all-courses.php:94
+#: src/blocks/src/toolkit-course-grid/block.js:21
+#: src/blocks/src/toolkit-course-grid/block.js:209
+msgid "Enhanced Course Grid"
+msgstr "تجارت الکترونیک پیشرفته:"
+
+#: src/classes/show-all-courses.php:99
+#, fuzzy
+msgid ""
+"Add a highly customizable grid of LearnDash courses to the front end, "
+"learner dashboard or anywhere you want. This is a great tool for sites with "
+"a large number of courses."
+msgstr ""
+"یک شبکه بسیار قابل تنظیم از دوره های LearnDash را به قسمت جلویی ، داشبورد "
+"یادگیرنده یا هرجایی که می خواهید اضافه کنید. این یک ابزار عالی برای سایت های "
+"دارای تعداد زیادی دوره است."
+
+#: src/classes/show-all-courses.php:136
+#, fuzzy
+msgid "Text displayed when no courses are shown"
+msgstr "متن نمایش داده نمی شود اگر هیچ دوره ای نشان داده شود"
+
+#: src/classes/show-all-courses.php:438
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:150
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:176
+#: src/templates/frontend-dashboard/dashboard-template.php:93
+msgid "Category"
+msgstr "دسته بندی"
+
+#: src/classes/show-all-courses.php:440 src/classes/show-all-courses.php:477
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:155
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:181
+#: src/templates/frontend-dashboard/dashboard-template.php:97
+#: src/templates/frontend-dashboard/dashboard-template.php:135
+msgid "All categories"
+msgstr "همه دسته بندی ها"
+
+#: src/classes/show-all-courses.php:475
+msgid "%s Category"
+msgstr "%s دسته بندی"
+
+#: src/classes/show-all-courses.php:571 src/classes/show-all-courses.php:974
+#: src/templates/course-grid.php:137
+msgid "Coming Soon"
+msgstr "به زودی"
+
+#: src/classes/show-all-courses.php:573 src/classes/show-all-courses.php:976
+#: src/classes/show-all-courses.php:1040
+msgid "%s Status"
+msgstr "وضعیت %s"
+
+#: src/classes/show-all-courses.php:576 src/classes/show-all-courses.php:979
+#: src/templates/course-grid.php:121 src/templates/course-grid.php:130
+#: src/templates/course-grid.php:142 src/templates/course-grid.php:150
+#: src/templates/course-grid.php:162
+msgid "View %s Outline"
+msgstr "مشاهده %s"
+
+#: src/classes/show-all-courses.php:734
+msgid "Sorry! You don't have any enrolled %s."
+msgstr "شما هیچ %s هنوز ندارید"
+
+#: src/classes/show-all-courses.php:802 src/templates/course-grid.php:38
+msgid "Free"
+msgstr "رایگان"
+
+#: src/classes/show-all-courses.php:817
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: src/classes/show-all-courses.php:1548
+msgid "Short Description"
+msgstr "توضیح کوتاه"
+
+#: src/classes/show-all-courses.php:1550
+msgid "A short description of the %s to show on grid."
+msgstr "%sتوضیح کوتاه"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:240
+#, fuzzy
+msgid "You are not allowed to modify drip date."
+msgstr "شما مجاز به تغییر تاریخ قطره نیستید."
+
+#: src/classes/uncanny-drip-lessons-by-group.php:894
+msgid "LearnDash Group"
+msgstr "گروه لرن دش"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:896
+#, fuzzy
+msgid "Choose a group for a custom drip date"
+msgstr "برای یک تاریخ قطره ای سفارشی گروهی را انتخاب کنید"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:980
+msgid "Drip Lessons by Group"
+msgstr "%d درس ها"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:984
+#, fuzzy
+msgid ""
+"Unlock access to LearnDash lessons by setting dates for LearnDash Groups "
+"rather than for all enrolled users."
+msgstr ""
+"با تعیین تاریخ برای گروههای LearnDash به جای همه کاربران ثبت نام شده ، "
+"دسترسی به درسهای LearnDash را باز کنید."
+
+#: src/classes/uncanny-drip-lessons-by-group.php:1294
+msgid "Return to Course Overview"
+msgstr "بازگشت به بررسی سوالات"
+
+#. Translators: 1. LearnDash grops label
+#: src/includes/class-forum-group-widget.php:15
+#, fuzzy
+msgid "Display links to forums that are assigned to the user's Group(s)."
+msgstr ""
+"پیوندهایی را به انجمنهایی اختصاص دهید که به گروه (های) کاربر اختصاص داده شده "
+"اند."
+
+#. Translators: 1. LearnDash groups label
+#: src/includes/class-forum-group-widget.php:21
+#, fuzzy
+msgid "%1$s Forums"
+msgstr "٪ 1 $ s تالارها"
+
+#: src/includes/class-forum-group-widget.php:38
+#: src/blocks/src/toolkit-my-courses/sidebar.js:98
+msgid "Title"
+msgstr "عنوان"
+
+#: src/includes/EDD_SL_Plugin_Updater.php:231
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"نسخه جدید %1$s آماده است. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+"\">مشاهده نسخه جدید %3$s details</a>."
+
+#: src/includes/EDD_SL_Plugin_Updater.php:239
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"نسخه جدید  %1$s آماده است.%1$s  در دسترس است. %1$s در دسترس است. <a target="
+"\"_blank\" class=\"thickbox\" href=\"%2$s\">نمایش نسخه %3$s جزئیات</a> or <a "
+"href=\"%4$s\">هیمن الان به روز رسانی کن</a>."
+
+#: src/includes/EDD_SL_Plugin_Updater.php:477
+msgid "You do not have permission to install plugin updates"
+msgstr "شما اجازه نصب به روزرسانی های افزونه را ندارید"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:87
+#, fuzzy
+msgctxt "Course  Label"
+msgid "Please select a %s to manage group drip dates.zz"
+msgstr "لطفاً٪ s را انتخاب کنید تا گروه drip dates.zz را مدیریت کنید"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:101
+#, fuzzy
+msgid "Please click here to set group drip dates."
+msgstr "لطفاً برای تنظیم تاریخ قطره گروهی اینجا کلیک کنید."
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:105
+#, fuzzy
+msgctxt "Course  Label"
+msgid "Drip dates can only be added if the %s is associated with a %s."
+msgstr "تاریخ های قطره ای فقط درصورت اضافه شدن٪ s به٪ s اضافه می شود."
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:111
+#, fuzzy
+msgctxt "Course  Label"
+msgid "This %s has no %s associations."
+msgstr "این٪ s هیچ ارتباط s٪ ندارد."
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:125
+#, fuzzy
+msgctxt "1 Lesson and 2 Course  Label"
+msgid ""
+"Note: A drip date set for a %1$s/Group persists across all %2$s. You cannot "
+"set different drip dates for the same %1$s/Group in different %2$s."
+msgstr ""
+"توجه: یک تاریخ قطره برای٪ 1 $ s تنظیم شده است / گروه در تمام٪ 2 $ s ادامه "
+"دارد. شما نمی توانید تاریخ های قطره ای مختلف را برای همان٪ 1 $ s / Group در٪ "
+"2 $ s متفاوت تنظیم کنید."
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:144
+#, fuzzy
+msgid "LearnDash group"
+msgstr "گروه لرن دش"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:145
+#, fuzzy
+msgid "Drip date"
+msgstr "تاریخ قطره"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:146
+#, fuzzy
+msgid "Drip date sort numeric"
+msgstr "تاریخ را به صورت عددی مرتب کنید"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:147
+#, fuzzy
+msgid "Drip date sort Y-M-D"
+msgstr "مرتب سازی تاریخ قطره Y-M-D"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:148
+msgid "Action"
+msgstr "عمل"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:186
+msgid "Month"
+msgstr "ماه"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:192
+msgid "01-Jan"
+msgstr "ژوئن"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:197
+#, fuzzy
+msgid "02-Feb"
+msgstr "02-فوریه"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:202
+#, fuzzy
+msgid "03-Mar"
+msgstr "03-مارس"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:207
+#, fuzzy
+msgid "04-Apr"
+msgstr "04 آوریل"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:212
+#, fuzzy
+msgid "05-May"
+msgstr "05 مه"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:217
+#, fuzzy
+msgid "06-Jun"
+msgstr "06 ژوئن"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:222
+#, fuzzy
+msgid "07-Jul"
+msgstr "07 ژوئیه"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:227
+#, fuzzy
+msgid "08-Aug"
+msgstr "08 اوت"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:232
+#, fuzzy
+msgid "09-Sep"
+msgstr "09 سپتامبر"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:237
+#, fuzzy
+msgid "10-Oct"
+msgstr "10 اکتبر"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:242
+#, fuzzy
+msgid "11-Nov"
+msgstr "11 نوامبر"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:247
+#, fuzzy
+msgid "12-Dec"
+msgstr "12 دسامبر"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:251
+msgid "Day"
+msgstr "روز"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:257
+msgid "Year"
+msgstr "سال"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:264
+msgid "Hour"
+msgstr "ساعت"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:270
+msgid "Minute"
+msgstr "دقیقه"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:282
+#, fuzzy
+msgid "Save date"
+msgstr "تاریخ را ذخیره کنید"
+
+#: src/includes/learn-dash-settings-metabox-lesson-group-drip-settings.php:287
+#, fuzzy
+msgid "Remove date"
+msgstr "تاریخ را حذف کنید"
+
+#: src/includes/learndash-bbpress.php:37
+#, fuzzy
+msgid "LearnDash Group Forums"
+msgstr "انجمن های گروهی LearnDash"
+
+#. Translators: 1. LearnDash group label
+#: src/includes/learndash-bbpress.php:56
+#, fuzzy
+msgid "This forum is restricted to members of the associated %1$s(s)."
+msgstr "این انجمن فقط به اعضای٪ 1 $ s (های) مرتبط محدود می شود."
+
+#. Translators: 1. LearnDash group label
+#: src/includes/learndash-bbpress.php:85
+#, fuzzy
+msgid "Associated %1$s(s)"
+msgstr "٪ 1 $ s (های) مرتبط"
+
+#. Translators: 1. LearnDash groups label
+#: src/includes/learndash-bbpress.php:96
+msgid "Select %1$s"
+msgstr "انتخاب کنید %1$s"
+
+#: src/includes/learndash-bbpress.php:118
+msgid "Clear All"
+msgstr "پاک کردن همه"
+
+#: src/includes/learndash-bbpress.php:123
+msgid "Post Limit Access"
+msgstr "محدود کردن بازبینی های پیام ارسال"
+
+#: src/includes/learndash-bbpress.php:127
+msgid "Any"
+msgstr "همه"
+
+#. Translators: 1. LearnDash groups label
+#: src/includes/learndash-bbpress.php:132
+#, fuzzy
+msgid ""
+"If you select ALL, then users must be a member of all of the associated %1$s "
+"in order to post."
+msgstr ""
+"اگر ALL را انتخاب کنید ، پس کاربران باید عضو همه٪ 1 $ s مرتبط باشند تا "
+"بتوانند پست کنند."
+
+#. Translators: 1. LearnDash groups label
+#: src/includes/learndash-bbpress.php:138
+#, fuzzy
+msgid ""
+"If you select ANY, then users only need to be a member of any one of the "
+"selected %1$s in order to post."
+msgstr ""
+"اگر هرکدام را انتخاب کنید ، کاربران برای پست کردن فقط باید عضو هر یک از٪ 1 $ "
+"s انتخاب شده باشند."
+
+#: src/includes/learndash-bbpress.php:145
+msgid "Message shown to users without access"
+msgstr "پیام نشان داده شده به کابران ثبت شده"
+
+#: src/includes/learndash-bbpress.php:154
+msgid "Forum View"
+msgstr "(بدون انجمن)"
+
+#: src/includes/learndash-bbpress.php:159
+#, fuzzy
+msgid ""
+"Check this box to allow users that are not members of the associated "
+"Group(s) to view forum threads and topics (they will not be able to post "
+"replies)."
+msgstr ""
+"این کادر را علامت بزنید تا به کاربران عضو گروه (های) مرتبط اجازه مشاهده "
+"موضوعات و موضوعات انجمن را بدهید (آنها قادر به ارسال پاسخ نیستند)."
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:23
+msgid "New User Email Template"
+msgstr "ایمیل خوشامدگویی کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:28
+msgid "Email to New Users"
+msgstr "برای تنظیم یک رمز عبور، کاربران جدید را لینک کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:33
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:92
+msgid "Send Email"
+msgstr "ارسال ایمیل"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:39
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:98
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:49
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:109
+msgid "Body"
+msgstr "بدنه"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:50
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:110
+msgid "Variables"
+msgstr "متغیرها"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:69
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:129
+#, fuzzy
+msgid "Test Email Address:"
+msgstr "آدرس ایمیل تست:"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:73
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:133
+msgid "Send Test Email"
+msgstr "ارسال ایمیل تست"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:82
+msgid "Updated User Email Template"
+msgstr "ایمیل خوشامدگویی کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:87
+msgid "Email to Updated Users"
+msgstr "مشترک ایمیل به روز شده."
+
+#: src/templates/admin-import-user/admin-import-user-part-emails.php:142
+#: src/templates/admin-import-user/admin-import-user-part-options.php:215
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:35
+#, fuzzy
+msgid "New users WILL be sent an email."
+msgstr "به کاربران جدید ایمیل ارسال می شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:36
+#, fuzzy
+msgid "New users WILL NOT be sent an email."
+msgstr "به کاربران جدید ایمیل ارسال نمی شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:40
+#, fuzzy
+msgid "Updated users WILL be sent an email."
+msgstr "برای کاربران به روز شده ایمیل ارسال می شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:41
+#, fuzzy
+msgid "Updated users WILL NOT be sent an email."
+msgstr "به کاربران بروز شده ایمیل ارسال نمی شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:52
+#, fuzzy
+msgid "Current Settings"
+msgstr "تنظیمات فعلی"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:55
+#, fuzzy
+msgid ""
+"Review your enrollment defaults and email options. Make any necessary "
+"changes before proceeding to Import LearnDash Users."
+msgstr ""
+"پیش فرض های ثبت نام و گزینه های ایمیل خود را مرور کنید. قبل از اقدام به وارد "
+"کردن کاربران LearnDash ، تغییرات لازم را اعمال کنید."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:58
+#, fuzzy
+msgid "Default Course(s)"
+msgstr "دوره (های) پیش فرض"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:59
+#, fuzzy
+msgid ""
+"Users without valid course IDs in the spreadsheet will be enrolled in the "
+"following courses:"
+msgstr ""
+"کاربران بدون شناسه معتبر دوره در صفحه گسترده در دوره های زیر ثبت نام می شوند:"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:81
+#, fuzzy
+msgid "( Course is Open to all )"
+msgstr "(دوره برای همه آزاد است)"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:101
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:138
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:154
+msgid "Edit Options"
+msgstr "ویرایش تنظیمات"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:103
+#, fuzzy
+msgid "Default Groups(s)"
+msgstr "گروه (های) پیش فرض"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:104
+#, fuzzy
+msgid ""
+"Users without valid group IDs in the spreadsheet will be added to the "
+"following groups:"
+msgstr ""
+"کاربرانی که شناسه گروه معتبر در صفحه گسترده ندارند به گروه های زیر اضافه می "
+"شوند:"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:140
+#, fuzzy
+msgid "Default Role(s)"
+msgstr "نقش (های) پیش فرض"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:141
+#, fuzzy
+msgid ""
+"Users without a valid role in the spreadsheet will be set to the following "
+"role:"
+msgstr "کاربران بدون نقش معتبر در صفحه گسترده به نقش زیر تنظیم می شوند:"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:156
+msgid "Email Options"
+msgstr "تنظیمات ایمیل"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:160
+#, fuzzy
+msgid "Edit Email Settings"
+msgstr "تنظیمات ایمیل را ویرایش کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:164
+#, fuzzy
+msgid "Upload the CSV file and review verification results."
+msgstr "پرونده CSV را بارگذاری کنید و نتایج تأیید را مرور کنید."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:170
+#, fuzzy
+msgid "Upload file and verify records"
+msgstr "پرونده را بارگذاری کنید و سوابق را تأیید کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:177
+#, fuzzy
+msgid "Validation Results"
+msgstr "نتایج اعتبار سنجی"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:182
+msgid "Type"
+msgstr "نوع"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:183
+msgid "Number"
+msgstr "شماره"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:188
+#, fuzzy
+msgid "Total number of users found in CSV"
+msgstr "تعداد کل کاربران یافت شده در CSV"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:192
+#, fuzzy
+msgid "New users that will be created"
+msgstr "کاربران جدیدی که ایجاد خواهند شد"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:199
+#, fuzzy
+msgid "Existing users that WILL be updated"
+msgstr "کاربران موجود که به روز می شوند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:201
+#, fuzzy
+msgid "Existing users that WILL NOT be updated"
+msgstr "کاربران موجود که به روز نمی شوند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:208
+#, fuzzy
+msgid "Users with malformed email addresses"
+msgstr "کاربرانی که آدرس ایمیل نامناسب دارند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:212
+#, fuzzy
+msgid "Users with invalid course IDs"
+msgstr "کاربرانی که شناسه دوره نامعتبر دارند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:216
+#, fuzzy
+msgid "Users with invalid group IDs"
+msgstr "کاربرانی که شناسه های گروه نامعتبر هستند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:222
+#, fuzzy
+msgid "Skipped Users with Existing Emails"
+msgstr "با ایمیل های موجود کاربران را رد کرد"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:224
+#, fuzzy
+msgid ""
+"The emails listed below were found in the CSV, but are assigned to users "
+"that already exist in WordPress. WordPress requires that each email be "
+"unique."
+msgstr ""
+"ایمیل های ذکر شده در زیر در CSV یافت شده است ، اما به کاربرانی که از قبل در "
+"وردپرس وجود دارند اختصاص داده می شود. وردپرس نیاز دارد که هر ایمیل منحصر به "
+"فرد باشد."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:226
+#, fuzzy
+msgid "These records will be ignored."
+msgstr "این سوابق نادیده گرفته خواهند شد."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:230
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:247
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:263
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:331
+#, fuzzy
+msgid "CSV Row"
+msgstr "ردیف CSV"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:232
+#, fuzzy
+msgid "Conflicting User"
+msgstr "کاربر متناقض"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:239
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:248
+#, fuzzy
+msgid "Invalid Course IDs"
+msgstr "شناسه های دوره نامعتبر است"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:241
+#, fuzzy
+msgid ""
+"The course IDs below were found in the CSV but do not correspond to an "
+"existing LearnDash course. If you proceed, they will be ignored."
+msgstr ""
+"شناسه های دوره زیر در CSV یافت شده است اما با یک دوره آموزشی LearnDash "
+"مطابقت ندارد. اگر ادامه دهید ، آنها نادیده گرفته می شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:243
+#, fuzzy
+msgid "These course IDs will be ignored."
+msgstr "این شناسه های دوره نادیده گرفته می شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:255
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:264
+#, fuzzy
+msgid "Invalid Group IDs"
+msgstr "شناسه های گروه نامعتبر است"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:257
+#, fuzzy
+msgid ""
+"The group IDs below were found in the CSV but do not correspond to an "
+"existing LearnDash group. If you proceed, they will be ignored."
+msgstr ""
+"شناسه های گروه زیر در CSV یافت شده است اما با یک گروه LearnDash موجود مطابقت "
+"ندارد. اگر ادامه دهید ، آنها نادیده گرفته می شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:259
+#, fuzzy
+msgid "These group IDs will be ignored."
+msgstr "این شناسه های گروه نادیده گرفته می شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:271
+#, fuzzy
+msgid "Let's Add Some Users!"
+msgstr "بیایید برخی از کاربران را اضافه کنیم!"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:273
+#, fuzzy
+msgid "Abort Import Process"
+msgstr "سقوط روند واردات"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:274
+msgid "Perform Import"
+msgstr "اجرای واردات:"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:276
+#, fuzzy
+msgid "It is not possible to cancel the import process once it has\tbegun."
+msgstr "لغو فرآیند واردات پس از شروع امکان پذیر نیست."
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:279
+#, fuzzy
+msgid "Let me review the validation results again"
+msgstr "اجازه دهید دوباره نتایج تأیید را مرور کنم"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:282
+#, fuzzy
+msgid "I'm ready to import"
+msgstr "من آماده واردات هستم"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:290
+msgid "Import Progress"
+msgstr "پیشرفت برون‌بری"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:299
+#, fuzzy
+msgid "Do not reload this page while import is in progress"
+msgstr "در حالی که واردات در حال انجام است ، این صفحه را بارگیری نکنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:303
+msgid "Import Results"
+msgstr "نتایج درون ریزی"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:308
+msgid "New Users Created"
+msgstr "کاربران جدید ایجاد شده اند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:312
+msgid "Existing Users Updated"
+msgstr "کاربران بروزرسانی شدند"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:316
+msgid "Emails Sent"
+msgstr "ایمیل ها ارسال شد"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:320
+#, fuzzy
+msgid "Rows Ignored"
+msgstr "ردیف نادیده گرفته شد"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:326
+#, fuzzy
+msgid "The following rows in the spreadsheet were skipped:"
+msgstr "ردیف های زیر در صفحه گسترده حذف شدند:"
+
+#: src/templates/admin-import-user/admin-import-user-part-import-users.php:332
+msgid "Issue"
+msgstr "موضوع"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:15
+#, fuzzy
+msgid ""
+"This is a complex module that allows users to be added to courses and "
+"LearnDash Groups from a CSV file. The Options tab includes settings that "
+"control how updates to users are managed and bulk imported into specific "
+"courses and groups. The Emails tab includes settings that control whether to "
+"send notifications to imported users and the email templates. These settings "
+"should be reviewed before proceeding with the import. Download the sample "
+"CSV on this page to see examples of the fields that can be included."
+msgstr ""
+"این یک ماژول پیچیده است که به کاربران اجازه می دهد از یک فایل CSV به دوره ها "
+"و گروه های LearnDash اضافه شوند. برگه Options شامل تنظیماتی است که نحوه "
+"مدیریت به روزرسانی ها برای کاربران و واردات انبوه آنها به دوره ها و گروه های "
+"خاص را کنترل می کند. برگه ایمیل شامل تنظیماتی است که کنترل ارسال اعلان به "
+"کاربران وارد شده و الگوهای ایمیل را کنترل می کند. این تنظیمات باید قبل از "
+"ادامه واردات بررسی شوند. نمونه CSV را در این صفحه بارگیری کنید تا نمونه هایی "
+"از زمینه های موجود را مشاهده کنید."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:21
+#, fuzzy
+msgid "Knowledge Base article"
+msgstr "مقاله پایگاه دانش"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:29
+msgid "Step 1"
+msgstr "مرحله 1"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:34
+msgid "Review Options"
+msgstr "گزینه های بازبینی"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:36
+#, fuzzy
+msgid "Use this tab to configure:"
+msgstr "برای پیکربندی از این برگه استفاده کنید:"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:38
+#, fuzzy
+msgid "Whether to update or ignore users that already exist on your website"
+msgstr ""
+"آیا کاربرانی را که از قبل در وب سایت شما وجود دارند به روز کنید یا نادیده "
+"بگیرید"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:39
+#, fuzzy
+msgid "Role to assign to imported users"
+msgstr "نقش برای اختصاص دادن به کاربران وارد شده"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:40
+#, fuzzy
+msgid "Course(s) to enroll imported users into"
+msgstr "دوره (های) ثبت نام کاربران وارد شده در"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:41
+#, fuzzy
+msgid "LearnDash Group(s) to assign imported users to"
+msgstr "گروه (های) LearnDash برای اختصاص کاربران وارد شده به"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:48
+msgid "Step 2"
+msgstr "مرحله 2"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:53
+#, fuzzy
+msgid "Review Email Settings"
+msgstr "تنظیمات ایمیل را مرور کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:55
+#, fuzzy
+msgid "Use this tab to:"
+msgstr "از این برگه برای:"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:57
+#, fuzzy
+msgid "Enable email notifications to new and/or updated users"
+msgstr "اعلان های ایمیل را برای کاربران جدید و / یا به روز شده فعال کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:58
+#, fuzzy
+msgid "Customize email templates"
+msgstr "الگوهای ایمیل را سفارشی کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:65
+msgid "Step 3"
+msgstr "مرحله 3"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:70
+#, fuzzy
+msgid "Create a CSV File"
+msgstr "یک پرونده CSV ایجاد کنید"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:72
+msgid "Download Sample CSV"
+msgstr "نمونه بارگیری CSV"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:76
+#, fuzzy
+msgid ""
+"Your CSV file must be comma-delimited with a .csv extension. It requires "
+"user_login and user_email columns, and can include any number of optional "
+"meta fields below."
+msgstr ""
+"پرونده CSV شما باید با پسوند .csv با کاما جدا شود. این به ستون های "
+"user_login و user_email نیاز دارد و می تواند هر تعداد فیلد متا اختیاری را در "
+"زیر شامل شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:79
+#, fuzzy
+msgid "Available Meta Fields"
+msgstr "زمینه های متا موجود است"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:84
+msgid "Column Heading"
+msgstr "عنوان ستون"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:85
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:86
+#, fuzzy
+msgid "Required/Optional"
+msgstr "مورد نیاز / اختیاری"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:92
+#, fuzzy
+msgid "The user's email"
+msgstr "ایمیل کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:93
+msgid "required"
+msgstr "ضروری"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:97
+#, fuzzy
+msgid "The user's username"
+msgstr "نام کاربری کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:98
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:103
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:110
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:117
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:128
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:133
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:138
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:143
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:148
+msgid "optional"
+msgstr "اختیاری"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:102
+#, fuzzy
+msgid "The user's password"
+msgstr "رمز عبور کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:108
+#, fuzzy
+msgid ""
+"One or more courses to enroll the user into, specified by course ID. If this "
+"column exists and cell is empty, course(s) in Options will be used. Multiple "
+"course IDs must be separated by semi-colons, e.g., 96;107;92"
+msgstr ""
+"یک یا چند دوره برای ثبت نام کاربر ، مشخص شده توسط شناسه دوره. اگر این ستون "
+"وجود داشته باشد و سلول خالی باشد ، از دوره ها در گزینه ها استفاده می شود. "
+"شناسه های دوره های مختلف باید توسط نیم نقطه ها جدا شوند ، به عنوان مثال ، "
+"96 ؛ 107 ؛ 92"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:115
+#, fuzzy
+msgid ""
+"One or more LearnDash groups to enroll the user into, specified by group ID. "
+"If this column exists and cell is empty, group(s) in Options will be used. "
+"Multiple group IDs must be separated by semi-colons, e.g., 91;102;98"
+msgstr ""
+"یک یا چند گروه LearnDash برای ثبت نام کاربر ، مشخص شده توسط شناسه گروه. اگر "
+"این ستون وجود داشته باشد و سلول خالی باشد ، از گروه ها در گزینه ها استفاده "
+"می شود. شناسه های گروه های مختلف باید توسط نیم نقطه ها جدا شوند ، به عنوان "
+"مثال ، 91 ؛ 102 ؛ 98"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:122
+#, fuzzy
+msgid ""
+"Role to assign to the imported user, specified by role slug. If this column "
+"exists and cell is empty, the role in Options will be used."
+msgstr ""
+"نقش برای اختصاص دادن به کاربر وارد شده ، مشخص شده توسط حلزون حرکت کردن نقش. "
+"اگر این ستون وجود داشته باشد و سلول خالی باشد ، از نقش در گزینه ها استفاده "
+"می شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:123
+#, fuzzy
+msgid "Available role slugs:"
+msgstr "حلزونهای نقش موجود:"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:132
+#, fuzzy
+msgid "The user's first name"
+msgstr "نام کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:137
+#, fuzzy
+msgid "The user's last name"
+msgstr "نام خانوادگی کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:142
+#, fuzzy
+msgid "The user's display name"
+msgstr "نام نمایش کاربر برای ایجاد یک رسانه."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:147
+#, fuzzy
+msgid ""
+"Any other meta column heading will be treated as a custom user meta value"
+msgstr ""
+"هر عنوان دیگر ستون متا به عنوان یک متا مقدار کاربر سفارشی در نظر گرفته خواهد "
+"شد"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:153
+msgid "Notes:"
+msgstr "یادداشت:"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:155
+#, fuzzy
+msgid ""
+"If no password value is present for new users, a password will be auto-"
+"generated."
+msgstr ""
+"اگر هیچ مقدار رمز عبور برای کاربران جدید وجود نداشته باشد ، یک گذرواژه به "
+"طور خودکار تولید می شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:156
+#, fuzzy
+msgid "Username and email address cannot be updated via import."
+msgstr "نام کاربری و آدرس ایمیل از طریق وارد کردن به روز نمی شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:163
+msgid "Step 4"
+msgstr "مرحله 4"
+
+#: src/templates/admin-import-user/admin-import-user-part-instructions.php:170
+#, fuzzy
+msgid ""
+"Go to the Import Users tab once your CSV file is ready to begin the import."
+msgstr ""
+"پس از آماده شدن پرونده CSV برای شروع وارد کردن ، به برگه Import Users بروید."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:39
+msgid "Existing Users"
+msgstr "تولید صفحه برای کاربران حاضر"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:45
+#, fuzzy
+msgid "For imported existing users,"
+msgstr "برای کاربران موجود وارد شده ،"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:51
+#, fuzzy
+msgid "Update (Default)"
+msgstr "بروزرسانی (پیش فرض)"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:55
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:58
+#, fuzzy
+msgid "user data."
+msgstr "درخواست حریم خصوصی داده های کاربر در ###SITENAME### تأیید شده است:"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:67
+msgid "User Roles"
+msgstr "نقش کاربر"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:73
+msgid "Set the Role for imported users"
+msgstr "تنظیم نقش"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:75
+#, fuzzy
+msgid "Users with no role specified in the CSV will receive the selected role."
+msgstr ""
+"کاربرانی که هیچ نقشی در CSV مشخص نکرده اند نقش انتخاب شده را دریافت می کنند."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:76
+#, fuzzy
+msgid ""
+"If no role is selected and no role specified for the user in the CSV, those "
+"users will be assigned the 'Subscriber' role."
+msgstr ""
+"اگر نقشی انتخاب نشود و نقشی برای کاربر در CSV مشخص نشود ، به آن دسته از "
+"کاربران نقش \"مشترک\" اختصاص داده می شود."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:108
+msgid "Enroll users in course(s)"
+msgstr "شناسه های دوره  برای ثبت نام در گروه."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:110
+#, fuzzy
+msgid ""
+"Users with no courses specified in the CSV will be enrolled in the specified "
+"courses."
+msgstr ""
+"کاربرانی که هیچ دوره مشخصی در CSV ندارند ، در دوره های مشخص شده ثبت نام می "
+"شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:111
+#, fuzzy
+msgid ""
+"Note: Courses that are set to Type 'Open'  do not appear here, as all users "
+"are automatically enrolled in Open courses."
+msgstr ""
+"توجه: دوره هایی که بر روی \"Open\" تنظیم شده اند در اینجا ظاهر نمی شوند ، "
+"زیرا همه کاربران به طور خودکار در دوره های Open ثبت نام می کنند."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:152
+msgid "No Courses Published"
+msgstr "منتشر شده توسط .. در"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:161
+msgid "Groups"
+msgstr "گروه ها"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:167
+#, fuzzy
+msgid "Add users to group(s)"
+msgstr "افزودن کاربران به گروه (ها)"
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:169
+#, fuzzy
+msgid ""
+"Users with no groups specified in the CSV will be enrolled in the selected "
+"groups."
+msgstr ""
+"کاربران بدون گروه مشخص شده در CSV در گروه های انتخاب شده ثبت نام می شوند."
+
+#: src/templates/admin-import-user/admin-import-user-part-options.php:206
+msgid "No Groups Published"
+msgstr "منتشر شده توسط .. در"
+
+#: src/templates/admin-import-user/admin-import-users.php:69
+msgid "Instructions"
+msgstr "دستورالعمل ها"
+
+#: src/templates/admin-import-user/admin-import-users.php:71
+msgid "Options"
+msgstr "گزینه ها"
+
+#: src/templates/admin-import-user/admin-import-users.php:73
+msgid "Email Settings"
+msgstr "تنظیمات ایمیل"
+
+#: src/templates/course-grid.php:43
+msgid "Buy now"
+msgstr "هم اکنون خریداری کنید"
+
+#: src/templates/course-grid.php:48
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: src/templates/course-grid.php:53
+msgid "Closed"
+msgstr "بسته"
+
+#: src/templates/course-grid.php:167
+msgid "Start Course"
+msgstr "شروع دوره"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:163
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:186
+msgctxt ""
+"%1$s is the category name, %2$s is the number of courses that category has"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:201
+msgid "Expand all"
+msgstr "گسترش همه"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:204
+msgid "Collapse all"
+msgstr "بستن همه"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:302
+msgid "Start"
+msgstr "شروع"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:307
+msgid "Resume"
+msgstr "رزومه"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:313
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:588
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:722
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:856
+#: src/templates/frontend-dashboard/dashboard-template.php:360
+msgid "Certificate"
+msgstr "گواهینامه"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:334
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:337
+msgid "%s complete"
+msgstr "%s کامل"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:532
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:666
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:801
+#, fuzzy
+msgid "Quizzes results"
+msgstr "نتایج آزمونها"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:602
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:736
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:870
+#: src/templates/frontend-dashboard/dashboard-template.php:362
+msgid "Statistics"
+msgstr "آمار"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:613
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:747
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:881
+msgid "%s Passed"
+msgstr "%s Passed"
+
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:615
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:749
+#: src/templates/frontend-dashboard/dashboard-template-3_0.php:883
+msgid "%s Failed"
+msgstr "نصب %1$s شکست خورده است."
+
+#: src/templates/frontend-dashboard/dashboard-template.php:50
+msgid "Registered %s"
+msgstr "ثبت شده٪ s"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:74
+msgid "Expand All"
+msgstr "گسترش همه"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:76
+msgid "Collapse All"
+msgstr "بستن همه"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:132
+msgid "Course Category"
+msgstr "دسته بندی دوره"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:279
+#: src/templates/lesson-topic-grid.php:49
+msgid "Available on: %s"
+msgstr "نمی توان تعیین کرد که آیا بروزرسانی برای %s در دسترس است یا خیر."
+
+#: src/templates/frontend-dashboard/dashboard-template.php:357
+msgid "Results"
+msgstr "نتایج"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:361
+msgid "Score"
+msgstr "امتیاز"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:364
+#: src/blocks/src/toolkit-my-courses/sidebar.js:102
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/templates/frontend-dashboard/dashboard-template.php:400
+msgid "-"
+msgstr "-"
+
+#: src/templates/group-registration-form.php:54
+#: src/templates/group-registration-form.php:58
+#: src/templates/groups-login-form.php:20
+#: src/templates/groups-login-form.php:21
+msgid "Password"
+msgstr "رمز عبور"
+
+#: src/templates/group-registration-form.php:63
+#: src/templates/group-registration-form.php:67
+msgid "Confirm Password"
+msgstr "تایید رمز عبور"
+
+#: src/templates/group-registration-form.php:81
+msgid "Register Your Account"
+msgstr "عضو سایت شو"
+
+#: src/templates/groups-login-form.php:3 src/templates/groups-login-form.php:33
+msgid "Log In"
+msgstr "ورود"
+
+#: src/templates/groups-login-form.php:29
+msgid "Remember Me"
+msgstr "مرا به خاطر بسپار"
+
+#: src/templates/learndash-group-join-form.php:1
+msgid "You are not a member of this Group"
+msgstr "آیا عضو هستید "
+
+#: src/templates/learndash-group-join-form.php:5
+msgid "Join this Group"
+msgstr "پیوستن"
+
+#: src/templates/single-group.php:36
+#, fuzzy
+msgid ""
+"This page can only be used by organizations with a valid group ID. The URL "
+"used to reach this page is not valid. Please contact your organization to "
+"obtain the correct registration URL."
+msgstr ""
+"این صفحه فقط توسط سازمانهایی با شناسه گروه معتبر قابل استفاده است. URL "
+"استفاده شده برای رسیدن به این صفحه معتبر نیست. لطفاً برای دریافت URL ثبت نام "
+"صحیح با سازمان خود تماس بگیرید."
+
+#: src/templates/single-group.php:39
+msgid "Shown to admins only."
+msgstr "نمایش اطلاعیه های مفید - تنها به مدیران"
+
+#: src/templates/single-group.php:39
+#, fuzzy
+msgid "The sign up link for this group is:"
+msgstr "پیوند ثبت نام برای این گروه:"
+
+#: src/templates/single-group.php:59 src/templates/single-group.php:132
+#, fuzzy
+msgid "Sorry, no more seats are available for this group."
+msgstr "با عرض پوزش ، هیچ جای دیگری برای این گروه موجود نیست."
+
+#: src/templates/single-group.php:94
+#, fuzzy
+msgid ""
+"Thank you for registering. Your account needs to be approved by site "
+"administrator."
+msgstr ""
+"ممنون از اینکه ثبت نام کردید. حساب شما باید توسط سرپرست سایت تأیید شود."
+
+#: src/templates/single-group.php:96
+#, fuzzy
+msgid ""
+"Congratulations! You are now registered on this site. You will receive an "
+"email shortly with login details."
+msgstr ""
+"تبریک می گویم! شما اکنون در این سایت ثبت نام کرده اید. به زودی ایمیلی با "
+"جزئیات ورود دریافت خواهید کرد."
+
+#: src/templates/single-group.php:101
+#, fuzzy
+msgid "Congratulations!  You are now registered on this site."
+msgstr "تبریک می گویم! شما اکنون در این سایت ثبت نام کرده اید."
+
+#: src/templates/single-group.php:106
+#, fuzzy
+msgid ""
+"Congratulations! You have successfully joined the new group and have been "
+"removed from the previous group."
+msgstr ""
+"تبریک می گویم! شما با موفقیت به گروه جدید پیوستید و از گروه قبلی حذف شدید."
+
+#: src/templates/single-group.php:108
+#, fuzzy
+msgid "Congratulations! You are now a member of this group."
+msgstr "تبریک می گویم! شما اکنون عضوی از این گروه هستید."
+
+#: src/templates/single-group.php:118
+#, fuzzy
+msgid "You are already in this group."
+msgstr "شما قبلاً در این گروه هستید"
+
+#: src/templates/transcript.php:35
+msgid "Print"
+msgstr "چاپ"
+
+#: src/templates/transcript.php:57
+msgid "Student Name"
+msgstr "نام دانش آموز"
+
+#: src/templates/transcript.php:148
+msgid "Total Avg. Score"
+msgstr "امتیاز: %s"
+
+#: src/templates/transcript.php:159
+msgid "Total Final Score"
+msgstr "با نمره به دست آمده/مجموع نمره جایگزین خواهد شد."
+
+#: uncanny-toolkit-pro.php:49
+#, fuzzy
+msgid ""
+"Uncanny Toolkit Pro for LearnDash needs Uncanny Toolkit for LearnDash 1.3 or "
+"higher to work properly. Please, upgrade the standard Uncanny Toolkit for "
+"LearnDash."
+msgstr ""
+"Uncanny Toolkit Pro برای LearnDash برای کارکرد صحیح به Uncanny Toolkit برای "
+"LearnDash 1.3 یا بالاتر نیاز دارد. لطفاً جعبه ابزار Uncanny استاندارد را برای "
+"LearnDash ارتقا دهید."
+
+#: uncanny-toolkit-pro.php:95
+msgid "Licensing"
+msgstr "لایسنس"
+
+#: uncanny-toolkit-pro.php:97
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: uncanny-toolkit-pro.php:131
+#, fuzzy
+msgid ""
+"Please download and activate %s before activating Uncanny Toolkit Pro for "
+"LearnDash."
+msgstr ""
+"لطفاً قبل از فعال کردن Uncanny Toolkit Pro برای LearnDash ،٪ s را بارگیری و "
+"فعال کنید."
+
+#: src/blocks/src/toolkit-course-expiry/block.js:22
+#, fuzzy
+msgid "Displays the number of days until the learner's access expires."
+msgstr "تعداد روزهای منقضی شدن دسترسی زبان آموز را نمایش می دهد."
+
+#: src/blocks/src/toolkit-course-expiry/sidebar.js:37
+#, fuzzy
+msgid "Course Expiry Settings"
+msgstr "تنظیمات انقضا دوره"
+
+#: src/blocks/src/toolkit-course-expiry/sidebar.js:39
+#: src/blocks/src/toolkit-reset-button/sidebar.js:39
+#: src/blocks/src/toolkit-uo-time-completed/sidebar.js:49
+#: src/blocks/src/toolkit-uo-time/sidebar.js:49
+msgid "Course ID"
+msgstr "شناسه دوره"
+
+#: src/blocks/src/toolkit-course-grid/block.js:23
+#: src/blocks/src/toolkit-my-courses/block.js:23
+#, fuzzy
+msgid "Displays a highly customizable grid of LearnDash courses."
+msgstr "شبکه ای بسیار قابل تنظیم از دوره های LearnDash را نمایش می دهد."
+
+#: src/blocks/src/toolkit-group-logo-list/block.js:21
+#: src/blocks/src/toolkit-group-logo-list/block.js:48
+#, fuzzy
+msgid "Group Logo"
+msgstr "لوگوی گروه"
+
+#: src/blocks/src/toolkit-group-logo-list/block.js:23
+#, fuzzy
+msgid ""
+"Displays the branding image associated with the current user's group. If the "
+"user is in more than one group with a branding logo, all logos will be "
+"displayed."
+msgstr ""
+"تصویر مارک تجاری مرتبط با گروه کاربر فعلی را نشان می دهد. اگر کاربر در بیش "
+"از یک گروه با نشان تجاری باشد ، همه آرم ها نمایش داده می شوند."
+
+#: src/blocks/src/toolkit-group-logo-list/block.js:62
+#: src/blocks/src/toolkit-group-logo-list/block.js:89
+msgid "Group List"
+msgstr "لیست گروه"
+
+#: src/blocks/src/toolkit-group-logo-list/block.js:64
+#, fuzzy
+msgid "Displays a list of the groups the current user is a member of."
+msgstr "لیستی از گروه هایی را که کاربر فعلی عضو آن است نمایش می دهد."
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:21
+#: src/blocks/src/toolkit-group-sign-up/block.js:43
+msgid "Group Status"
+msgstr "وضعیت گروه"
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:23
+#, fuzzy
+msgid ""
+"Displays the Organization Details of all groups the current user is a member "
+"of."
+msgstr "جزئیات سازمان را نشان می دهد همه گروه های کاربر فعلی عضو است."
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:57
+#: src/blocks/src/toolkit-group-sign-up/block.js:84
+#, fuzzy
+msgid "Group Organization"
+msgstr "سازمان گروه"
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:59
+#, fuzzy
+msgid ""
+"Displays the Organization Details of the group associated with the group "
+"registration page the shortcode is placed on. *Works only on group "
+"registration pages.*"
+msgstr ""
+"جزئیات سازمان گروه مرتبط با صفحه ثبت گروهی را که کد کوتاه در آن قرار گرفته "
+"است نمایش می دهد. * فقط در صفحات ثبت گروه کار می کند. *"
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:98
+#: src/blocks/src/toolkit-group-sign-up/block.js:120
+#, fuzzy
+msgid "Group Login Form"
+msgstr "فرم ورود به گروه"
+
+#: src/blocks/src/toolkit-group-sign-up/block.js:100
+#, fuzzy
+msgid ""
+"When used on a group page, displays a login form. Any user that uses the "
+"form to log in is automatically added to the group.  *For use on group pages "
+"only.*"
+msgstr ""
+"وقتی در صفحه گروه استفاده می شود ، فرم ورود به سیستم را نمایش می دهد. هر "
+"کاربری که از فرم برای ورود به سیستم استفاده می کند به طور خودکار به گروه "
+"اضافه می شود. * فقط برای استفاده در صفحات گروهی. *"
+
+#: src/blocks/src/toolkit-lesson-grid/block.js:22
+#: src/blocks/src/toolkit-lesson-grid/block.js:80
+#, fuzzy
+msgid "Enhanced Lesson Topic Grid"
+msgstr "شبکه مبحث درس پیشرفته"
+
+#: src/blocks/src/toolkit-lesson-grid/block.js:24
+#, fuzzy
+msgid "Displays a highly customizable grid of LearnDash lessons/topics."
+msgstr "شبکه ای کاملاً قابل تنظیم از دروس / مباحث LearnDash را نمایش می دهد."
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:38
+#, fuzzy
+msgid "Grid Content"
+msgstr "محتوای شبکه"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:39
+#, fuzzy
+msgid "courseId"
+msgstr "البته"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:40
+#, fuzzy
+msgid "lessonId"
+msgstr "درس"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:41
+msgid "category"
+msgstr "دسته بندی"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:42
+msgid "tag"
+msgstr "برچسب"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:45
+msgid "Grid Style"
+msgstr "سبک شبکه"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:46
+#, fuzzy
+msgid "cols"
+msgstr "ستونها"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:47
+#, fuzzy
+msgid "showImage"
+msgstr "showImage"
+
+#: src/blocks/src/toolkit-lesson-grid/sidebar.js:48
+#, fuzzy
+msgid "borderHover"
+msgstr "حاشیه شناور"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:40
+msgid "Filter Content"
+msgstr "فیلتر محتوا"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:43
+#, fuzzy
+msgid "WordPress Category ID"
+msgstr "شناسه دسته وردپرس"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:46
+#: src/blocks/src/toolkit-my-courses/sidebar.js:56
+#, fuzzy
+msgid "Leave empty to show all courses"
+msgstr "برای نمایش همه دوره ها خالی بگذارید"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:53
+#, fuzzy
+msgid "LearnDash Category ID"
+msgstr "شناسه دسته LearnDash"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:63
+msgid "Course Status"
+msgstr "وضعیت دوره"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:68
+msgid "All courses"
+msgstr "همه دوره ها"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:72
+#, fuzzy
+msgid "Enrolled courses only"
+msgstr "فقط دوره های ثبت نام شده"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:76
+#, fuzzy
+msgid "Open courses only"
+msgstr "فقط دوره های باز"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:86
+msgid "Order"
+msgstr "سفارش"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:89
+msgid "Order By"
+msgstr "سفارش توسط"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:94
+msgid "ID"
+msgstr "شناسه"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:106
+msgid "Menu order"
+msgstr "ترتیب منو"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:115
+msgid "Order Direction"
+msgstr "سفارش جهت"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:120
+msgid "Ascending"
+msgstr "صعودی"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:124
+msgid "Descending"
+msgstr "نزولی"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:136
+msgid "Element Visibility"
+msgstr "دید المان"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:139
+#, fuzzy
+msgid "Show WordPress Category Selector"
+msgstr "نمایش انتخابگر وردپرس"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:149
+#, fuzzy
+msgid "Show LearnDash Category Selector"
+msgstr "نمایش انتخابگر دسته LearnDash"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:160
+#, fuzzy
+msgid "Dashboard Behavior"
+msgstr "رفتار داشبورد"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:163
+#, fuzzy
+msgid "Expand by Default"
+msgstr "گسترش به طور پیش فرض"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:168
+msgid "Yes"
+msgstr "بله"
+
+#: src/blocks/src/toolkit-my-courses/sidebar.js:172
+msgid "No"
+msgstr "خیر"
+
+#: src/blocks/src/toolkit-reset-button/block.js:21
+#: src/blocks/src/toolkit-reset-button/block.js:52
+msgid "Reset Button"
+msgstr "دکمه ریست"
+
+#: src/blocks/src/toolkit-reset-button/block.js:23
+#, fuzzy
+msgid ""
+"Displays a button that enables a user to reset their progress in a course."
+msgstr ""
+"دکمه ای را نشان می دهد که کاربر را قادر می سازد پیشرفت خود را در یک دوره "
+"مجدداً تنظیم کند."
+
+#: src/blocks/src/toolkit-reset-button/sidebar.js:37
+#, fuzzy
+msgid "Reset Button Settings"
+msgstr "تنظیمات دکمه را بازنشانی کنید"
+
+#: src/blocks/src/toolkit-reset-button/sidebar.js:49
+#, fuzzy
+msgid "Reset TinCanny Data"
+msgstr "تنظیم مجدد داده های TinCanny"
+
+#: src/blocks/src/toolkit-uo-time-completed/block.js:22
+#: src/blocks/src/toolkit-uo-time-completed/block.js:53
+#, fuzzy
+msgid "Course Time at Completion"
+msgstr "زمان دوره در اتمام"
+
+#: src/blocks/src/toolkit-uo-time-completed/block.js:24
+#, fuzzy
+msgid ""
+"Displays total time spent inside a LearnDash course, not including time "
+"spent after completing the course. Optionally, enter a specific user ID and/"
+"or course ID."
+msgstr ""
+"کل زمان صرف شده در یک دوره LearnDash را نشان می دهد ، بدون احتساب زمان صرف "
+"شده پس از اتمام دوره. در صورت تمایل ، شناسه کاربری و یا شناسه دوره خاصی را "
+"وارد کنید."
+
+#: src/blocks/src/toolkit-uo-time-completed/sidebar.js:37
+#: src/blocks/src/toolkit-uo-time/sidebar.js:37
+#, fuzzy
+msgid "Course Time Settings"
+msgstr "تنظیمات زمان دوره"
+
+#: src/blocks/src/toolkit-uo-time-completed/sidebar.js:39
+#: src/blocks/src/toolkit-uo-time/sidebar.js:39
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+#: src/blocks/src/toolkit-uo-time/block.js:22
+#: src/blocks/src/toolkit-uo-time/block.js:53
+#, fuzzy
+msgid "Course Cumulative Time"
+msgstr "زمان تجمعی دوره"
+
+#: src/blocks/src/toolkit-uo-time/block.js:24
+#, fuzzy
+msgid ""
+"Displays total time spent inside a LearnDash course, including time spent "
+"after completing the course. Optionally, enter a specific user ID and/or "
+"course ID."
+msgstr ""
+"کل زمان صرف شده در یک دوره LearnDash ، از جمله زمان صرف شده پس از اتمام دوره "
+"را نشان می دهد. در صورت تمایل ، شناسه کاربری و یا شناسه دوره خاصی را وارد "
+"کنید."
